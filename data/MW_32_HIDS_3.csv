@@ -1,0 +1,28 @@
+timestamp,"rule.level","rule.description","data.win.system.message","data.win.eventdata.commandLine","data.win.eventdata.targetObject","full_log","data.win.eventdata.details"
+"May 31, 2020 @ 14:49:54.640",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '5002e9cbd059c227b20768b5773a5158'
+New md5sum is : '5180a3b0722c82316724334d9433e623'
+Old sha1sum was: 'd451102b00da6ad0bf180b4f73a88db73c0000e8'
+New sha1sum is : 'fec2fcb119fff56cdc62ef38a54b5875d12dee87'
+",
+"May 31, 2020 @ 14:49:54.610",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '4106a3aec9d1eebddfcfbf931654376c'
+New md5sum is : 'ab54055d4340717a94412ced486155e6'
+Old sha1sum was: 'dbffbab9a0cf7bfda50a68d20d36c21299d2169d'
+New sha1sum is : 'f08b082e962682e26ea4772b2010776e1eafced1'
+",
+"May 31, 2020 @ 14:49:50.313",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_USE_WINDOWEDSELECTCONTROL' checksum changed.
+Old md5sum was: '370914f65a755a1cbfcf0c873b11feaa'
+New md5sum is : '1c729912f87f9abbd1574176fc5996f7'
+Old sha1sum was: 'ea4c2f8e1a1dc5de73a98dbadb5abff9297c9a4b'
+New sha1sum is : '1d2094dc263dc3db258f4421536e179cfbd9cfb0'
+",
+"May 31, 2020 @ 14:48:27.933",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,,,,
+"May 31, 2020 @ 14:48:18.785",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",,,,
+"May 31, 2020 @ 14:46:57.263",7,"Integrity checksum changed.",,,,"File 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run' checksum changed.
+Old md5sum was: '6491bfbb48f449e8ef2da21bf4925908'
+New md5sum is : 'c1e81fff51d7a32e2fdecbd74d4a1e36'
+Old sha1sum was: 'a659aa851c1408487eefa829ad359673b7fb1288'
+New sha1sum is : '49a93a3b033356aaf5c778d70b915ce41c083b45'
+",
+"May 31, 2020 @ 14:45:50.819",10,"Multiple Windows error events","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = DESKTOP-HUE026H\John Williams; ClientProcessId = 1440; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : SELECT * FROM Win32_PhysicalMemory WHERE Tag='Physical Memory 0'; ResultCode = 0x80041032; PossibleCause = Unknown""",,,,

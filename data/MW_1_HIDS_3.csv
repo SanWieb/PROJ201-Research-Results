@@ -1,0 +1,395 @@
+timestamp,"rule.level","rule.description","data.win.system.message","full_log"
+"May 22, 2020 @ 15:34:48.419",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '496e80acc19637c8daf8c286b6ea10f0'
+New md5sum is : '05688d3fb01c8753b031688cb1be8a9a'
+Old sha1sum was: '88ef9e17f6f18f6242bf8a46b383b017d42012b9'
+New sha1sum is : '07d2e2efcc0eef4f0950f87eb46ce7cb7d621014'
+"
+"May 22, 2020 @ 15:34:48.415",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '89598d32459256342f73e9b832b618dc'
+New md5sum is : 'b9b17232ab989d43145b713d83b31e56'
+Old sha1sum was: '68aacf23a86d664018607a7fc5d1379269af8643'
+New sha1sum is : '59a9b4d3dd2bb5573d31e1aff08c6d38bf7d7d43'
+"
+"May 22, 2020 @ 15:34:46.106",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '497a8c7081c737f07c267a30b1538ff9'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : '58d9cdbd07af978efc5e91b8e7a66696280d3b1e'
+"
+"May 22, 2020 @ 15:34:31.496",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '44a185f2e5e0fa09edbcbe3e598fe4da'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : 'f7a3cf6aa04ebaeee3c4525064299cb2136e4f06'
+"
+"May 22, 2020 @ 15:34:12.594",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{00080000-B1BA-11CE-ABC6-F5B2E79D9E3F}' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '47bd772cab29cc8ea332945ac72cdd4a'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : '308d94b65326a36b3f8d9e5dcb729d52b07b5a23'
+"
+"May 22, 2020 @ 15:33:15.454",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,
+"May 22, 2020 @ 15:33:08.077",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",
+"May 22, 2020 @ 15:32:11.009",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer' checksum changed.
+Old md5sum was: '497a8c7081c737f07c267a30b1538ff9'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: '58d9cdbd07af978efc5e91b8e7a66696280d3b1e'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+"
+"May 22, 2020 @ 15:32:10.978",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility' checksum changed.
+Old md5sum was: '44a185f2e5e0fa09edbcbe3e598fe4da'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: 'f7a3cf6aa04ebaeee3c4525064299cb2136e4f06'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+"
+"May 22, 2020 @ 15:32:10.962",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{00080000-B1BA-11CE-ABC6-F5B2E79D9E3F}' checksum changed.
+Old md5sum was: '47bd772cab29cc8ea332945ac72cdd4a'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: '308d94b65326a36b3f8d9e5dcb729d52b07b5a23'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+"
+"May 22, 2020 @ 15:32:02.542",10,"ATT&CK T1060: Autorun Keys Modification","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-22 13:23:17.943
+ProcessGuid: {df9fc3d3-d0cd-5ec7-0000-001050a30000}
+ProcessId: 488
+Image: C:\Windows\system32\csrss.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\RunOnce\Application Restart #0
+Details: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe  --flag-switches-begin --flag-switches-end --enable-audio-service-sandbox --restore-last-session""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:23:17.946044000Z"",""eventRecordID"":""1589"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-22 13:23:17.943\r\nProcessGuid: {df9fc3d3-d0cd-5ec7-0000-001050a30000}\r\nProcessId: 488\r\nImage: C:\\Windows\\system32\\csrss.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\Application Restart #0\r\nDetails: C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe  --flag-switches-begin --flag-switches-end --enable-audio-service-sandbox --restore-last-session\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-22 13:23:17.943"",""processGuid"":""{df9fc3d3-d0cd-5ec7-0000-001050a30000}"",""processId"":""488"",""image"":""C:\\\\Windows\\\\system32\\\\csrss.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\RunOnce\\\\Application Restart #0"",""details"":""C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe  --flag-switches-begin --flag-switches-end --enable-audio-service-sandbox --restore-last-session""}}}"
+"May 22, 2020 @ 15:28:58.654",7,"Integrity checksum changed.",,"File 'HKEY_LOCAL_MACHINE\Security\Policy\PolAdtEv' checksum changed.
+Old md5sum was: '9d15aff4d26f802c3c4d3d74a00d8d4d'
+New md5sum is : 'b40de87500ee3eed90c2ce3ce8c7946f'
+Old sha1sum was: '11f3afa3902d0fadfcc52e4c051995f536c7d4e2'
+New sha1sum is : '2f6e6dd0efd148b1c11d33c91e9cea4a97a84792'
+"
+"May 22, 2020 @ 15:28:00.188",8,"ATT&CK T1489: Stop Windows Service","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:15.893
+ProcessGuid: {df9fc3d3-d153-5ec7-0000-0010f4551900}
+ProcessId: 4376
+Image: C:\Windows\SysWOW64\net1.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net1.exe
+CommandLine: C:\Windows\system32\net1  stop MpsSvc
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18
+ParentProcessGuid: {df9fc3d3-d153-5ec7-0000-0010be1d1900}
+ParentProcessId: 1312
+ParentImage: C:\Windows\SysWOW64\net.exe
+ParentCommandLine: net  stop MpsSvc""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:15.926691300Z"",""eventRecordID"":""974"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:15.893\r\nProcessGuid: {df9fc3d3-d153-5ec7-0000-0010f4551900}\r\nProcessId: 4376\r\nImage: C:\\Windows\\SysWOW64\\net1.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Net Command\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: net1.exe\r\nCommandLine: C:\\Windows\\system32\\net1  stop MpsSvc\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18\r\nParentProcessGuid: {df9fc3d3-d153-5ec7-0000-0010be1d1900}\r\nParentProcessId: 1312\r\nParentImage: C:\\Windows\\SysWOW64\\net.exe\r\nParentCommandLine: net  stop MpsSvc\""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:15.893"",""processGuid"":""{df9fc3d3-d153-5ec7-0000-0010f4551900}"",""processId"":""4376"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\net1.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Net Command"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""net1.exe"",""commandLine"":""C:\\\\Windows\\\\system32\\\\net1  stop MpsSvc"",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18"",""parentProcessGuid"":""{df9fc3d3-d153-5ec7-0000-0010be1d1900}"",""parentProcessId"":""1312"",""parentImage"":""C:\\\\Windows\\\\SysWOW64\\\\net.exe"",""parentCommandLine"":""net  stop MpsSvc""}}}"
+"May 22, 2020 @ 15:27:59.257",10,"ATT&CK: Suspicious Process Creation","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:15.191
+ProcessGuid: {df9fc3d3-d153-5ec7-0000-0010f41f1900}
+ProcessId: 3872
+Image: C:\Windows\SysWOW64\schtasks.exe
+FileVersion: 10.0.18362.175 (WinBuild.160101.0800)
+Description: Task Scheduler Configuration Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: schtasks.exe
+CommandLine: schtasks  /create /sc minute /mo 1 /tn ""Netframework"" /ru system /tr ""cmd /c echo Y|cacls C:\Users\John Williams\Downloads\appveif.exe  /p everyone:F""
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=A6A56567B9859A0D147C898CECB9AAAE,SHA256=97CA3FAD547C4E0FE797DB77C414213BA981BC4C39C05AA3E9E42C2A5D494139,IMPHASH=F177D457505ECC524AD2D63680709AF4
+ParentProcessGuid: {df9fc3d3-d150-5ec7-0000-0010f8951800}
+ParentProcessId: 6520
+ParentImage: C:\Windows\SysWOW64\cmd.exe
+ParentCommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn ""Netframework"" /ru system /tr ""cmd /c echo Y|cacls C:\Users\John Williams\Downloads\appveif.exe  /p everyone:F""""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:15.285158800Z"",""eventRecordID"":""972"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:15.191\r\nProcessGuid: {df9fc3d3-d153-5ec7-0000-0010f41f1900}\r\nProcessId: 3872\r\nImage: C:\\Windows\\SysWOW64\\schtasks.exe\r\nFileVersion: 10.0.18362.175 (WinBuild.160101.0800)\r\nDescription: Task Scheduler Configuration Tool\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: schtasks.exe\r\nCommandLine: schtasks  /create /sc minute /mo 1 /tn \""Netframework\"" /ru system /tr \""cmd /c echo Y|cacls C:\\Users\\John Williams\\Downloads\\appveif.exe  /p everyone:F\""\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=A6A56567B9859A0D147C898CECB9AAAE,SHA256=97CA3FAD547C4E0FE797DB77C414213BA981BC4C39C05AA3E9E42C2A5D494139,IMPHASH=F177D457505ECC524AD2D63680709AF4\r\nParentProcessGuid: {df9fc3d3-d150-5ec7-0000-0010f8951800}\r\nParentProcessId: 6520\r\nParentImage: C:\\Windows\\SysWOW64\\cmd.exe\r\nParentCommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn \""Netframework\"" /ru system /tr \""cmd /c echo Y|cacls C:\\Users\\John Williams\\Downloads\\appveif.exe  /p everyone:F\""\""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:15.191"",""processGuid"":""{df9fc3d3-d153-5ec7-0000-0010f41f1900}"",""processId"":""3872"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\schtasks.exe"",""fileVersion"":""10.0.18362.175 (WinBuild.160101.0800)"",""description"":""Task Scheduler Configuration Tool"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""schtasks.exe"",""commandLine"":""schtasks  /create /sc minute /mo 1 /tn \\\""Netframework\\\"" /ru system /tr \\\""cmd /c echo Y|cacls C:\\\\Users\\\\John Williams\\\\Downloads\\\\appveif.exe  /p everyone:F\\\"""",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=A6A56567B9859A0D147C898CECB9AAAE,SHA256=97CA3FAD547C4E0FE797DB77C414213BA981BC4C39C05AA3E9E42C2A5D494139,IMPHASH=F177D457505ECC524AD2D63680709AF4"",""parentProcessGuid"":""{df9fc3d3-d150-5ec7-0000-0010f8951800}"",""parentProcessId"":""6520"",""parentImage"":""C:\\\\Windows\\\\SysWOW64\\\\cmd.exe"",""parentCommandLine"":""cmd /c schtasks /create /sc minute /mo 1 /tn \\\""Netframework\\\"" /ru system /tr \\\""cmd /c echo Y|cacls C:\\\\Users\\\\John Williams\\\\Downloads\\\\appveif.exe  /p everyone:F\\\""""}}}"
+"May 22, 2020 @ 15:27:59.199",10,"ATT&CK: Suspicious Process Creation","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:15.147
+ProcessGuid: {df9fc3d3-d153-5ec7-0000-00100d1e1900}
+ProcessId: 6968
+Image: C:\Windows\SysWOW64\schtasks.exe
+FileVersion: 10.0.18362.175 (WinBuild.160101.0800)
+Description: Task Scheduler Configuration Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: schtasks.exe
+CommandLine: schtasks  /create /sc minute /mo 1 /tn ""Miscfost"" /ru system /tr ""cmd /c C:\Windows\ime\appveif.exe""
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=A6A56567B9859A0D147C898CECB9AAAE,SHA256=97CA3FAD547C4E0FE797DB77C414213BA981BC4C39C05AA3E9E42C2A5D494139,IMPHASH=F177D457505ECC524AD2D63680709AF4
+ParentProcessGuid: {df9fc3d3-d150-5ec7-0000-0010fe8d1800}
+ParentProcessId: 6580
+ParentImage: C:\Windows\SysWOW64\cmd.exe
+ParentCommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn ""Miscfost"" /ru system /tr ""cmd /c C:\Windows\ime\appveif.exe""""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:15.282583800Z"",""eventRecordID"":""971"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:15.147\r\nProcessGuid: {df9fc3d3-d153-5ec7-0000-00100d1e1900}\r\nProcessId: 6968\r\nImage: C:\\Windows\\SysWOW64\\schtasks.exe\r\nFileVersion: 10.0.18362.175 (WinBuild.160101.0800)\r\nDescription: Task Scheduler Configuration Tool\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: schtasks.exe\r\nCommandLine: schtasks  /create /sc minute /mo 1 /tn \""Miscfost\"" /ru system /tr \""cmd /c C:\\Windows\\ime\\appveif.exe\""\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=A6A56567B9859A0D147C898CECB9AAAE,SHA256=97CA3FAD547C4E0FE797DB77C414213BA981BC4C39C05AA3E9E42C2A5D494139,IMPHASH=F177D457505ECC524AD2D63680709AF4\r\nParentProcessGuid: {df9fc3d3-d150-5ec7-0000-0010fe8d1800}\r\nParentProcessId: 6580\r\nParentImage: C:\\Windows\\SysWOW64\\cmd.exe\r\nParentCommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn \""Miscfost\"" /ru system /tr \""cmd /c C:\\Windows\\ime\\appveif.exe\""\""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:15.147"",""processGuid"":""{df9fc3d3-d153-5ec7-0000-00100d1e1900}"",""processId"":""6968"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\schtasks.exe"",""fileVersion"":""10.0.18362.175 (WinBuild.160101.0800)"",""description"":""Task Scheduler Configuration Tool"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""schtasks.exe"",""commandLine"":""schtasks  /create /sc minute /mo 1 /tn \\\""Miscfost\\\"" /ru system /tr \\\""cmd /c C:\\\\Windows\\\\ime\\\\appveif.exe\\\"""",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=A6A56567B9859A0D147C898CECB9AAAE,SHA256=97CA3FAD547C4E0FE797DB77C414213BA981BC4C39C05AA3E9E42C2A5D494139,IMPHASH=F177D457505ECC524AD2D63680709AF4"",""parentProcessGuid"":""{df9fc3d3-d150-5ec7-0000-0010fe8d1800}"",""parentProcessId"":""6580"",""parentImage"":""C:\\\\Windows\\\\SysWOW64\\\\cmd.exe"",""parentCommandLine"":""cmd /c schtasks /create /sc minute /mo 1 /tn \\\""Miscfost\\\"" /ru system /tr \\\""cmd /c C:\\\\Windows\\\\ime\\\\appveif.exe\\\""""}}}"
+"May 22, 2020 @ 15:27:59.171",8,"ATT&CK T1489: Stop Windows Service","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:15.143
+ProcessGuid: {df9fc3d3-d153-5ec7-0000-0010be1d1900}
+ProcessId: 1312
+Image: C:\Windows\SysWOW64\net.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net.exe
+CommandLine: net  stop MpsSvc
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076
+ParentProcessGuid: {df9fc3d3-d150-5ec7-0000-0010ffa31800}
+ParentProcessId: 5872
+ParentImage: C:\Windows\SysWOW64\cmd.exe
+ParentCommandLine: cmd /c net stop MpsSvc""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:15.171719400Z"",""eventRecordID"":""970"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:15.143\r\nProcessGuid: {df9fc3d3-d153-5ec7-0000-0010be1d1900}\r\nProcessId: 1312\r\nImage: C:\\Windows\\SysWOW64\\net.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Net Command\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: net.exe\r\nCommandLine: net  stop MpsSvc\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076\r\nParentProcessGuid: {df9fc3d3-d150-5ec7-0000-0010ffa31800}\r\nParentProcessId: 5872\r\nParentImage: C:\\Windows\\SysWOW64\\cmd.exe\r\nParentCommandLine: cmd /c net stop MpsSvc\""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:15.143"",""processGuid"":""{df9fc3d3-d153-5ec7-0000-0010be1d1900}"",""processId"":""1312"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\net.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Net Command"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""net.exe"",""commandLine"":""net  stop MpsSvc"",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076"",""parentProcessGuid"":""{df9fc3d3-d150-5ec7-0000-0010ffa31800}"",""parentProcessId"":""5872"",""parentImage"":""C:\\\\Windows\\\\SysWOW64\\\\cmd.exe"",""parentCommandLine"":""cmd /c net stop MpsSvc""}}}"
+"May 22, 2020 @ 15:27:59.140",8,"ATT&CK T1489: Stop Windows Service","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:15.099
+ProcessGuid: {df9fc3d3-d153-5ec7-0000-0010e81c1900}
+ProcessId: 2784
+Image: C:\Windows\SysWOW64\net1.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net1.exe
+CommandLine: C:\Windows\system32\net1  stop LanmanServer
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18
+ParentProcessGuid: {df9fc3d3-d152-5ec7-0000-00108a111900}
+ParentProcessId: 6960
+ParentImage: C:\Windows\SysWOW64\net.exe
+ParentCommandLine: net  stop LanmanServer""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:15.104475100Z"",""eventRecordID"":""968"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:15.099\r\nProcessGuid: {df9fc3d3-d153-5ec7-0000-0010e81c1900}\r\nProcessId: 2784\r\nImage: C:\\Windows\\SysWOW64\\net1.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Net Command\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: net1.exe\r\nCommandLine: C:\\Windows\\system32\\net1  stop LanmanServer\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18\r\nParentProcessGuid: {df9fc3d3-d152-5ec7-0000-00108a111900}\r\nParentProcessId: 6960\r\nParentImage: C:\\Windows\\SysWOW64\\net.exe\r\nParentCommandLine: net  stop LanmanServer\""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:15.099"",""processGuid"":""{df9fc3d3-d153-5ec7-0000-0010e81c1900}"",""processId"":""2784"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\net1.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Net Command"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""net1.exe"",""commandLine"":""C:\\\\Windows\\\\system32\\\\net1  stop LanmanServer"",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18"",""parentProcessGuid"":""{df9fc3d3-d152-5ec7-0000-00108a111900}"",""parentProcessId"":""6960"",""parentImage"":""C:\\\\Windows\\\\SysWOW64\\\\net.exe"",""parentCommandLine"":""net  stop LanmanServer""}}}"
+"May 22, 2020 @ 15:27:59.125",8,"ATT&CK T1489: Stop Windows Service","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:15.030
+ProcessGuid: {df9fc3d3-d153-5ec7-0000-0010181a1900}
+ProcessId: 2232
+Image: C:\Windows\SysWOW64\net1.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net1.exe
+CommandLine: C:\Windows\system32\net1  stop SharedAccess
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18
+ParentProcessGuid: {df9fc3d3-d152-5ec7-0000-0010ba0e1900}
+ParentProcessId: 1352
+ParentImage: C:\Windows\SysWOW64\net.exe
+ParentCommandLine: net  stop SharedAccess""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:15.088720600Z"",""eventRecordID"":""967"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:15.030\r\nProcessGuid: {df9fc3d3-d153-5ec7-0000-0010181a1900}\r\nProcessId: 2232\r\nImage: C:\\Windows\\SysWOW64\\net1.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Net Command\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: net1.exe\r\nCommandLine: C:\\Windows\\system32\\net1  stop SharedAccess\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18\r\nParentProcessGuid: {df9fc3d3-d152-5ec7-0000-0010ba0e1900}\r\nParentProcessId: 1352\r\nParentImage: C:\\Windows\\SysWOW64\\net.exe\r\nParentCommandLine: net  stop SharedAccess\""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:15.030"",""processGuid"":""{df9fc3d3-d153-5ec7-0000-0010181a1900}"",""processId"":""2232"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\net1.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Net Command"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""net1.exe"",""commandLine"":""C:\\\\Windows\\\\system32\\\\net1  stop SharedAccess"",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18"",""parentProcessGuid"":""{df9fc3d3-d152-5ec7-0000-0010ba0e1900}"",""parentProcessId"":""1352"",""parentImage"":""C:\\\\Windows\\\\SysWOW64\\\\net.exe"",""parentCommandLine"":""net  stop SharedAccess""}}}"
+"May 22, 2020 @ 15:27:59.077",8,"ATT&CK T1489: Stop Windows Service","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:14.789
+ProcessGuid: {df9fc3d3-d152-5ec7-0000-00108a111900}
+ProcessId: 6960
+Image: C:\Windows\SysWOW64\net.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net.exe
+CommandLine: net  stop LanmanServer
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076
+ParentProcessGuid: {df9fc3d3-d150-5ec7-0000-00106ba41800}
+ParentProcessId: 2012
+ParentImage: C:\Windows\SysWOW64\cmd.exe
+ParentCommandLine: cmd /c net stop LanmanServer""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:14.792400500Z"",""eventRecordID"":""964"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:14.789\r\nProcessGuid: {df9fc3d3-d152-5ec7-0000-00108a111900}\r\nProcessId: 6960\r\nImage: C:\\Windows\\SysWOW64\\net.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Net Command\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: net.exe\r\nCommandLine: net  stop LanmanServer\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076\r\nParentProcessGuid: {df9fc3d3-d150-5ec7-0000-00106ba41800}\r\nParentProcessId: 2012\r\nParentImage: C:\\Windows\\SysWOW64\\cmd.exe\r\nParentCommandLine: cmd /c net stop LanmanServer\""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:14.789"",""processGuid"":""{df9fc3d3-d152-5ec7-0000-00108a111900}"",""processId"":""6960"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\net.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Net Command"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""net.exe"",""commandLine"":""net  stop LanmanServer"",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076"",""parentProcessGuid"":""{df9fc3d3-d150-5ec7-0000-00106ba41800}"",""parentProcessId"":""2012"",""parentImage"":""C:\\\\Windows\\\\SysWOW64\\\\cmd.exe"",""parentCommandLine"":""cmd /c net stop LanmanServer""}}}"
+"May 22, 2020 @ 15:27:59.046",8,"ATT&CK T1489: Stop Windows Service","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:14.733
+ProcessGuid: {df9fc3d3-d152-5ec7-0000-0010ba0e1900}
+ProcessId: 1352
+Image: C:\Windows\SysWOW64\net.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net.exe
+CommandLine: net  stop SharedAccess
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076
+ParentProcessGuid: {df9fc3d3-d150-5ec7-0000-00100f9b1800}
+ParentProcessId: 6504
+ParentImage: C:\Windows\SysWOW64\cmd.exe
+ParentCommandLine: cmd /c net stop SharedAccess""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:14.753959700Z"",""eventRecordID"":""962"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:14.733\r\nProcessGuid: {df9fc3d3-d152-5ec7-0000-0010ba0e1900}\r\nProcessId: 1352\r\nImage: C:\\Windows\\SysWOW64\\net.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Net Command\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: net.exe\r\nCommandLine: net  stop SharedAccess\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076\r\nParentProcessGuid: {df9fc3d3-d150-5ec7-0000-00100f9b1800}\r\nParentProcessId: 6504\r\nParentImage: C:\\Windows\\SysWOW64\\cmd.exe\r\nParentCommandLine: cmd /c net stop SharedAccess\""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:14.733"",""processGuid"":""{df9fc3d3-d152-5ec7-0000-0010ba0e1900}"",""processId"":""1352"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\net.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Net Command"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""net.exe"",""commandLine"":""net  stop SharedAccess"",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076"",""parentProcessGuid"":""{df9fc3d3-d150-5ec7-0000-00100f9b1800}"",""parentProcessId"":""6504"",""parentImage"":""C:\\\\Windows\\\\SysWOW64\\\\cmd.exe"",""parentCommandLine"":""cmd /c net stop SharedAccess""}}}"
+"May 22, 2020 @ 15:27:59.031",10,"ATT&CK: Suspicious Process Creation","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:14.723
+ProcessGuid: {df9fc3d3-d152-5ec7-0000-0010380e1900}
+ProcessId: 1388
+Image: C:\Windows\SysWOW64\schtasks.exe
+FileVersion: 10.0.18362.175 (WinBuild.160101.0800)
+Description: Task Scheduler Configuration Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: schtasks.exe
+CommandLine: schtasks  /create /sc minute /mo 1 /tn ""Flash"" /ru system /tr ""cmd /c echo Y|cacls C:\Users\JOHNWI~1\AppData\Local\Temp\Networks\taskmgr.exe  /p everyone:F""
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=A6A56567B9859A0D147C898CECB9AAAE,SHA256=97CA3FAD547C4E0FE797DB77C414213BA981BC4C39C05AA3E9E42C2A5D494139,IMPHASH=F177D457505ECC524AD2D63680709AF4
+ParentProcessGuid: {df9fc3d3-d150-5ec7-0000-001077981800}
+ParentProcessId: 6516
+ParentImage: C:\Windows\SysWOW64\cmd.exe
+ParentCommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn ""Flash"" /ru system /tr ""cmd /c echo Y|cacls C:\Users\JOHNWI~1\AppData\Local\Temp\Networks\taskmgr.exe  /p everyone:F""""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:14.752193300Z"",""eventRecordID"":""961"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:14.723\r\nProcessGuid: {df9fc3d3-d152-5ec7-0000-0010380e1900}\r\nProcessId: 1388\r\nImage: C:\\Windows\\SysWOW64\\schtasks.exe\r\nFileVersion: 10.0.18362.175 (WinBuild.160101.0800)\r\nDescription: Task Scheduler Configuration Tool\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: schtasks.exe\r\nCommandLine: schtasks  /create /sc minute /mo 1 /tn \""Flash\"" /ru system /tr \""cmd /c echo Y|cacls C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\Networks\\taskmgr.exe  /p everyone:F\""\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=A6A56567B9859A0D147C898CECB9AAAE,SHA256=97CA3FAD547C4E0FE797DB77C414213BA981BC4C39C05AA3E9E42C2A5D494139,IMPHASH=F177D457505ECC524AD2D63680709AF4\r\nParentProcessGuid: {df9fc3d3-d150-5ec7-0000-001077981800}\r\nParentProcessId: 6516\r\nParentImage: C:\\Windows\\SysWOW64\\cmd.exe\r\nParentCommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn \""Flash\"" /ru system /tr \""cmd /c echo Y|cacls C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\Networks\\taskmgr.exe  /p everyone:F\""\""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:14.723"",""processGuid"":""{df9fc3d3-d152-5ec7-0000-0010380e1900}"",""processId"":""1388"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\schtasks.exe"",""fileVersion"":""10.0.18362.175 (WinBuild.160101.0800)"",""description"":""Task Scheduler Configuration Tool"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""schtasks.exe"",""commandLine"":""schtasks  /create /sc minute /mo 1 /tn \\\""Flash\\\"" /ru system /tr \\\""cmd /c echo Y|cacls C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\Networks\\\\taskmgr.exe  /p everyone:F\\\"""",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=A6A56567B9859A0D147C898CECB9AAAE,SHA256=97CA3FAD547C4E0FE797DB77C414213BA981BC4C39C05AA3E9E42C2A5D494139,IMPHASH=F177D457505ECC524AD2D63680709AF4"",""parentProcessGuid"":""{df9fc3d3-d150-5ec7-0000-001077981800}"",""parentProcessId"":""6516"",""parentImage"":""C:\\\\Windows\\\\SysWOW64\\\\cmd.exe"",""parentCommandLine"":""cmd /c schtasks /create /sc minute /mo 1 /tn \\\""Flash\\\"" /ru system /tr \\\""cmd /c echo Y|cacls C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\Networks\\\\taskmgr.exe  /p everyone:F\\\""""}}}"
+"May 22, 2020 @ 15:27:57.188",10,"ATT&CK: Suspicious Process Creation","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:12.800
+ProcessGuid: {df9fc3d3-d150-5ec7-0000-001077981800}
+ProcessId: 6516
+Image: C:\Windows\SysWOW64\cmd.exe
+FileVersion: 10.0.18362.449 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn ""Flash"" /ru system /tr ""cmd /c echo Y|cacls C:\Users\JOHNWI~1\AppData\Local\Temp\Networks\taskmgr.exe  /p everyone:F""
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=E72506477317969211638830DE3174D8,SHA256=4B2F2B322507F4E59204E8750DBDF4761825F546F617571E76461768F795FB55,IMPHASH=392B4D61B1D1DADC1F06444DF258188A
+ParentProcessGuid: {df9fc3d3-d12b-5ec7-0000-001085131400}
+ParentProcessId: 6980
+ParentImage: C:\Users\John Williams\Downloads\appveif.exe
+ParentCommandLine: ""C:\Users\John Williams\Downloads\appveif.exe"" ""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:12.802331200Z"",""eventRecordID"":""952"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:12.800\r\nProcessGuid: {df9fc3d3-d150-5ec7-0000-001077981800}\r\nProcessId: 6516\r\nImage: C:\\Windows\\SysWOW64\\cmd.exe\r\nFileVersion: 10.0.18362.449 (WinBuild.160101.0800)\r\nDescription: Windows Command Processor\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: Cmd.Exe\r\nCommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn \""Flash\"" /ru system /tr \""cmd /c echo Y|cacls C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\Networks\\taskmgr.exe  /p everyone:F\""\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=E72506477317969211638830DE3174D8,SHA256=4B2F2B322507F4E59204E8750DBDF4761825F546F617571E76461768F795FB55,IMPHASH=392B4D61B1D1DADC1F06444DF258188A\r\nParentProcessGuid: {df9fc3d3-d12b-5ec7-0000-001085131400}\r\nParentProcessId: 6980\r\nParentImage: C:\\Users\\John Williams\\Downloads\\appveif.exe\r\nParentCommandLine: \""C:\\Users\\John Williams\\Downloads\\appveif.exe\"" \""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:12.800"",""processGuid"":""{df9fc3d3-d150-5ec7-0000-001077981800}"",""processId"":""6516"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\cmd.exe"",""fileVersion"":""10.0.18362.449 (WinBuild.160101.0800)"",""description"":""Windows Command Processor"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""Cmd.Exe"",""commandLine"":""cmd /c schtasks /create /sc minute /mo 1 /tn \\\""Flash\\\"" /ru system /tr \\\""cmd /c echo Y|cacls C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\Networks\\\\taskmgr.exe  /p everyone:F\\\"""",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=E72506477317969211638830DE3174D8,SHA256=4B2F2B322507F4E59204E8750DBDF4761825F546F617571E76461768F795FB55,IMPHASH=392B4D61B1D1DADC1F06444DF258188A"",""parentProcessGuid"":""{df9fc3d3-d12b-5ec7-0000-001085131400}"",""parentProcessId"":""6980"",""parentImage"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\appveif.exe"",""parentCommandLine"":""\\\""C:\\\\Users\\\\John Williams\\\\Downloads\\\\appveif.exe\\\""""}}}"
+"May 22, 2020 @ 15:27:57.173",10,"ATT&CK: Suspicious Process Creation","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:12.786
+ProcessGuid: {df9fc3d3-d150-5ec7-0000-0010f8951800}
+ProcessId: 6520
+Image: C:\Windows\SysWOW64\cmd.exe
+FileVersion: 10.0.18362.449 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn ""Netframework"" /ru system /tr ""cmd /c echo Y|cacls C:\Users\John Williams\Downloads\appveif.exe  /p everyone:F""
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=E72506477317969211638830DE3174D8,SHA256=4B2F2B322507F4E59204E8750DBDF4761825F546F617571E76461768F795FB55,IMPHASH=392B4D61B1D1DADC1F06444DF258188A
+ParentProcessGuid: {df9fc3d3-d12b-5ec7-0000-001085131400}
+ParentProcessId: 6980
+ParentImage: C:\Users\John Williams\Downloads\appveif.exe
+ParentCommandLine: ""C:\Users\John Williams\Downloads\appveif.exe"" ""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:12.798234900Z"",""eventRecordID"":""951"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:12.786\r\nProcessGuid: {df9fc3d3-d150-5ec7-0000-0010f8951800}\r\nProcessId: 6520\r\nImage: C:\\Windows\\SysWOW64\\cmd.exe\r\nFileVersion: 10.0.18362.449 (WinBuild.160101.0800)\r\nDescription: Windows Command Processor\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: Cmd.Exe\r\nCommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn \""Netframework\"" /ru system /tr \""cmd /c echo Y|cacls C:\\Users\\John Williams\\Downloads\\appveif.exe  /p everyone:F\""\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=E72506477317969211638830DE3174D8,SHA256=4B2F2B322507F4E59204E8750DBDF4761825F546F617571E76461768F795FB55,IMPHASH=392B4D61B1D1DADC1F06444DF258188A\r\nParentProcessGuid: {df9fc3d3-d12b-5ec7-0000-001085131400}\r\nParentProcessId: 6980\r\nParentImage: C:\\Users\\John Williams\\Downloads\\appveif.exe\r\nParentCommandLine: \""C:\\Users\\John Williams\\Downloads\\appveif.exe\"" \""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:12.786"",""processGuid"":""{df9fc3d3-d150-5ec7-0000-0010f8951800}"",""processId"":""6520"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\cmd.exe"",""fileVersion"":""10.0.18362.449 (WinBuild.160101.0800)"",""description"":""Windows Command Processor"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""Cmd.Exe"",""commandLine"":""cmd /c schtasks /create /sc minute /mo 1 /tn \\\""Netframework\\\"" /ru system /tr \\\""cmd /c echo Y|cacls C:\\\\Users\\\\John Williams\\\\Downloads\\\\appveif.exe  /p everyone:F\\\"""",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=E72506477317969211638830DE3174D8,SHA256=4B2F2B322507F4E59204E8750DBDF4761825F546F617571E76461768F795FB55,IMPHASH=392B4D61B1D1DADC1F06444DF258188A"",""parentProcessGuid"":""{df9fc3d3-d12b-5ec7-0000-001085131400}"",""parentProcessId"":""6980"",""parentImage"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\appveif.exe"",""parentCommandLine"":""\\\""C:\\\\Users\\\\John Williams\\\\Downloads\\\\appveif.exe\\\""""}}}"
+"May 22, 2020 @ 15:27:57.157",10,"ATT&CK: Suspicious Process Creation","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:12.764
+ProcessGuid: {df9fc3d3-d150-5ec7-0000-0010fe8d1800}
+ProcessId: 6580
+Image: C:\Windows\SysWOW64\cmd.exe
+FileVersion: 10.0.18362.449 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn ""Miscfost"" /ru system /tr ""cmd /c C:\Windows\ime\appveif.exe""
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=E72506477317969211638830DE3174D8,SHA256=4B2F2B322507F4E59204E8750DBDF4761825F546F617571E76461768F795FB55,IMPHASH=392B4D61B1D1DADC1F06444DF258188A
+ParentProcessGuid: {df9fc3d3-d12b-5ec7-0000-001085131400}
+ParentProcessId: 6980
+ParentImage: C:\Users\John Williams\Downloads\appveif.exe
+ParentCommandLine: ""C:\Users\John Williams\Downloads\appveif.exe"" ""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:12.783545400Z"",""eventRecordID"":""950"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:12.764\r\nProcessGuid: {df9fc3d3-d150-5ec7-0000-0010fe8d1800}\r\nProcessId: 6580\r\nImage: C:\\Windows\\SysWOW64\\cmd.exe\r\nFileVersion: 10.0.18362.449 (WinBuild.160101.0800)\r\nDescription: Windows Command Processor\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: Cmd.Exe\r\nCommandLine: cmd /c schtasks /create /sc minute /mo 1 /tn \""Miscfost\"" /ru system /tr \""cmd /c C:\\Windows\\ime\\appveif.exe\""\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=E72506477317969211638830DE3174D8,SHA256=4B2F2B322507F4E59204E8750DBDF4761825F546F617571E76461768F795FB55,IMPHASH=392B4D61B1D1DADC1F06444DF258188A\r\nParentProcessGuid: {df9fc3d3-d12b-5ec7-0000-001085131400}\r\nParentProcessId: 6980\r\nParentImage: C:\\Users\\John Williams\\Downloads\\appveif.exe\r\nParentCommandLine: \""C:\\Users\\John Williams\\Downloads\\appveif.exe\"" \""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:12.764"",""processGuid"":""{df9fc3d3-d150-5ec7-0000-0010fe8d1800}"",""processId"":""6580"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\cmd.exe"",""fileVersion"":""10.0.18362.449 (WinBuild.160101.0800)"",""description"":""Windows Command Processor"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""Cmd.Exe"",""commandLine"":""cmd /c schtasks /create /sc minute /mo 1 /tn \\\""Miscfost\\\"" /ru system /tr \\\""cmd /c C:\\\\Windows\\\\ime\\\\appveif.exe\\\"""",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=E72506477317969211638830DE3174D8,SHA256=4B2F2B322507F4E59204E8750DBDF4761825F546F617571E76461768F795FB55,IMPHASH=392B4D61B1D1DADC1F06444DF258188A"",""parentProcessGuid"":""{df9fc3d3-d12b-5ec7-0000-001085131400}"",""parentProcessId"":""6980"",""parentImage"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\appveif.exe"",""parentCommandLine"":""\\\""C:\\\\Users\\\\John Williams\\\\Downloads\\\\appveif.exe\\\""""}}}"
+"May 22, 2020 @ 15:27:43.137",8,"Windows Audit Policy changed","""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		Handle Manipulation
+	Subcategory GUID:	{0cce9223-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added""",
+"May 22, 2020 @ 15:27:43.043",8,"Windows Audit Policy changed","""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		File System
+	Subcategory GUID:	{0cce921d-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added""",
+"May 22, 2020 @ 15:27:33.137",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: 'b187c4a14d4a0fc8b255a5e6dc68e1b1'
+New md5sum is : '496e80acc19637c8daf8c286b6ea10f0'
+Old sha1sum was: 'd35485293b6324039fb84a913c4ac605c9050f4a'
+New sha1sum is : '88ef9e17f6f18f6242bf8a46b383b017d42012b9'
+"
+"May 22, 2020 @ 15:27:33.124",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '737129e2f8cfe11a96ca093d49dee7f2'
+New md5sum is : '89598d32459256342f73e9b832b618dc'
+Old sha1sum was: '559d4974169b9c45d6f345deb22f6aeee8abefa8'
+New sha1sum is : '68aacf23a86d664018607a7fc5d1379269af8643'
+"
+"May 22, 2020 @ 15:27:27.887",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_USE_WINDOWEDSELECTCONTROL' checksum changed.
+Old md5sum was: '370914f65a755a1cbfcf0c873b11feaa'
+New md5sum is : '1c729912f87f9abbd1574176fc5996f7'
+Old sha1sum was: 'ea4c2f8e1a1dc5de73a98dbadb5abff9297c9a4b'
+New sha1sum is : '1d2094dc263dc3db258f4421536e179cfbd9cfb0'
+"
+"May 22, 2020 @ 15:27:21.836",14,"ATT&CK T1060: Suspicious RUN Key from Download","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-22 13:18:36.991
+ProcessGuid: {df9fc3d3-d12b-5ec7-0000-001085131400}
+ProcessId: 6980
+Image: C:\Users\John Williams\Downloads\appveif.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Run\appveif
+Details: C:\Users\John Williams\Downloads\appveif.exe""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:18:37.001207200Z"",""eventRecordID"":""917"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-22 13:18:36.991\r\nProcessGuid: {df9fc3d3-d12b-5ec7-0000-001085131400}\r\nProcessId: 6980\r\nImage: C:\\Users\\John Williams\\Downloads\\appveif.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\appveif\r\nDetails: C:\\Users\\John Williams\\Downloads\\appveif.exe\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-22 13:18:36.991"",""processGuid"":""{df9fc3d3-d12b-5ec7-0000-001085131400}"",""processId"":""6980"",""image"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\appveif.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\appveif"",""details"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\appveif.exe""}}}"

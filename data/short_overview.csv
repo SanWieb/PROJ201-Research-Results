@@ -1,0 +1,39 @@
+ID,Category,Sample_Name,Sample_Type,Sample_MD5
+1,Cryptominer,Generic.Application.CoinMiner,"Win32 EXE
+",c22908fe460312d76b50129aa3ef2cf2
+2,Backdoor,Win32:Malware-gen,"Win32 EXE
+",e6a132e279806cc95684dc2bd67a0da0
+3,Backdoor,Trojan-Banker.Agent,"Win32 EXE
+",aa52c9a86073b75748ec6c98eca17dab
+4,Backdoor,Trojan.DCRAT,Win32 EXE,1e2611836860d60a2a6b4c560ef74650
+5,Backdoor,Trojan.Qbot,VBS,1c347009d6fce779bca8385395f26f94
+6,Backdoor,Trojan.Agent.Zenpak,"Win32 EXE
+",fbe6d341c1b69975be74616d01c6d273
+7,Backdoor,Shadowhammer,application/x-rar,c09e41b3eb42eb79853de5bd1f5a5830
+8,Backdoor,Backdoor.AsyncRAT,"Win32 EXE
+",9f16a651f918972eee7be4f19d40bb91
+9,Backdoor,"Backdoor.Bladabindi
+",Win32 EXE,c2c057d9645af7f64e9d11672840828e
+10,Spyware,TrojanSpy.Win32,Win32 EXE,19b11aa448409adc15c93e1fdd3c6774
+11,Spyware,Trojan.Spyware,Win32 EXE,40c0304b144736668ca2a0217d296c37
+12,Spyware,HTML.SpyAgent,html,3b926d275ef56bb063d1e37042f211a3
+13,Spyware,Keylogger.HawkEye,Win32 EXE,8d897a409a231c4bdb21ac3bcf9118b1
+14,Spyware,Spyware.PasswordStealer,Win32 EXE,69ad26a3aae3e2950e5a93ccc0cd1859
+15,Spyware,Trojan.GenKryptik,Win32 EXE,9530e5c9e8591d5025e11a20f604520b
+16,Ransomware,Ransom.Cryakl,Win32 EXE,23a8bfb5bdbff2f294506019cf2f425f
+17,Ransomware,Ramsom.Balaclav,Win32 EXE,7ed4882c2a0d24c401cbce7536ddf792
+18,Ransomware,Ransom.Ryuk,Win32 EXE,3f5da05d62a70eb1212db39d5d6cf45e
+19,Ransomware,Trojan.DOCX,DOCX,1a26c9b6ba40e4e3c3dce12de266ae10
+20,Spyware,Trojan.Lucifer,Win32 EXE,66a3124fe4ed45fae20e2bd4ee33c626
+21,Adware,Adware.Linkvertise,Win32 EXE,25fcd5a2cc5590630ab8d971e82b70cb
+22,Rootkit,Rootkit.Bandios,Win32 EXE,4b042bfd9c11ab6a3fb78fa5c34f55d0
+23,Ransomware,Ransom.GandCrab,Win32 EXE,d543a6c58e8e92d0b2f33abb270a4c3d
+24,Cryptominer,Miner.XMRig,Win32 EXE,5616a3471565d34d779b5b3d0520bb70
+25,Cryptominer,Miner.lemon_duck,ps1,28b80843b13fab0986479b54310c8053
+26,Cryptominer,Trojan.Glupteba.Qwertyminer,Win32 EXE,d668e0990354d0ae209ec520cb80e052
+27,Cryptominer,Miner.Tofsee,Win32 EXE,488bfb786944d1b236ac6254eb97dd69
+28,Rootkit,Rootkit.Lamberts,Win32 EXE,a00918f782ba83aa405614430c65aab6
+29,Adware,Adware.Mindspark,Win32 EXE,aeb471c20095e7d8557478a518d0fc8c
+30,Adware,Adware.Sogou,Win32 EXE,775307b867b19872f49aaa9fcc7c6800
+31,Adware,Adware.FusionCore,Win32 EXE,d4ce88978ea01afe4ec930e59f9abf61
+32,Adware,Adware.Unruy,Win32 EXE,3a4c09aba1b399a43a65a27aee9c90e0

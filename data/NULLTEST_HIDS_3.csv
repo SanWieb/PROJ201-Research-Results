@@ -1,0 +1,1313 @@
+timestamp,"rule.level","rule.description","data.win.system.message","full_log"
+"May 22, 2020 @ 15:17:37.286",3,"Windows installer reconfigured the product","""Windows Installer reconfigured the product. Product Name: Office 16 Click-to-Run Licensing Component. Product Version: 16.0.12730.20270. Product Language: 0. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.""",
+"May 22, 2020 @ 15:17:35.865",3,"Windows Installer began an installation process","""Beginning a Windows Installer transaction: c:\program files\microsoft office\root\integration\sppredist.msi. Client Process Id: 6728.""",
+"May 22, 2020 @ 15:17:35.817",3,"Windows installer reconfigured the product","""Windows Installer reconfigured the product. Product Name: Office 16 Click-to-Run Localization Component. Product Version: 16.0.12730.20206. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.""",
+"May 22, 2020 @ 15:17:35.676",3,"Windows Installer began an installation process","""Beginning a Windows Installer transaction: c:\program files\microsoft office\root\integration\c2rintloc.en-us.16.msi. Client Process Id: 6728.""",
+"May 22, 2020 @ 15:17:35.630",3,"Windows installer reconfigured the product","""Windows Installer reconfigured the product. Product Name: Office 16 Click-to-Run Extensibility Component. Product Version: 16.0.12730.20206. Product Language: 0. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.""",
+"May 22, 2020 @ 15:17:35.349",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:17:34.567",3,"The Windows Search Service started","""The Windows Search Service started.
+""",
+"May 22, 2020 @ 15:17:34.442",3,"The database engine attached a database","""SearchIndexer (5516,D,50) Windows: The database engine attached a database (1, C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb). (Time=0 seconds) 
+ 
+Saved Cache: 0 0 
+Additional Data: lgposAttach = 00000015:0046:0268,
+dbv = 1568.20.0 
+ 
+Internal Timing Sequence: 
+[1] 0.000005 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[2] 0.000258 +J(0) +M(C:0K, Fs:26, WS:36K # 0K, PF:32K # 0K, P:32K)
+[3] 0.006118 -0.001011 (6) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:39, WS:120K # 0K, PF:144K # 0K, P:144K)
+[4] 0.000155 +J(0)
+[5] -
+[6] -
+[7] -
+[8] 0.003427 -0.000845 (2) CM +J(CM:2, PgRf:2, Rd:14/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:51, WS:200K # 0K, PF:644K # 0K, P:644K)
+[9] 0.012463 -0.000284 (5) CM -0.011993 (1) WT +J(CM:5, PgRf:23, Rd:0/5, Dy:0/0, Lg:0/0) +M(C:0K, Fs:67, WS:268K # 0K, PF:256K # 112K, P:256K)
+[10] 0.000322 -0.000172 (1) CM +J(CM:1, PgRf:40, Rd:0/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:11, WS:44K # 0K, PF:96K # 96K, P:96K)
+[11] 0.000013 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 8K, PF:0K # 0K, P:0K)
+[12] 0.000032 +J(CM:0, PgRf:42, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:3, WS:12K # 12K, PF:0K # 0K, P:0K)
+[13] 0.0 +J(0)
+[14] 0.0 +J(0)
+[15] 0.000004 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0).""",
+"May 22, 2020 @ 15:17:34.379",3,"The database engine is starting a new instance","""SearchIndexer (5516,P,98) Windows: The database engine (10.00.18363.0000) is starting a new instance (0).""",
+"May 22, 2020 @ 15:17:34.286",3,"Windows Installer began an installation process","""Beginning a Windows Installer transaction: c:\program files\microsoft office\root\integration\c2rint.16.msi. Client Process Id: 6728.""",
+"May 22, 2020 @ 15:17:30.990",3,"The Windows Search Service stopped normally","""Windows Search Service stopped normally.
+""",
+"May 22, 2020 @ 15:17:30.959",5,"The database engine stopped an instance","""SearchIndexer (716,T,97) Windows: The database engine stopped the instance (0). 
+ 
+Dirty Shutdown: 0 
+ 
+Internal Timing Sequence: 
+[1] 0.000002 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[2] 0.000011 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[3] 0.000226 +J(CM:1, PgRf:15, Rd:0/1, Dy:3/17, Lg:590/15)
+[4] 0.000004 +J(0)
+[5] 0.021433 -0.000012 (54) CM -0.019747 (8) WT +J(CM:54, PgRf:0, Rd:0/54, Dy:0/0, Lg:0/0) +M(C:0K, Fs:331, WS:12K # 0K, PF:4K # 0K, P:4K)
+[6] 0.002899 +J(0) +M(C:0K, Fs:1, WS:-6716K # 0K, PF:-6616K # 0K, P:-6616K)
+[7] 0.000012 +J(0)
+[8] 0.005098 -0.002884 (12) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:2113/2) +M(C:0K, Fs:23, WS:-180K # 0K, PF:-1092K # 0K, P:-1092K)
+[9] 0.000434 -0.000391 (1) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:66/1) +M(C:0K, Fs:2, WS:8K # 0K, PF:0K # 0K, P:0K)
+[10] 0.000004 +J(0)
+[11] 0.001158 -0.000551 (2) WT +J(0)
+[12] 0.000038 +J(0) +M(C:0K, Fs:0, WS:-4K # 0K, PF:-4K # 0K, P:-4K)
+[13] 0.000224 +J(0) +M(C:0K, Fs:0, WS:0K # 0K, PF:16K # 0K, P:16K)
+[14] 0.000067 +J(0) +M(C:0K, Fs:0, WS:-164K # 0K, PF:-176K # 0K, P:-176K)
+[15] 0.000005 +J(0).""",
+"May 22, 2020 @ 15:17:30.679",3,"Windows installer reconfigured the product","""Windows Installer reconfigured the product. Product Name: Office 16 Click-to-Run Extensibility Component. Product Version: 16.0.12730.20206. Product Language: 0. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.""",
+"May 22, 2020 @ 15:17:16.177",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:17:15.286",3,"Windows Installer began an installation process","""Beginning a Windows Installer transaction: c:\program files\microsoft office\root\integration\c2rint.16.msi. Client Process Id: 6728.""",
+"May 22, 2020 @ 15:17:07.630",3,"Software Protection service scheduled successfully","""Successfully scheduled Software Protection service for re-start at 2020-05-23T15:12:06Z. Reason: RulesEngine.""",
+"May 22, 2020 @ 15:16:51.458",3,"Service startup type was changed","""The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.""",
+"May 22, 2020 @ 15:16:50.177",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_USE_WINDOWEDSELECTCONTROL' checksum changed.
+Old md5sum was: '1c729912f87f9abbd1574176fc5996f7'
+New md5sum is : '370914f65a755a1cbfcf0c873b11feaa'
+Old sha1sum was: '1d2094dc263dc3db258f4421536e179cfbd9cfb0'
+New sha1sum is : 'ea4c2f8e1a1dc5de73a98dbadb5abff9297c9a4b'
+"
+"May 22, 2020 @ 15:16:49.193",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:16:48.504",3,"The Windows Search Service started","""The Windows Search Service started.
+""",
+"May 22, 2020 @ 15:16:48.410",3,"The database engine attached a database","""SearchIndexer (716,D,50) Windows: The database engine attached a database (1, C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb). (Time=0 seconds) 
+ 
+Saved Cache: 0 0 
+Additional Data: lgposAttach = 00000014:003B:0268,
+dbv = 1568.20.0 
+ 
+Internal Timing Sequence: 
+[1] 0.000005 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[2] 0.000203 +J(0) +M(C:0K, Fs:25, WS:36K # 0K, PF:32K # 0K, P:32K)
+[3] 0.004531 -0.001122 (5) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:42, WS:128K # 0K, PF:152K # 0K, P:152K)
+[4] 0.000091 +J(0)
+[5] -
+[6] -
+[7] -
+[8] 0.001911 -0.000749 (2) CM +J(CM:2, PgRf:2, Rd:14/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:51, WS:204K # 0K, PF:640K # 0K, P:640K)
+[9] 0.011706 -0.000284 (5) CM -0.011199 (1) WT +J(CM:5, PgRf:23, Rd:0/5, Dy:0/0, Lg:0/0) +M(C:0K, Fs:67, WS:268K # 0K, PF:256K # 120K, P:256K)
+[10] 0.000229 -0.000140 (1) CM +J(CM:1, PgRf:40, Rd:0/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:12, WS:44K # 0K, PF:100K # 100K, P:100K)
+[11] 0.000011 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 12K, PF:0K # 0K, P:0K)
+[12] 0.000031 +J(CM:0, PgRf:42, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:3, WS:12K # 12K, PF:0K # 0K, P:0K)
+[13] 0.0 +J(0)
+[14] 0.0 +J(0)
+[15] 0.000003 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0).""",
+"May 22, 2020 @ 15:16:48.301",3,"The database engine is starting a new instance","""SearchIndexer (716,P,98) Windows: The database engine (10.00.18363.0000) is starting a new instance (0).""",
+"May 22, 2020 @ 15:16:47.708",3,"The Windows Search Service stopped normally","""Windows Search Service stopped normally.
+""",
+"May 22, 2020 @ 15:16:47.692",5,"The database engine stopped an instance","""SearchIndexer (4592,T,97) Windows: The database engine stopped the instance (0). 
+ 
+Dirty Shutdown: 0 
+ 
+Internal Timing Sequence: 
+[1] 0.000008 +J(0) +M(C:0K, Fs:2, WS:8K # 0K, PF:0K # 0K, P:0K)
+[2] 0.000021 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[3] 0.000739 -0.000529 (1) CM +J(CM:1, PgRf:10, Rd:0/0, Dy:0/10, Lg:284/13) +M(C:0K, Fs:45, WS:180K # 0K, PF:8K # 0K, P:8K)
+[4] 0.000005 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[5] 0.051269 -0.000006 (22) CM -0.036427 (7) WT +J(CM:22, PgRf:0, Rd:0/22, Dy:0/0, Lg:0/0) +M(C:0K, Fs:185, WS:304K # 0K, PF:8K # 0K, P:8K)
+[6] 0.001413 +J(0) +M(C:0K, Fs:1, WS:-1216K # 0K, PF:-3016K # 0K, P:-3016K)
+[7] 0.000018 +J(0)
+[8] 0.010167 -0.007266 (12) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3664/2) +M(C:0K, Fs:29, WS:16K # 0K, PF:84K # 0K, P:84K)
+[9] 0.000427 -0.000384 (1) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:66/1) +M(C:0K, Fs:2, WS:8K # 0K, PF:0K # 0K, P:0K)
+[10] 0.000004 +J(0)
+[11] 0.001435 -0.000592 (2) WT +J(0)
+[12] 0.000051 +J(0) +M(C:0K, Fs:0, WS:-4K # 0K, PF:-4K # 0K, P:-4K)
+[13] 0.000204 +J(0)
+[14] 0.000056 +J(0) +M(C:0K, Fs:0, WS:-68K # 0K, PF:-72K # 0K, P:-72K)
+[15] 0.000009 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K).""",
+"May 22, 2020 @ 15:15:09.550",3,"Software Protection service scheduled successfully","""Successfully scheduled Software Protection service for re-start at 2020-05-23T15:12:08Z. Reason: RulesEngine.""",
+"May 22, 2020 @ 15:14:46.191",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:14:41.113",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:14:25.082",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '496e80acc19637c8daf8c286b6ea10f0'
+New md5sum is : 'b187c4a14d4a0fc8b255a5e6dc68e1b1'
+Old sha1sum was: '88ef9e17f6f18f6242bf8a46b383b017d42012b9'
+New sha1sum is : 'd35485293b6324039fb84a913c4ac605c9050f4a'
+"
+"May 22, 2020 @ 15:14:25.065",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '89598d32459256342f73e9b832b618dc'
+New md5sum is : '737129e2f8cfe11a96ca093d49dee7f2'
+Old sha1sum was: '68aacf23a86d664018607a7fc5d1379269af8643'
+New sha1sum is : '559d4974169b9c45d6f345deb22f6aeee8abefa8'
+"
+"May 22, 2020 @ 15:13:35.439",3,"Software Protection service scheduled successfully","""Successfully scheduled Software Protection service for re-start at 2020-05-23T15:12:32Z. Reason: RulesEngine.""",
+"May 22, 2020 @ 15:13:23.826",3,"Windows User Logoff","""An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-438079597-2123118846-2669748851-1001
+	Account Name:		John Williams
+	Account Domain:		DESKTOP-HUE026H
+	Logon ID:		0xB464E
+
+Logon Type:			2
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.""",
+"May 22, 2020 @ 15:13:23.784",3,"Windows User Logoff","""An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-438079597-2123118846-2669748851-1001
+	Account Name:		John Williams
+	Account Domain:		DESKTOP-HUE026H
+	Logon ID:		0xB466D
+
+Logon Type:			2
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.""",
+"May 22, 2020 @ 15:13:23.736",3,"Windows Workstation Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		No
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-438079597-2123118846-2669748851-1001
+	Account Name:		John Williams
+	Account Domain:		DESKTOP-HUE026H
+	Logon ID:		0xB466D
+	Linked Logon ID:		0xB464E
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x110
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	DESKTOP-HUE026H
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:13:23.706",3,"Windows Workstation Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-438079597-2123118846-2669748851-1001
+	Account Name:		John Williams
+	Account Domain:		DESKTOP-HUE026H
+	Logon ID:		0xB464E
+	Linked Logon ID:		0xB466D
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x110
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	DESKTOP-HUE026H
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:13:05.829",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:13:04.033",5,"License Activation (slui.exe) failed","""License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=UserLogon;SessionId=1""",
+"May 22, 2020 @ 15:12:54.806",3,"The Windows Search Service started","""The Windows Search Service started.
+""",
+"May 22, 2020 @ 15:12:54.776",3,"The database engine attached a database","""SearchIndexer (4592,D,50) Windows: The database engine attached a database (1, C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb). (Time=0 seconds) 
+ 
+Saved Cache: 0 0 
+Additional Data: lgposAttach = 00000014:0009:0268,
+dbv = 1568.20.0 
+ 
+Internal Timing Sequence: 
+[1] 0.000025 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[2] 0.005410 -0.005191 (1) WT +J(0) +M(C:0K, Fs:47, WS:124K # 0K, PF:96K # 0K, P:96K)
+[3] 0.013639 -0.006595 (5) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:41, WS:128K # 0K, PF:140K # 0K, P:140K)
+[4] 0.000084 +J(0)
+[5] -
+[6] -
+[7] -
+[8] 0.002228 -0.000741 (2) CM +J(CM:2, PgRf:2, Rd:14/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:52, WS:204K # 0K, PF:644K # 0K, P:644K)
+[9] 0.042161 -0.000127 (5) CM -0.041833 (3) WT +J(CM:5, PgRf:23, Rd:0/5, Dy:0/0, Lg:0/0) +M(C:0K, Fs:67, WS:268K # 44K, PF:256K # 168K, P:256K)
+[10] 0.000301 -0.000204 (1) CM +J(CM:1, PgRf:40, Rd:0/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:11, WS:44K # 44K, PF:96K # 96K, P:96K)
+[11] 0.000015 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 16K, PF:0K # 0K, P:0K)
+[12] 0.000035 +J(CM:0, PgRf:42, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:3, WS:12K # 12K, PF:0K # 0K, P:0K)
+[13] 0.0 +J(0)
+[14] 0.0 +J(0)
+[15] 0.000004 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0).""",
+"May 22, 2020 @ 15:12:54.647",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:12:54.606",3,"The database engine is starting a new instance","""SearchIndexer (4592,P,98) Windows: The database engine (10.00.18363.0000) is starting a new instance (0).""",
+"May 22, 2020 @ 15:12:49.719",5,"Windows error event","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\NETWORK SERVICE; ClientProcessId = 3088; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : SELECT Manufacturer, Product FROM Win32_BaseBoard; ResultCode = 0x80041032; PossibleCause = Unknown""",
+"May 22, 2020 @ 15:12:48.614",5,"SessionEnv was unavailable to handle a notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.""",
+"May 22, 2020 @ 15:12:45.443",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:12:43.568",3,"Ossec agent started.",,"ossec: Agent started: 'windows-10->any'."
+"May 22, 2020 @ 15:11:26.071",3,"Software Protection service scheduled successfully","""Successfully scheduled Software Protection service for re-start at 2020-05-23T13:17:09Z. Reason: RulesEngine.""",
+"May 22, 2020 @ 15:11:13.361",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x244
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:11:13.257",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x244
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:10:32.204",7,"Integrity checksum changed.",,"File 'HKEY_LOCAL_MACHINE\Security\Policy\PolAdtEv' checksum changed.
+Old md5sum was: '9d15aff4d26f802c3c4d3d74a00d8d4d'
+New md5sum is : 'b40de87500ee3eed90c2ce3ce8c7946f'
+Old sha1sum was: '11f3afa3902d0fadfcc52e4c051995f536c7d4e2'
+New sha1sum is : '2f6e6dd0efd148b1c11d33c91e9cea4a97a84792'
+"
+"May 22, 2020 @ 15:10:25.736",5,"Windows error event","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\SYSTEM; ClientProcessId = 4012; Component = Unknown; Operation = Start IWbemServices::ExecQuery - root\Microsoft\Windows\DeviceGuard : SELECT RequiredSecurityProperties FROM Win32_DeviceGuard ; ResultCode = 0x80041032; PossibleCause = Unknown""",
+"May 22, 2020 @ 15:10:25.720",5,"Windows error event","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\SYSTEM; ClientProcessId = 4012; Component = Unknown; Operation = Start IWbemServices::ExecQuery - root\Microsoft\Windows\DeviceGuard : SELECT SecurityServicesConfigured FROM Win32_DeviceGuard ; ResultCode = 0x80041032; PossibleCause = Unknown""",
+"May 22, 2020 @ 15:10:25.705",10,"Multiple Windows error events","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\SYSTEM; ClientProcessId = 4012; Component = Unknown; Operation = Start IWbemServices::ExecQuery - root\Microsoft\Windows\DeviceGuard : SELECT RequiredSecurityProperties FROM Win32_DeviceGuard ; ResultCode = 0x80041032; PossibleCause = Unknown""",
+"May 22, 2020 @ 15:10:25.689",5,"Windows error event","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\SYSTEM; ClientProcessId = 4012; Component = Unknown; Operation = Start IWbemServices::ExecQuery - root\Microsoft\Windows\DeviceGuard : SELECT SecurityServicesRunning FROM Win32_DeviceGuard ; ResultCode = 0x80041032; PossibleCause = Unknown""",
+"May 22, 2020 @ 15:10:23.018",5,"Windows error event","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\SYSTEM; ClientProcessId = 4012; Component = Unknown; Operation = Start IWbemServices::ExecQuery - root\CIMV2 : SELECT SMBIOSAssetTag FROM Win32_SystemEnclosure ; ResultCode = 0x80041032; PossibleCause = Unknown""",
+"May 22, 2020 @ 15:10:23.001",5,"Windows error event","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\SYSTEM; ClientProcessId = 4012; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : SELECT ID FROM Win32_ServerFeature; ResultCode = 0x80041010; PossibleCause = Unknown""",
+"May 22, 2020 @ 15:10:20.471",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x244
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:10:06.455",3,"Service startup type was changed","""The start type of the Windows Modules Installer service was changed from demand start to auto start.""",
+"May 22, 2020 @ 15:09:55.485",3,"Software Protection service scheduled successfully","""Successfully scheduled Software Protection service for re-start at 2020-05-23T13:16:40Z. Reason: RulesEngine.""",
+"May 22, 2020 @ 15:09:32.985",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x244
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:09:28.904",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x244
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:09:15.715",8,"Windows Audit Policy changed","""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		Handle Manipulation
+	Subcategory GUID:	{0cce9223-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added""",
+"May 22, 2020 @ 15:09:15.708",8,"Windows Audit Policy changed","""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		File System
+	Subcategory GUID:	{0cce921d-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added""",
+"May 22, 2020 @ 15:09:10.849",5,"Name resolution for the name www.bbc.com timed out","""Name resolution for the name www.bbc.com timed out after none of the configured DNS servers responded.""",
+"May 22, 2020 @ 15:09:07.785",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}' checksum changed.
+Old md5sum was: '7fa7290c3b0e7b2d8ed5a092299db356'
+New md5sum is : '271f59daf9ca28fbeb0bd234897e1662'
+Old sha1sum was: '27735fff26a4f9093576dfbd77d06599094d3497'
+New sha1sum is : 'e8d6ecabf76ed97cd87dc8593f64cd69ec8ec7a2'
+"
+"May 22, 2020 @ 15:09:01.487",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_USE_WINDOWEDSELECTCONTROL' checksum changed.
+Old md5sum was: '370914f65a755a1cbfcf0c873b11feaa'
+New md5sum is : '1c729912f87f9abbd1574176fc5996f7'
+Old sha1sum was: 'ea4c2f8e1a1dc5de73a98dbadb5abff9297c9a4b'
+New sha1sum is : '1d2094dc263dc3db258f4421536e179cfbd9cfb0'
+"
+"May 22, 2020 @ 15:09:01.379",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x244
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:08:44.237",5,"Windows error event","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = DESKTOP-HUE026H\John Williams; ClientProcessId = 6876; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : SELECT * FROM Win32_PhysicalMemory WHERE Tag='Physical Memory 0'; ResultCode = 0x80041032; PossibleCause = Unknown""",
+"May 22, 2020 @ 15:08:44.224",5,"Windows error event","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = DESKTOP-HUE026H\John Williams; ClientProcessId = 6876; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : SELECT * FROM Win32_DiskDrive WHERE DeviceID LIKE '%PHYSICALDRIVE0%'; ResultCode = 0x80041032; PossibleCause = Unknown""",
+"May 22, 2020 @ 15:08:44.194",5,"Windows error event","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = DESKTOP-HUE026H\John Williams; ClientProcessId = 6876; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : SELECT * FROM Win32_ComputerSystemProduct; ResultCode = 0x80041032; PossibleCause = Unknown""",
+"May 22, 2020 @ 15:08:31.202",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x244
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",
+"May 22, 2020 @ 15:08:17.757",5,"Windows error event","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\SYSTEM; ClientProcessId = 3256; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : select ChassisTypes from Win32_SystemEnclosure; ResultCode = 0x80041032; PossibleCause = Unknown""",
+"May 22, 2020 @ 15:07:55.054",7,"Integrity checksum changed.",,"File 'HKEY_LOCAL_MACHINE\Security\Policy\PolAdtEv' checksum changed.
+Old md5sum was: 'b40de87500ee3eed90c2ce3ce8c7946f'
+New md5sum is : '9d15aff4d26f802c3c4d3d74a00d8d4d'
+Old sha1sum was: '2f6e6dd0efd148b1c11d33c91e9cea4a97a84792'
+New sha1sum is : '11f3afa3902d0fadfcc52e4c051995f536c7d4e2'
+"
+"May 22, 2020 @ 15:07:52.691",5,"License Activation (slui.exe) failed","""License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=TimerEvent""",
+"May 22, 2020 @ 15:07:51.478",5,"License Activation (slui.exe) failed","""License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=UserLogon;SessionId=1""",
+"May 22, 2020 @ 15:07:48.108",3,"Windows Logon Success","""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x244
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.""",

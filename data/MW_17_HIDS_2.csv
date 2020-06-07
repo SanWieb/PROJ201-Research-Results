@@ -1,0 +1,210 @@
+timestamp,"rule.level","rule.description","full_log","data.win.system.message"
+"Apr 26, 2020 @ 09:58:44.824",5,"SessionEnv was unavailable to handle a notification event",,"""The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event."""
+"Apr 26, 2020 @ 09:58:44.810",5,"WSearch was unavailable to handle a notification event",,"""The winlogon notification subscriber <WSearch> was unavailable to handle a notification event."""
+"Apr 26, 2020 @ 09:58:21.607",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits' checksum changed.
+Old md5sum was: '302567d0e9b6bb461f19aa9d78f76a6c'
+New md5sum is : '895df8cc5739efcdc5c8fe13b2771ee6'
+Old sha1sum was: 'b504dec9dc3bf11d19b065debc90d46aa7acd1b6'
+New sha1sum is : '7ad0adbefe76be7d2f1708306b6e924bff43921d'
+",
+"Apr 26, 2020 @ 09:58:21.592",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits\RunTime' checksum changed.
+Old md5sum was: '90d8a3098aa7762a2499aa27705ed40c'
+New md5sum is : '053e1e0333f95face38eae3da5f4dae5'
+Old sha1sum was: 'c41442ce5f1fe0f2db713a0f2894dc530f721504'
+New sha1sum is : '59809a07a561b359699e84280b2de1c11eb7ed92'
+",
+"Apr 26, 2020 @ 09:58:15.008",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{10cb9356-9dd8-4d03-959f-611e879a11a6}' checksum changed.
+Old md5sum was: 'ae5aeacd0ec096e337ca3ae6a707a5ef'
+New md5sum is : '682d23e380b3858be2cde141ecd915b6'
+Old sha1sum was: 'cc73062438c2d276ae920c586c61e8046d7af96f'
+New sha1sum is : 'c127e2d2a6906e2591f30ce51505eb1db95ea99a'
+",
+"Apr 26, 2020 @ 09:58:10.073",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SmsRouter\State\Registration\Map' checksum changed.
+Old md5sum was: 'f725bdba3c624ef1211452f438569838'
+New md5sum is : 'a3c20e4136219d3eef2191a27f3f2145'
+Old sha1sum was: '76d6ea0f40d643341bc4517a2d1b043f15ea0c6b'
+New sha1sum is : 'f4f8158f74f78ded6fde0eebbb72a617e2aa9fb8'
+",
+"Apr 26, 2020 @ 09:58:10.058",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SmsRouter\State\Registration\Ids\{11C6734A-8F7B-4A5E-B26E-BDB14A32613D}' was added.
+",
+"Apr 26, 2020 @ 09:58:08.459",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Epoch' checksum changed.
+Old md5sum was: 'f93cf0221c7bffcbf0606d9f193a943e'
+New md5sum is : '06f3d2f39343f57d32dd262e225aae84'
+Old sha1sum was: '098e4d9f53900d4e8394afe508e54240c78b74ad'
+New sha1sum is : 'cc04983290ed793a09187d5412932856395b581c'
+",
+"Apr 26, 2020 @ 09:57:35.920",4,"Summary event of the report's signatures",,"""Fault bucket 2248426720713588459, type 1
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: program17.exe
+P2: 0.0.0.0
+P3: 5e5b84f7
+P4: ntdll.dll
+P5: 10.0.18362.719
+P6: 832e7bce
+P7: c0000005
+P8: 00063cb3
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB154.tmp.dmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB349.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB3D6.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB413.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB452.tmp.txt
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_program17.exe_b8355ffce62437e56ebb4421561b73589124a3_d2bf1580_b8884a20-bc96-434c-9c37-f795e52477c3
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 0eac7a5f-b2f5-403f-ae2b-0162b07c63f7
+Report Status: 268435456
+Hashed bucket: 63bbee492b7abb4bef34043097a13eeb
+Cab Guid: 0"""
+"Apr 26, 2020 @ 09:57:30.964",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x24c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 26, 2020 @ 09:57:30.442",9,"Windows Application error event",,"""Faulting application name: program17.exe, version: 0.0.0.0, time stamp: 0x5e5b84f7
+Faulting module name: ntdll.dll, version: 10.0.18362.719, time stamp: 0x832e7bce
+Exception code: 0xc0000005
+Fault offset: 0x00063cb3
+Faulting process id: 0x1674
+Faulting application start time: 0x01d60cd73f44bf48
+Faulting application path: C:\Users\John Williams\Downloads\program17.exe
+Faulting module path: C:\Windows\SYSTEM32\ntdll.dll
+Report Id: 0eac7a5f-b2f5-403f-ae2b-0162b07c63f7
+Faulting package full name: 
+Faulting package-relative application ID: """
+"Apr 26, 2020 @ 09:57:15.175",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: 'e415cd732af76fc8e2f6f97c4e6c5f3c'
+New md5sum is : '3d31da889e8deb44149f83121f6c6101'
+Old sha1sum was: '8450855442dc0dae778f9ab1823823bbe8029aae'
+New sha1sum is : '5515d7c6eec4936ffb6265e9458e59e3d94f97ed'
+",
+"Apr 26, 2020 @ 09:57:15.138",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-18' checksum changed.
+Old md5sum was: '4ba4365f07f1541a9d0cb4adc696cbaa'
+New md5sum is : 'cf52cdc0b943279a6903187dd77773f1'
+Old sha1sum was: '6766757ccbe9ec12bc588faf319b992e7bd63e19'
+New sha1sum is : 'bbef7fb8ffca88784a4809d3734c5f102eb31c3d'
+",
+"Apr 26, 2020 @ 09:57:15.094",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x24c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 26, 2020 @ 09:57:05.249",3,"Service startup type was changed",,"""The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start."""

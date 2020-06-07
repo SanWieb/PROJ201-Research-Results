@@ -1,0 +1,63 @@
+timestamp,"rule.level","rule.description","data.win.system.message","data.win.eventdata.commandLine","data.win.eventdata.targetObject","full_log","data.win.eventdata.details"
+"May 31, 2020 @ 09:40:28.905",10,"Multiple Windows error events","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\SYSTEM; ClientProcessId = 5152; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : select ChassisTypes from Win32_SystemEnclosure; ResultCode = 0x80041032; PossibleCause = Unknown""",,,,
+"May 31, 2020 @ 09:38:58.566",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: 'd2abb0e472c53cbf65d10a1f2d09aa79'
+New md5sum is : '9cff44496a5ed58ecd06ce03fe6410f8'
+Old sha1sum was: '940d447005e78e8bd3cb6f655847dc7810917403'
+New sha1sum is : '19ebed2ea7007c5bd2580630b03830bb0b2dee87'
+",
+"May 31, 2020 @ 09:38:58.544",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: 'e064d552ab7f45ac175a32c6fadfae16'
+New md5sum is : '09f9a868702d8a69d4b62b6dc4365b29'
+Old sha1sum was: '14398c675c8587716a103632fb0302df5f37982d'
+New sha1sum is : '4c3792c463152bc8effee78473d7f3b3c0e8e25e'
+",
+"May 31, 2020 @ 09:37:34.023",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,,,,
+"May 31, 2020 @ 09:37:21.287",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",,,,
+"May 31, 2020 @ 09:32:40.919",10,"Multiple Windows error events","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\SYSTEM; ClientProcessId = 2992; Component = Unknown; Operation = Start IWbemServices::ExecQuery - root\Microsoft\Windows\DeviceGuard : SELECT AvailableSecurityProperties FROM Win32_DeviceGuard ; ResultCode = 0x80041032; PossibleCause = Unknown""",,,,
+"May 31, 2020 @ 09:31:25.960",14,"ATT&CK T1138: Possible Shim Database Persistence via sdbinst.exe","""Process Create:
+RuleName: 
+UtcTime: 2020-05-28 12:48:30.458
+ProcessGuid: {df9fc3d3-b31e-5ecf-0000-0010800a1300}
+ProcessId: 6504
+Image: C:\Windows\SysWOW64\sdbinst.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Application Compatibility Database Installer
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: sdbinst.exe
+CommandLine: ""C:\Windows\SysWOW64\sdbinst.exe"" /q ""C:\Users\John Williams\AppData\LocalLow\hPb0FP3y.sdb""
+CurrentDirectory: C:\Windows\system32\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}
+LogonId: 0x375CE
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=90B941232094F8C281AE47F8C9C8C0CF,SHA256=1B0883DA2CC4C1959D3FE8F6DE63FF9AD85F7CF9B229879C6F54B734E2C5F14D,IMPHASH=DC04DAC563E65A0D0DAE0ACCC2AC61E2
+ParentProcessGuid: {df9fc3d3-b313-5ecf-0000-001075e51200}
+ParentProcessId: 316
+ParentImage: C:\Users\John Williams\Downloads\Program28.exe
+ParentCommandLine: ""C:\Users\John Williams\Downloads\Program28.exe"" ""","\""C:\\Windows\\SysWOW64\\sdbinst.exe\"" /q \""C:\\Users\\John Williams\\AppData\\LocalLow\\hPb0FP3y.sdb\""",,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:48:30.460512700Z"",""eventRecordID"":""1991"",""processID"":""2260"",""threadID"":""3256"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-28 12:48:30.458\r\nProcessGuid: {df9fc3d3-b31e-5ecf-0000-0010800a1300}\r\nProcessId: 6504\r\nImage: C:\\Windows\\SysWOW64\\sdbinst.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Application Compatibility Database Installer\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: sdbinst.exe\r\nCommandLine: \""C:\\Windows\\SysWOW64\\sdbinst.exe\"" /q \""C:\\Users\\John Williams\\AppData\\LocalLow\\hPb0FP3y.sdb\""\r\nCurrentDirectory: C:\\Windows\\system32\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}\r\nLogonId: 0x375CE\r\nTerminalSessionId: 1\r\nIntegrityLevel: High\r\nHashes: MD5=90B941232094F8C281AE47F8C9C8C0CF,SHA256=1B0883DA2CC4C1959D3FE8F6DE63FF9AD85F7CF9B229879C6F54B734E2C5F14D,IMPHASH=DC04DAC563E65A0D0DAE0ACCC2AC61E2\r\nParentProcessGuid: {df9fc3d3-b313-5ecf-0000-001075e51200}\r\nParentProcessId: 316\r\nParentImage: C:\\Users\\John Williams\\Downloads\\Program28.exe\r\nParentCommandLine: \""C:\\Users\\John Williams\\Downloads\\Program28.exe\"" \""""},""eventdata"":{""utcTime"":""2020-05-28 12:48:30.458"",""processGuid"":""{df9fc3d3-b31e-5ecf-0000-0010800a1300}"",""processId"":""6504"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\sdbinst.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Application Compatibility Database Installer"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""sdbinst.exe"",""commandLine"":""\\\""C:\\\\Windows\\\\SysWOW64\\\\sdbinst.exe\\\"" /q \\\""C:\\\\Users\\\\John Williams\\\\AppData\\\\LocalLow\\\\hPb0FP3y.sdb\\\"""",""currentDirectory"":""C:\\\\Windows\\\\system32\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-b279-5ecf-0000-0020ce750300}"",""logonId"":""0x375ce"",""terminalSessionId"":""1"",""integrityLevel"":""High"",""hashes"":""MD5=90B941232094F8C281AE47F8C9C8C0CF,SHA256=1B0883DA2CC4C1959D3FE8F6DE63FF9AD85F7CF9B229879C6F54B734E2C5F14D,IMPHASH=DC04DAC563E65A0D0DAE0ACCC2AC61E2"",""parentProcessGuid"":""{df9fc3d3-b313-5ecf-0000-001075e51200}"",""parentProcessId"":""316"",""parentImage"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\Program28.exe"",""parentCommandLine"":""\\\""C:\\\\Users\\\\John Williams\\\\Downloads\\\\Program28.exe\\\""""}}}",
+"May 31, 2020 @ 09:31:15.123",14,"ATT&CK T1138: Possible Shim Database Persistence via sdbinst.exe","""Process Create:
+RuleName: 
+UtcTime: 2020-05-28 12:48:19.451
+ProcessGuid: {df9fc3d3-b313-5ecf-0000-001014f01200}
+ProcessId: 6188
+Image: C:\Windows\SysWOW64\sdbinst.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Application Compatibility Database Installer
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: sdbinst.exe
+CommandLine: ""C:\Windows\System32\sdbinst.exe"" /q ""C:\Users\John Williams\AppData\LocalLow\hPb0FP3y.sdb""
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-b279-5ecf-0000-0020fd750300}
+LogonId: 0x375FD
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=90B941232094F8C281AE47F8C9C8C0CF,SHA256=1B0883DA2CC4C1959D3FE8F6DE63FF9AD85F7CF9B229879C6F54B734E2C5F14D,IMPHASH=DC04DAC563E65A0D0DAE0ACCC2AC61E2
+ParentProcessGuid: {df9fc3d3-b313-5ecf-0000-001075e51200}
+ParentProcessId: 316
+ParentImage: C:\Users\John Williams\Downloads\Program28.exe
+ParentCommandLine: ""C:\Users\John Williams\Downloads\Program28.exe"" ""","\""C:\\Windows\\System32\\sdbinst.exe\"" /q \""C:\\Users\\John Williams\\AppData\\LocalLow\\hPb0FP3y.sdb\""",,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:48:19.455789600Z"",""eventRecordID"":""1989"",""processID"":""2260"",""threadID"":""3256"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-28 12:48:19.451\r\nProcessGuid: {df9fc3d3-b313-5ecf-0000-001014f01200}\r\nProcessId: 6188\r\nImage: C:\\Windows\\SysWOW64\\sdbinst.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Application Compatibility Database Installer\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: sdbinst.exe\r\nCommandLine: \""C:\\Windows\\System32\\sdbinst.exe\"" /q \""C:\\Users\\John Williams\\AppData\\LocalLow\\hPb0FP3y.sdb\""\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-b279-5ecf-0000-0020fd750300}\r\nLogonId: 0x375FD\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=90B941232094F8C281AE47F8C9C8C0CF,SHA256=1B0883DA2CC4C1959D3FE8F6DE63FF9AD85F7CF9B229879C6F54B734E2C5F14D,IMPHASH=DC04DAC563E65A0D0DAE0ACCC2AC61E2\r\nParentProcessGuid: {df9fc3d3-b313-5ecf-0000-001075e51200}\r\nParentProcessId: 316\r\nParentImage: C:\\Users\\John Williams\\Downloads\\Program28.exe\r\nParentCommandLine: \""C:\\Users\\John Williams\\Downloads\\Program28.exe\"" \""""},""eventdata"":{""utcTime"":""2020-05-28 12:48:19.451"",""processGuid"":""{df9fc3d3-b313-5ecf-0000-001014f01200}"",""processId"":""6188"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\sdbinst.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Application Compatibility Database Installer"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""sdbinst.exe"",""commandLine"":""\\\""C:\\\\Windows\\\\System32\\\\sdbinst.exe\\\"" /q \\\""C:\\\\Users\\\\John Williams\\\\AppData\\\\LocalLow\\\\hPb0FP3y.sdb\\\"""",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-b279-5ecf-0000-0020fd750300}"",""logonId"":""0x375fd"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=90B941232094F8C281AE47F8C9C8C0CF,SHA256=1B0883DA2CC4C1959D3FE8F6DE63FF9AD85F7CF9B229879C6F54B734E2C5F14D,IMPHASH=DC04DAC563E65A0D0DAE0ACCC2AC61E2"",""parentProcessGuid"":""{df9fc3d3-b313-5ecf-0000-001075e51200}"",""parentProcessId"":""316"",""parentImage"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\Program28.exe"",""parentCommandLine"":""\\\""C:\\\\Users\\\\John Williams\\\\Downloads\\\\Program28.exe\\\""""}}}",

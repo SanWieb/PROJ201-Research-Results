@@ -1,0 +1,42 @@
+timestamp,"rule.level","rule.description","data.win.system.message","data.win.eventdata.commandLine","data.win.eventdata.targetObject","full_log","data.win.eventdata.details"
+"May 31, 2020 @ 13:43:39.300",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_WEBOC_ENABLE_HTTP2' checksum changed.
+Old md5sum was: '19a84742b6b5ff086df143d980ae4afe'
+New md5sum is : '3d5dfdf70489c96988a67b733c998d33'
+Old sha1sum was: '059238efcadea262aecd701312fba26b753c1423'
+New sha1sum is : 'f73c7d8c6bd7817bd8c59b3473f67f03e39e5811'
+",
+"May 31, 2020 @ 13:43:38.165",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_MAXCONNECTIONSPERSERVER' checksum changed.
+Old md5sum was: 'd80d1f3cbf8f90f787a0b09282119947'
+New md5sum is : '66f9de40f01f43922ce290fd529be6f6'
+Old sha1sum was: '387915cc44190d01197354f7b600e1cd7ccffd55'
+New sha1sum is : '79b04ee91b68c25665eef548034ab27c28a642da'
+",
+"May 31, 2020 @ 13:30:17.547",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_USE_WINDOWEDSELECTCONTROL' checksum changed.
+Old md5sum was: '1c729912f87f9abbd1574176fc5996f7'
+New md5sum is : '370914f65a755a1cbfcf0c873b11feaa'
+Old sha1sum was: '1d2094dc263dc3db258f4421536e179cfbd9cfb0'
+New sha1sum is : 'ea4c2f8e1a1dc5de73a98dbadb5abff9297c9a4b'
+",
+"May 31, 2020 @ 13:27:54.122",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '4851a8fa9ed6c37f76f4ef6c0dd6d33e'
+New md5sum is : 'c12e8a73095bad27b1cc02a25306e36f'
+Old sha1sum was: '96ff488eeb3d9b9ede478b6e2d70a97d2cd5d937'
+New sha1sum is : 'a0ff409933dc115dae27ec11fce7bac75925010f'
+",
+"May 31, 2020 @ 13:27:54.108",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: 'd81f7e509f5c1a9330ce7886a815c11b'
+New md5sum is : '29446b14184e8caf0aea576ee321f0f4'
+Old sha1sum was: '032f00848ab7f2fe55a7b63edfa8c5598fbf5268'
+New sha1sum is : 'bb6ecadefeba5206120a42a61651b3ea7d9a4bb2'
+",
+"May 31, 2020 @ 13:26:24.850",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,,,,
+"May 31, 2020 @ 13:26:15.517",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",,,,
+"May 31, 2020 @ 13:21:18.146",10,"ATT&CK T1060: Autorun Keys Modification","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-28 12:56:35.494
+ProcessGuid: {df9fc3d3-b4fa-5ecf-0000-0010a9aa2d00}
+ProcessId: 2776
+Image: C:\Program Files (x86)\SogouSoftware\tmp\ExternalApp.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Run\SogouSoftwareAutoRun
+Details: C:\Program Files (x86)\SogouSoftware\SogouSoftware.exe /AutoRun""",,"HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\SogouSoftwareAutoRun","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:56:35.518723400Z"",""eventRecordID"":""2488"",""processID"":""2260"",""threadID"":""3256"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-28 12:56:35.494\r\nProcessGuid: {df9fc3d3-b4fa-5ecf-0000-0010a9aa2d00}\r\nProcessId: 2776\r\nImage: C:\\Program Files (x86)\\SogouSoftware\\tmp\\ExternalApp.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\SogouSoftwareAutoRun\r\nDetails: C:\\Program Files (x86)\\SogouSoftware\\SogouSoftware.exe /AutoRun\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-28 12:56:35.494"",""processGuid"":""{df9fc3d3-b4fa-5ecf-0000-0010a9aa2d00}"",""processId"":""2776"",""image"":""C:\\\\Program Files (x86)\\\\SogouSoftware\\\\tmp\\\\ExternalApp.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\SogouSoftwareAutoRun"",""details"":""C:\\\\Program Files (x86)\\\\SogouSoftware\\\\SogouSoftware.exe /AutoRun""}}}","C:\\Program Files (x86)\\SogouSoftware\\SogouSoftware.exe /AutoRun"

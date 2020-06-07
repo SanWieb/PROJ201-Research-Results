@@ -1,0 +1,163 @@
+timestamp,"rule.level","rule.description","data.win.system.message","data.win.eventdata.commandLine","data.win.eventdata.targetObject","full_log","data.win.eventdata.details"
+"May 31, 2020 @ 14:19:12.184",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: 'c12e8a73095bad27b1cc02a25306e36f'
+New md5sum is : '5002e9cbd059c227b20768b5773a5158'
+Old sha1sum was: 'a0ff409933dc115dae27ec11fce7bac75925010f'
+New sha1sum is : 'd451102b00da6ad0bf180b4f73a88db73c0000e8'
+",
+"May 31, 2020 @ 14:19:12.168",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '29446b14184e8caf0aea576ee321f0f4'
+New md5sum is : '4106a3aec9d1eebddfcfbf931654376c'
+Old sha1sum was: 'bb6ecadefeba5206120a42a61651b3ea7d9a4bb2'
+New sha1sum is : 'dbffbab9a0cf7bfda50a68d20d36c21299d2169d'
+",
+"May 31, 2020 @ 14:19:08.965",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_WEBOC_ENABLE_HTTP2' checksum changed.
+Old md5sum was: '3d5dfdf70489c96988a67b733c998d33'
+New md5sum is : '19a84742b6b5ff086df143d980ae4afe'
+Old sha1sum was: 'f73c7d8c6bd7817bd8c59b3473f67f03e39e5811'
+New sha1sum is : '059238efcadea262aecd701312fba26b753c1423'
+",
+"May 31, 2020 @ 14:19:08.512",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_MAXCONNECTIONSPERSERVER' checksum changed.
+Old md5sum was: '66f9de40f01f43922ce290fd529be6f6'
+New md5sum is : 'd80d1f3cbf8f90f787a0b09282119947'
+Old sha1sum was: '79b04ee91b68c25665eef548034ab27c28a642da'
+New sha1sum is : '387915cc44190d01197354f7b600e1cd7ccffd55'
+",
+"May 31, 2020 @ 14:17:45.787",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,,,,
+"May 31, 2020 @ 14:17:35.335",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",,,,
+"May 31, 2020 @ 14:16:55.046",9,"Windows Application error event",,,,,
+"May 31, 2020 @ 14:11:01.268",9,"Windows Application error event","""Faulting application name: LdBoxHeadless.exe, version: 5.2.30.30462, time stamp: 0x5d56672f
+Faulting module name: host_manager.dll, version: 0.0.0.0, time stamp: 0x5ebd172b
+Exception code: 0xc0000005
+Fault offset: 0x0000000000002847
+Faulting process id: 0x1f70
+Faulting application start time: 0x01d634eec8284a38
+Faulting application path: C:\Program Files\dnplayerext2\LdBoxHeadless.exe
+Faulting module path: C:\Program Files\dnplayerext2\host_manager.dll
+Report Id: 11531a4e-af43-4b76-a4d6-18b6a87534a2
+Faulting package full name: 
+Faulting package-relative application ID: """,,,,
+"May 31, 2020 @ 14:10:30.566",10,"ATT&CK T1060: Autorun Keys Modification","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-28 12:51:33.086
+ProcessGuid: {df9fc3d3-b396-5ecf-0000-00105c1f1d00}
+ProcessId: 7284
+Image: C:\ChangZhi\LDPlayer\LDPlayer.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Run\LDNews
+Details: C:\ChangZhi\LDPlayer\ldnews.exe""",,"HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\LDNews","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:51:33.226796500Z"",""eventRecordID"":""2675"",""processID"":""2260"",""threadID"":""3256"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-28 12:51:33.086\r\nProcessGuid: {df9fc3d3-b396-5ecf-0000-00105c1f1d00}\r\nProcessId: 7284\r\nImage: C:\\ChangZhi\\LDPlayer\\LDPlayer.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\LDNews\r\nDetails: C:\\ChangZhi\\LDPlayer\\ldnews.exe\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-28 12:51:33.086"",""processGuid"":""{df9fc3d3-b396-5ecf-0000-00105c1f1d00}"",""processId"":""7284"",""image"":""C:\\\\ChangZhi\\\\LDPlayer\\\\LDPlayer.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\LDNews"",""details"":""C:\\\\ChangZhi\\\\LDPlayer\\\\ldnews.exe""}}}","C:\\ChangZhi\\LDPlayer\\ldnews.exe"
+"May 31, 2020 @ 14:10:27.581",8,"ATT&CK T1050: New Service Creation","""Process Create:
+RuleName: 
+UtcTime: 2020-05-28 12:51:29.365
+ProcessGuid: {df9fc3d3-b3d1-5ecf-0000-001089542400}
+ProcessId: 7344
+Image: C:\Windows\SysWOW64\sc.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Service Control Manager Configuration Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: sc.exe
+CommandLine: ""C:\Windows\system32\sc"" create LdBoxDrv binPath= ""C:\Program Files\dnplayerext2\LdBoxDrv.sys"" type= kernel start= auto
+CurrentDirectory: C:\ChangZhi\LDPlayer\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}
+LogonId: 0x375CE
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=3A070609B1569EDEBABDC6466E8FA36C,SHA256=23E7F413DEB59EEC7F0769C44C35DD332E2C9838E79BC05EB3EE9D653269E614,IMPHASH=B037D0ADB81BF9CFC651DE01742089F1
+ParentProcessGuid: {df9fc3d3-b3c0-5ecf-0000-001099ea2200}
+ParentProcessId: 5136
+ParentImage: C:\ChangZhi\LDPlayer\dnrepairer.exe
+ParentCommandLine: ""C:\ChangZhi\LDPlayer\dnrepairer.exe"" listener=197560""","\""C:\\Windows\\system32\\sc\"" create LdBoxDrv binPath= \""C:\\Program Files\\dnplayerext2\\LdBoxDrv.sys\"" type= kernel start= auto",,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:51:29.406430900Z"",""eventRecordID"":""2655"",""processID"":""2260"",""threadID"":""3256"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-28 12:51:29.365\r\nProcessGuid: {df9fc3d3-b3d1-5ecf-0000-001089542400}\r\nProcessId: 7344\r\nImage: C:\\Windows\\SysWOW64\\sc.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Service Control Manager Configuration Tool\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: sc.exe\r\nCommandLine: \""C:\\Windows\\system32\\sc\"" create LdBoxDrv binPath= \""C:\\Program Files\\dnplayerext2\\LdBoxDrv.sys\"" type= kernel start= auto\r\nCurrentDirectory: C:\\ChangZhi\\LDPlayer\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}\r\nLogonId: 0x375CE\r\nTerminalSessionId: 1\r\nIntegrityLevel: High\r\nHashes: MD5=3A070609B1569EDEBABDC6466E8FA36C,SHA256=23E7F413DEB59EEC7F0769C44C35DD332E2C9838E79BC05EB3EE9D653269E614,IMPHASH=B037D0ADB81BF9CFC651DE01742089F1\r\nParentProcessGuid: {df9fc3d3-b3c0-5ecf-0000-001099ea2200}\r\nParentProcessId: 5136\r\nParentImage: C:\\ChangZhi\\LDPlayer\\dnrepairer.exe\r\nParentCommandLine: \""C:\\ChangZhi\\LDPlayer\\dnrepairer.exe\"" listener=197560\""""},""eventdata"":{""utcTime"":""2020-05-28 12:51:29.365"",""processGuid"":""{df9fc3d3-b3d1-5ecf-0000-001089542400}"",""processId"":""7344"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\sc.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Service Control Manager Configuration Tool"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""sc.exe"",""commandLine"":""\\\""C:\\\\Windows\\\\system32\\\\sc\\\"" create LdBoxDrv binPath= \\\""C:\\\\Program Files\\\\dnplayerext2\\\\LdBoxDrv.sys\\\"" type= kernel start= auto"",""currentDirectory"":""C:\\\\ChangZhi\\\\LDPlayer\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-b279-5ecf-0000-0020ce750300}"",""logonId"":""0x375ce"",""terminalSessionId"":""1"",""integrityLevel"":""High"",""hashes"":""MD5=3A070609B1569EDEBABDC6466E8FA36C,SHA256=23E7F413DEB59EEC7F0769C44C35DD332E2C9838E79BC05EB3EE9D653269E614,IMPHASH=B037D0ADB81BF9CFC651DE01742089F1"",""parentProcessGuid"":""{df9fc3d3-b3c0-5ecf-0000-001099ea2200}"",""parentProcessId"":""5136"",""parentImage"":""C:\\\\ChangZhi\\\\LDPlayer\\\\dnrepairer.exe"",""parentCommandLine"":""\\\""C:\\\\ChangZhi\\\\LDPlayer\\\\dnrepairer.exe\\\"" listener=197560""}}}",
+"May 31, 2020 @ 14:10:13.962",10,"ATT&CK T1222: File or Folder Permissions Modifications","""Process Create:
+RuleName: 
+UtcTime: 2020-05-28 12:51:14.671
+ProcessGuid: {df9fc3d3-b3c2-5ecf-0000-0010d7612300}
+ProcessId: 6724
+Image: C:\Windows\SysWOW64\icacls.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: 
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: iCACLS.EXE
+CommandLine: ""icacls"" ""C:\ChangZhi\LDPlayer\vms"" /grant everyone:F /t
+CurrentDirectory: C:\ChangZhi\LDPlayer\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}
+LogonId: 0x375CE
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=BD5694D5E2843F93882085800BF642BC,SHA256=9715995597D0AB2F3FF7E9A450D4EEE3F5B89D44150F8E1493541E18D76C3BB4,IMPHASH=019F88299D7F5E77F17221DA15112A43
+ParentProcessGuid: {df9fc3d3-b3c0-5ecf-0000-001099ea2200}
+ParentProcessId: 5136
+ParentImage: C:\ChangZhi\LDPlayer\dnrepairer.exe
+ParentCommandLine: ""C:\ChangZhi\LDPlayer\dnrepairer.exe"" listener=197560""","\""icacls\"" \""C:\\ChangZhi\\LDPlayer\\vms\"" /grant everyone:F /t",,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:51:14.709897300Z"",""eventRecordID"":""2406"",""processID"":""2260"",""threadID"":""3256"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-28 12:51:14.671\r\nProcessGuid: {df9fc3d3-b3c2-5ecf-0000-0010d7612300}\r\nProcessId: 6724\r\nImage: C:\\Windows\\SysWOW64\\icacls.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: \r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: iCACLS.EXE\r\nCommandLine: \""icacls\"" \""C:\\ChangZhi\\LDPlayer\\vms\"" /grant everyone:F /t\r\nCurrentDirectory: C:\\ChangZhi\\LDPlayer\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}\r\nLogonId: 0x375CE\r\nTerminalSessionId: 1\r\nIntegrityLevel: High\r\nHashes: MD5=BD5694D5E2843F93882085800BF642BC,SHA256=9715995597D0AB2F3FF7E9A450D4EEE3F5B89D44150F8E1493541E18D76C3BB4,IMPHASH=019F88299D7F5E77F17221DA15112A43\r\nParentProcessGuid: {df9fc3d3-b3c0-5ecf-0000-001099ea2200}\r\nParentProcessId: 5136\r\nParentImage: C:\\ChangZhi\\LDPlayer\\dnrepairer.exe\r\nParentCommandLine: \""C:\\ChangZhi\\LDPlayer\\dnrepairer.exe\"" listener=197560\""""},""eventdata"":{""utcTime"":""2020-05-28 12:51:14.671"",""processGuid"":""{df9fc3d3-b3c2-5ecf-0000-0010d7612300}"",""processId"":""6724"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\icacls.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""iCACLS.EXE"",""commandLine"":""\\\""icacls\\\"" \\\""C:\\\\ChangZhi\\\\LDPlayer\\\\vms\\\"" /grant everyone:F /t"",""currentDirectory"":""C:\\\\ChangZhi\\\\LDPlayer\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-b279-5ecf-0000-0020ce750300}"",""logonId"":""0x375ce"",""terminalSessionId"":""1"",""integrityLevel"":""High"",""hashes"":""MD5=BD5694D5E2843F93882085800BF642BC,SHA256=9715995597D0AB2F3FF7E9A450D4EEE3F5B89D44150F8E1493541E18D76C3BB4,IMPHASH=019F88299D7F5E77F17221DA15112A43"",""parentProcessGuid"":""{df9fc3d3-b3c0-5ecf-0000-001099ea2200}"",""parentProcessId"":""5136"",""parentImage"":""C:\\\\ChangZhi\\\\LDPlayer\\\\dnrepairer.exe"",""parentCommandLine"":""\\\""C:\\\\ChangZhi\\\\LDPlayer\\\\dnrepairer.exe\\\"" listener=197560""}}}",
+"May 31, 2020 @ 14:10:13.705",8,"ATT&CK T1035: Service Execution","""Process Create:
+RuleName: 
+UtcTime: 2020-05-28 12:51:13.820
+ProcessGuid: {df9fc3d3-b3c1-5ecf-0000-0010f9152300}
+ProcessId: 8100
+Image: C:\Windows\SysWOW64\net1.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net1.exe
+CommandLine: C:\Windows\system32\net1 start cryptsvc
+CurrentDirectory: C:\ChangZhi\LDPlayer\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}
+LogonId: 0x375CE
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18
+ParentProcessGuid: {df9fc3d3-b3c1-5ecf-0000-00102b092300}
+ParentProcessId: 8040
+ParentImage: C:\Windows\SysWOW64\net.exe
+ParentCommandLine: ""net"" start cryptsvc""","C:\\Windows\\system32\\net1 start cryptsvc",,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:51:13.825315900Z"",""eventRecordID"":""2393"",""processID"":""2260"",""threadID"":""3256"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-28 12:51:13.820\r\nProcessGuid: {df9fc3d3-b3c1-5ecf-0000-0010f9152300}\r\nProcessId: 8100\r\nImage: C:\\Windows\\SysWOW64\\net1.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Net Command\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: net1.exe\r\nCommandLine: C:\\Windows\\system32\\net1 start cryptsvc\r\nCurrentDirectory: C:\\ChangZhi\\LDPlayer\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}\r\nLogonId: 0x375CE\r\nTerminalSessionId: 1\r\nIntegrityLevel: High\r\nHashes: MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18\r\nParentProcessGuid: {df9fc3d3-b3c1-5ecf-0000-00102b092300}\r\nParentProcessId: 8040\r\nParentImage: C:\\Windows\\SysWOW64\\net.exe\r\nParentCommandLine: \""net\"" start cryptsvc\""""},""eventdata"":{""utcTime"":""2020-05-28 12:51:13.820"",""processGuid"":""{df9fc3d3-b3c1-5ecf-0000-0010f9152300}"",""processId"":""8100"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\net1.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Net Command"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""net1.exe"",""commandLine"":""C:\\\\Windows\\\\system32\\\\net1 start cryptsvc"",""currentDirectory"":""C:\\\\ChangZhi\\\\LDPlayer\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-b279-5ecf-0000-0020ce750300}"",""logonId"":""0x375ce"",""terminalSessionId"":""1"",""integrityLevel"":""High"",""hashes"":""MD5=DACD2D80B3942C3064B29BC0D0382EF3,SHA256=912FC9A2D5B52831C9C70643DEAB9726EC25C06E01AADE69FE844F4BA653AC7A,IMPHASH=F44A3CB56AC156111E03B2437FC54F18"",""parentProcessGuid"":""{df9fc3d3-b3c1-5ecf-0000-00102b092300}"",""parentProcessId"":""8040"",""parentImage"":""C:\\\\Windows\\\\SysWOW64\\\\net.exe"",""parentCommandLine"":""\\\""net\\\"" start cryptsvc""}}}",
+"May 31, 2020 @ 14:10:13.679",8,"ATT&CK T1035: Service Execution","""Process Create:
+RuleName: 
+UtcTime: 2020-05-28 12:51:13.698
+ProcessGuid: {df9fc3d3-b3c1-5ecf-0000-00102b092300}
+ProcessId: 8040
+Image: C:\Windows\SysWOW64\net.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net.exe
+CommandLine: ""net"" start cryptsvc
+CurrentDirectory: C:\ChangZhi\LDPlayer\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}
+LogonId: 0x375CE
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076
+ParentProcessGuid: {df9fc3d3-b3c0-5ecf-0000-001099ea2200}
+ParentProcessId: 5136
+ParentImage: C:\ChangZhi\LDPlayer\dnrepairer.exe
+ParentCommandLine: ""C:\ChangZhi\LDPlayer\dnrepairer.exe"" listener=197560""","\""net\"" start cryptsvc",,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:51:13.712761100Z"",""eventRecordID"":""2392"",""processID"":""2260"",""threadID"":""3256"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-28 12:51:13.698\r\nProcessGuid: {df9fc3d3-b3c1-5ecf-0000-00102b092300}\r\nProcessId: 8040\r\nImage: C:\\Windows\\SysWOW64\\net.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Net Command\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: net.exe\r\nCommandLine: \""net\"" start cryptsvc\r\nCurrentDirectory: C:\\ChangZhi\\LDPlayer\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}\r\nLogonId: 0x375CE\r\nTerminalSessionId: 1\r\nIntegrityLevel: High\r\nHashes: MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076\r\nParentProcessGuid: {df9fc3d3-b3c0-5ecf-0000-001099ea2200}\r\nParentProcessId: 5136\r\nParentImage: C:\\ChangZhi\\LDPlayer\\dnrepairer.exe\r\nParentCommandLine: \""C:\\ChangZhi\\LDPlayer\\dnrepairer.exe\"" listener=197560\""""},""eventdata"":{""utcTime"":""2020-05-28 12:51:13.698"",""processGuid"":""{df9fc3d3-b3c1-5ecf-0000-00102b092300}"",""processId"":""8040"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\net.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Net Command"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""net.exe"",""commandLine"":""\\\""net\\\"" start cryptsvc"",""currentDirectory"":""C:\\\\ChangZhi\\\\LDPlayer\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-b279-5ecf-0000-0020ce750300}"",""logonId"":""0x375ce"",""terminalSessionId"":""1"",""integrityLevel"":""High"",""hashes"":""MD5=2D09708A2B7FD7391E50A1A8E4915BD7,SHA256=A0D28F866A78EE1BFE0CF40A9713078856F9F39258AD34E5D6E6D9227BEB1F56,IMPHASH=AC592B83B5CAEB41A6F6DF7DB53F9076"",""parentProcessGuid"":""{df9fc3d3-b3c0-5ecf-0000-001099ea2200}"",""parentProcessId"":""5136"",""parentImage"":""C:\\\\ChangZhi\\\\LDPlayer\\\\dnrepairer.exe"",""parentCommandLine"":""\\\""C:\\\\ChangZhi\\\\LDPlayer\\\\dnrepairer.exe\\\"" listener=197560""}}}",
+"May 31, 2020 @ 14:09:33.173",8,"ATT&CK: Quick Execution of a Series of Suspicious Commands","""Process Create:
+RuleName: 
+UtcTime: 2020-05-28 12:50:35.812
+ProcessGuid: {df9fc3d3-b39b-5ecf-0000-001001d41d00}
+ProcessId: 7256
+Image: C:\Windows\SysWOW64\taskkill.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Terminates Processes
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskkill.exe
+CommandLine: ""C:\Windows\System32\taskkill.exe"" /F /IM LdBoxSVC.exe /T
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}
+LogonId: 0x375CE
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=07D18817187E87CFC6AB2A4670061AE0,SHA256=89D9BDF537EC43228448187779299AC347449361E067B0AD453BB54AD7EDB37E,IMPHASH=0D3E23DCB6BF63A9EB90D5BED57B4F89
+ParentProcessGuid: {df9fc3d3-b396-5ecf-0000-00105c1f1d00}
+ParentProcessId: 7284
+ParentImage: C:\ChangZhi\LDPlayer\LDPlayer.exe
+ParentCommandLine: ""C:\ChangZhi\LDPlayer\\LDPlayer.exe"" -silence -downloader -openid=100 -path=""C:\ChangZhi\LDPlayer\""""","\""C:\\Windows\\System32\\taskkill.exe\"" /F /IM LdBoxSVC.exe /T",,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:50:35.820996400Z"",""eventRecordID"":""2207"",""processID"":""2260"",""threadID"":""3256"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-28 12:50:35.812\r\nProcessGuid: {df9fc3d3-b39b-5ecf-0000-001001d41d00}\r\nProcessId: 7256\r\nImage: C:\\Windows\\SysWOW64\\taskkill.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Terminates Processes\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: taskkill.exe\r\nCommandLine: \""C:\\Windows\\System32\\taskkill.exe\"" /F /IM LdBoxSVC.exe /T\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-b279-5ecf-0000-0020ce750300}\r\nLogonId: 0x375CE\r\nTerminalSessionId: 1\r\nIntegrityLevel: High\r\nHashes: MD5=07D18817187E87CFC6AB2A4670061AE0,SHA256=89D9BDF537EC43228448187779299AC347449361E067B0AD453BB54AD7EDB37E,IMPHASH=0D3E23DCB6BF63A9EB90D5BED57B4F89\r\nParentProcessGuid: {df9fc3d3-b396-5ecf-0000-00105c1f1d00}\r\nParentProcessId: 7284\r\nParentImage: C:\\ChangZhi\\LDPlayer\\LDPlayer.exe\r\nParentCommandLine: \""C:\\ChangZhi\\LDPlayer\\\\LDPlayer.exe\"" -silence -downloader -openid=100 -path=\""C:\\ChangZhi\\LDPlayer\\\""\""""},""eventdata"":{""utcTime"":""2020-05-28 12:50:35.812"",""processGuid"":""{df9fc3d3-b39b-5ecf-0000-001001d41d00}"",""processId"":""7256"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\taskkill.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Terminates Processes"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""taskkill.exe"",""commandLine"":""\\\""C:\\\\Windows\\\\System32\\\\taskkill.exe\\\"" /F /IM LdBoxSVC.exe /T"",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-b279-5ecf-0000-0020ce750300}"",""logonId"":""0x375ce"",""terminalSessionId"":""1"",""integrityLevel"":""High"",""hashes"":""MD5=07D18817187E87CFC6AB2A4670061AE0,SHA256=89D9BDF537EC43228448187779299AC347449361E067B0AD453BB54AD7EDB37E,IMPHASH=0D3E23DCB6BF63A9EB90D5BED57B4F89"",""parentProcessGuid"":""{df9fc3d3-b396-5ecf-0000-00105c1f1d00}"",""parentProcessId"":""7284"",""parentImage"":""C:\\\\ChangZhi\\\\LDPlayer\\\\LDPlayer.exe"",""parentCommandLine"":""\\\""C:\\\\ChangZhi\\\\LDPlayer\\\\\\\\LDPlayer.exe\\\"" -silence -downloader -openid=100 -path=\\\""C:\\\\ChangZhi\\\\LDPlayer\\\\\\\""""}}}",

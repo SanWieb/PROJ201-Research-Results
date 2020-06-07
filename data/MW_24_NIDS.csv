@@ -1,0 +1,3 @@
+"@timestamp",message,"log.file.path"
+"May 29, 2020 @ 13:10:55.801","05/29-13:10:54.291134  [**] [1:2014819:1] ET INFO Packed Executable Download [**] [Classification: Misc activity] [Priority: 3] {TCP} 173.194.144.25:80 -> 172.16.2.2:49692","/var/log/snort/alert.fast"
+"May 29, 2020 @ 13:09:20.791","05/29-13:09:12.995986  [**] [1:2014819:1] ET INFO Packed Executable Download [**] [Classification: Misc activity] [Priority: 3] {TCP} 173.194.144.25:80 -> 172.16.2.2:50154","/var/log/snort/alert.fast"

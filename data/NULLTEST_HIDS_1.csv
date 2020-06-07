@@ -1,0 +1,297 @@
+timestamp,"rule.level","rule.description","full_log"
+"Apr 4, 2020 @ 13:51:18.516",5,"Windows System error event",
+"Apr 4, 2020 @ 13:51:13.876",4,"Summary event of the report's signatures",
+"Apr 4, 2020 @ 13:51:13.642",3,"Windows Logon Success",
+"Apr 4, 2020 @ 13:51:12.905",4,"Summary event of the report's signatures",
+"Apr 4, 2020 @ 13:51:01.485",3,"Windows Logon Success",
+"Apr 4, 2020 @ 13:49:37.551",3,"Service startup type was changed",
+"Apr 4, 2020 @ 13:48:30.727",7,"Integrity checksum changed.","File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '0dc86d77d124bb6b155bb549028af3b4'
+New md5sum is : 'e6e13d44f114cbf40651f4cc8c31ee88'
+Old sha1sum was: 'c722c6e745e275c7f0d1d2539e58c03fd22195fa'
+New sha1sum is : 'b000a4bb6e1de3be2e0ed0a9091fdbb1e48cfa38'
+"
+"Apr 4, 2020 @ 13:48:30.706",7,"Integrity checksum changed.","File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: 'abdaf1142070594f55c16de20de0ecca'
+New md5sum is : 'a69fb129b52ee626db8a1d5a59398641'
+Old sha1sum was: '7a54bab4683e307c96eebc64d5244ce6417b8b7c'
+New sha1sum is : '1e15b79fa9e39915b1a950ed62876ff0507a20c6'
+"
+"Apr 4, 2020 @ 13:48:25.019",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WpnUserService_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:48:25.004",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WpnUserService_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:48:17.957",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits' checksum changed.
+Old md5sum was: 'cf2fddc0383906c94bd746fc28f1c4d5'
+New md5sum is : 'dd94b5b765da707f26d26edcc0c09939'
+Old sha1sum was: '2eaa7a7dac68d00dc822e249c351150d025f34a1'
+New sha1sum is : '5ad085cb1feea21b232c593c0b65d6d7868a84ca'
+"
+"Apr 4, 2020 @ 13:48:17.950",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits\RunTime' checksum changed.
+Old md5sum was: 'd5462f300e2f617d362b4f3bb6d4ba99'
+New md5sum is : '83049ce66cb3eebccaaf947e88b50216'
+Old sha1sum was: '00a49d93f252e8a492de34d56cc2b2ba1662a192'
+New sha1sum is : '84a8be37dcc1db73b38ac549419cf4bff6e2fffc'
+"
+"Apr 4, 2020 @ 13:48:17.144",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\VSS\Diag\VolSnap' checksum changed.
+Old md5sum was: '25d0183d5c5629974b3c23282c14f09e'
+New md5sum is : 'c5c41205bdb5bf6d475b5f80037201df'
+Old sha1sum was: 'aeeefb5382709b3ffe72b88e68a1fc2869bdb3b8'
+New sha1sum is : 'a2e0c231538ae78712ab1a3a541fc605fc954f9b'
+"
+"Apr 4, 2020 @ 13:48:15.707",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Vid\Parameters\Wdf' checksum changed.
+Old md5sum was: 'f831bbb4b4e3aa71d36063136978431b'
+New md5sum is : '660c9a37dafe24ad7d156238c5a03fd6'
+Old sha1sum was: 'fb7819f8ec0c6d77e1fe97dbacc01e76e3e5be86'
+New sha1sum is : '43d141d31fb892a664f9b819e3cf8f0a06efe4f2'
+"
+"Apr 4, 2020 @ 13:48:15.456",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\vdrvroot\Parameters\Wdf' checksum changed.
+Old md5sum was: '07296bfe9f0bfcb49184a0b811972f99'
+New md5sum is : 'eb6a8bcd67bffa9b419dc7a52b2fd506'
+Old sha1sum was: '79ebd2b7c3546c7dddfff35ea466cc526594382b'
+New sha1sum is : '9b14e761efbe81fb7d015a2af2ad84bf1fc0cb62'
+"
+"Apr 4, 2020 @ 13:48:14.989",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\UserDataSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:48:14.957",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\UserDataSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:48:14.770",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\USBXHCI\Parameters\Wdf' checksum changed.
+Old md5sum was: 'e0538a3443440110bf3825bfec5e6075'
+New md5sum is : 'a7359e896dce9dc4f43f826010bc86bf'
+Old sha1sum was: 'e5f255d3aa180bfe02848c7ccd3f55a84325f55b'
+New sha1sum is : 'b929ab004e41c0318104eddaf81133774ae0f684'
+"
+"Apr 4, 2020 @ 13:48:14.566",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\USBHUB3\Parameters\Wdf' checksum changed.
+Old md5sum was: '6021abc3342bd637a1f3e58eadc384a5'
+New md5sum is : 'a5917583990985ca4870d8761fef7e73'
+Old sha1sum was: '74fbcbb06a5825a47e0950f3cb6ac1c03e265d00'
+New sha1sum is : 'fdf7fc3b1602a08d1d28cb92fd747fd90ad6ca9b'
+"
+"Apr 4, 2020 @ 13:48:14.144",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\UnistoreSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:48:14.113",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\UnistoreSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:48:13.504",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\umbus\Parameters\Wdf' checksum changed.
+Old md5sum was: 'f831bbb4b4e3aa71d36063136978431b'
+New md5sum is : '660c9a37dafe24ad7d156238c5a03fd6'
+Old sha1sum was: 'fb7819f8ec0c6d77e1fe97dbacc01e76e3e5be86'
+New sha1sum is : '43d141d31fb892a664f9b819e3cf8f0a06efe4f2'
+"
+"Apr 4, 2020 @ 13:48:11.472",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{10cb9356-9dd8-4d03-959f-611e879a11a6}' checksum changed.
+Old md5sum was: '1ff9d2bcd158e032084b85e368bbbc93'
+New md5sum is : 'c4a30b975b2c0786f6f63a3650f75cdc'
+Old sha1sum was: '654be9998073db5fb7eb1b02ce093e6875191b0a'
+New sha1sum is : 'f72f7e82670f1f5b204bdea42f03eaf88a1be25a'
+"
+"Apr 4, 2020 @ 13:48:04.316",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\RestrictedServices\AppIso\FirewallRules' checksum changed.
+Old md5sum was: '59c3dc20f6ca7bf5d3e4497b0fbb523a'
+New md5sum is : 'd40daa86f02d44c2784d12f3fcc3ba70'
+Old sha1sum was: '21fd5eb9f4366c737be868e4d053798ae111f329'
+New sha1sum is : 'e7f83fee3e29992230a88e8c874f2286d848ca41'
+"
+"Apr 4, 2020 @ 13:48:03.895",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\FirewallRules' checksum changed.
+Old md5sum was: 'd4e36f3a15fd44265b8465f9557ea88d'
+New md5sum is : '3b8f384faddd1b2b278532e07f4eba7c'
+Old sha1sum was: '452ac62117c54d53212a78a079263bb0875839f1'
+New sha1sum is : '4fc48b1760cc5d5d048ac83bfe6b5f988ee917b5'
+"
+"Apr 4, 2020 @ 13:48:03.832",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Epoch' checksum changed.
+Old md5sum was: 'b53bf2f3f61682c350be645945192116'
+New md5sum is : 'd986956d161956f4b141437fa08b93c0'
+Old sha1sum was: 'b5f04a7f7762c384b95b4d56b16e28e5cc863241'
+New sha1sum is : '5233ab213dffc9768aad8b2621a3d7286c52d461'
+"
+"Apr 4, 2020 @ 13:48:03.191",3,"Software Protection service scheduled successfully",
+"Apr 4, 2020 @ 13:47:57.178",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\PrintWorkflowUserSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:57.158",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\PrintWorkflowUserSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:56.582",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\PimIndexMaintenanceSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:56.566",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\PimIndexMaintenanceSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:54.801",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\OneSyncSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:54.786",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\OneSyncSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:52.426",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\NdisVirtualBus\Parameters\Wdf' checksum changed.
+Old md5sum was: 'a34f50b409ff791b8ca73db3b1ca0733'
+New md5sum is : '2beea24891ee67800c0545caeb2000c6'
+Old sha1sum was: 'ef5248efe24d4437def466d2cef3295c26f57ead'
+New sha1sum is : '0de58e5e9b71059260e9c9fb37cd996f349c7bd0'
+"
+"Apr 4, 2020 @ 13:47:51.051",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\mssmbios\Data' checksum changed.
+Old md5sum was: '1e6e38e0129cb1178036ce2d2de63896'
+New md5sum is : '56e9f0a7add3da7f007b812f71fed075'
+Old sha1sum was: 'c69f3fa6abcfb59085cdd1e6fe3925b88bf1eb8a'
+New sha1sum is : 'e34bbe63c9ca7e70f4e38fca2b5911ca2863966f'
+"
+"Apr 4, 2020 @ 13:47:50.707",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\msisadrv\Parameters\Wdf' checksum changed.
+Old md5sum was: '9899f0d851a544118a1df10180c84633'
+New md5sum is : '02ce0e33acbb815a7da890475fdcdf10'
+Old sha1sum was: '495d124fb9a33489fca070669c53f629787f537f'
+New sha1sum is : '67728c73dace4ee9f2461f6f5d1cda14f5a9b9d2'
+"
+"Apr 4, 2020 @ 13:47:49.583",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\monitor\Parameters\Wdf' checksum changed.
+Old md5sum was: '59b12546060e1abacf07181ecdab1088'
+New md5sum is : '6f1747e10ba929b2c471cd607bd70111'
+Old sha1sum was: 'd4b00ea9b57b4fa8d52f007174e8a4fa9c806927'
+New sha1sum is : 'd81ed24b00b17432aecc17d9fa68b788a2264d11'
+"
+"Apr 4, 2020 @ 13:47:49.388",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\MessagingService_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:49.373",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\MessagingService_29d4d\TriggerInfo\0' was added.
+"
+"Apr 4, 2020 @ 13:47:49.347",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\MessagingService_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:41.941",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanmanServer\Parameters' checksum changed.
+Old md5sum was: 'ae2d280bcb1d70c8d8c9440f99e7346f'
+New md5sum is : '476d7df2b152a9b2d97a5f0924d0244d'
+Old sha1sum was: '5e5d8fc3198d01bfeb0b40c7b5b2377aa397ca0b'
+New sha1sum is : 'c17a17f15fbb04638a03ca4ea386c67f34deac53'
+"
+"Apr 4, 2020 @ 13:47:40.566",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\intelppm\Parameters\Wdf' checksum changed.
+Old md5sum was: 'a34f50b409ff791b8ca73db3b1ca0733'
+New md5sum is : '2beea24891ee67800c0545caeb2000c6'
+Old sha1sum was: 'ef5248efe24d4437def466d2cef3295c26f57ead'
+New sha1sum is : '0de58e5e9b71059260e9c9fb37cd996f349c7bd0'
+"
+"Apr 4, 2020 @ 13:47:38.004",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\HDAudBus\Parameters\Wdf' checksum changed.
+Old md5sum was: 'e539e5588ade4fc950140b672a9b4a8e'
+New md5sum is : 'c275c91ca37799a2aa9ac60794b8f614'
+Old sha1sum was: '5aff67900ed86033e13fa95ee5d8cddc4bf716f6'
+New sha1sum is : '27e1f817f3fc20b0a749b234646a654859adc1ac'
+"
+"Apr 4, 2020 @ 13:47:37.395",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\gencounter\Parameters\Wdf' checksum changed.
+Old md5sum was: 'a34f50b409ff791b8ca73db3b1ca0733'
+New md5sum is : '2beea24891ee67800c0545caeb2000c6'
+Old sha1sum was: 'ef5248efe24d4437def466d2cef3295c26f57ead'
+New sha1sum is : '0de58e5e9b71059260e9c9fb37cd996f349c7bd0'
+"
+"Apr 4, 2020 @ 13:47:34.036",3,"Windows Logon Success",
+"Apr 4, 2020 @ 13:47:28.770",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\State' checksum changed.
+Old md5sum was: 'e8b3d7e25b8fb5dd2b186e056006ffd4'
+New md5sum is : '7240a18caf04121b74478e7da7e0eddf'
+Old sha1sum was: 'b321fb7cfcf165737c087395491ecb8c386e9010'
+New sha1sum is : 'de75c9a9e7459b4a609c6d023194a2488b0674b2'
+"
+"Apr 4, 2020 @ 13:47:21.504",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DsmSvc\State' checksum changed.
+Old md5sum was: '63455c20cde548e288f8dba9a00dd33b'
+New md5sum is : '760a4bada178d4343aea42eba0843c6c'
+Old sha1sum was: '28420a387fa959459932089a9494e96fcc914797'
+New sha1sum is : '52d66aacb149b05f27bc68ebecd67c04e65c70a2'
+"
+"Apr 4, 2020 @ 13:47:20.707",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Dnscache\Parameters\Probe\{a957488a-bcc3-4136-8332-2c86058caa77}' checksum changed.
+Old md5sum was: '5d59f40e382b0bd5741c31b20dc9877d'
+New md5sum is : 'f4721c75c25d3019e13727c4564e8b2f'
+Old sha1sum was: '35a4b6689f4c1e64b1097375ed53f30de17c00da'
+New sha1sum is : 'a084eccb913b5a0a6c991c6e9802c2585257376e'
+"
+"Apr 4, 2020 @ 13:47:19.239",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DevicesFlowUserSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:19.223",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DevicesFlowUserSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:19.161",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DevicePickerUserSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:19.145",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DevicePickerUserSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:18.926",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DeviceAssociationBrokerSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:18.897",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DeviceAssociationBrokerSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:18.286",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CredentialEnrollmentManagerUserSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:18.271",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CredentialEnrollmentManagerUserSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:18.122",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\ConsentUxUserSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:18.113",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\ConsentUxUserSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:17.910",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CompositeBus\Parameters\Wdf' checksum changed.
+Old md5sum was: 'f831bbb4b4e3aa71d36063136978431b'
+New md5sum is : '660c9a37dafe24ad7d156238c5a03fd6'
+Old sha1sum was: 'fb7819f8ec0c6d77e1fe97dbacc01e76e3e5be86'
+New sha1sum is : '43d141d31fb892a664f9b819e3cf8f0a06efe4f2'
+"
+"Apr 4, 2020 @ 13:47:16.645",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CDPUserSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:16.629",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CDPUserSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:16.488",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\cbdhsvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:16.473",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\cbdhsvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:16.404",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CaptureService_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:16.380",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CaptureService_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:13.478",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:13.456",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_29d4d\TriggerInfo\4' was added.
+"
+"Apr 4, 2020 @ 13:47:13.421",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_29d4d\TriggerInfo\3' was added.
+"
+"Apr 4, 2020 @ 13:47:13.401",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_29d4d\TriggerInfo\2' was added.
+"
+"Apr 4, 2020 @ 13:47:13.380",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_29d4d\TriggerInfo\1' was added.
+"
+"Apr 4, 2020 @ 13:47:13.357",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_29d4d\TriggerInfo\0' was added.
+"
+"Apr 4, 2020 @ 13:47:13.341",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:12.348",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BcastDVRUserService_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:12.334",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BcastDVRUserService_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:12.051",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-90-0-1' checksum changed.
+Old md5sum was: '0fbd85d390c648f73d243e459fc4c439'
+New md5sum is : '6f34b4bb3938c2ff6084d0e75b760f95'
+Old sha1sum was: '4cfcff84f3698f6a858f7a5799d31fc7d81426df'
+New sha1sum is : 'dfbd33c8174b1de1278046c9f798a3f5ae1bb7f9'
+"
+"Apr 4, 2020 @ 13:47:12.031",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: 'd27ed1a432d89e8be52f17c1744a38bc'
+New md5sum is : 'fb459385be06365d0ed41734e9b9fe7d'
+Old sha1sum was: 'f5193efad00e671e9802d94baecb86989890a7f3'
+New sha1sum is : '68b8a07ed62540dbd0dbecfd90235f9da9159a35'
+"
+"Apr 4, 2020 @ 13:47:11.989",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-18' checksum changed.
+Old md5sum was: '96524085ad01638d29a94ea6811680f0'
+New md5sum is : '2ffb7d4daf513b355e485a82a1be52f5'
+Old sha1sum was: 'd60d212b81c6fa16646c5fc9724e1eb7edba2639'
+New sha1sum is : '45208235c4ca115bed4ae945dc532b5ccfbcafd1'
+"
+"Apr 4, 2020 @ 13:47:09.348",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\AarSvc_29d4d' was added.
+"
+"Apr 4, 2020 @ 13:47:09.333",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\AarSvc_29d4d\Security' was added.
+"
+"Apr 4, 2020 @ 13:47:02.473",3,"Windows Logon Success",
+"Apr 4, 2020 @ 13:46:26.083",3,"Windows User Logoff",
+"Apr 4, 2020 @ 13:46:26.067",3,"Windows User Logoff",
+"Apr 4, 2020 @ 13:46:26.022",3,"Windows Workstation Logon Success",
+"Apr 4, 2020 @ 13:46:25.990",3,"Windows Workstation Logon Success",
+"Apr 4, 2020 @ 13:46:24.781",3,"Software Protection service scheduled successfully",
+"Apr 4, 2020 @ 13:45:56.068",3,"Windows Logon Success",
+"Apr 4, 2020 @ 13:45:56.037",5,"License Activation (slui.exe) failed",
+"Apr 4, 2020 @ 13:45:53.396",5,"License Activation (slui.exe) failed",
+"Apr 4, 2020 @ 13:45:39.458",3,"The Windows Search Service started",
+"Apr 4, 2020 @ 13:45:39.443",3,"The database engine attached a database",
+"Apr 4, 2020 @ 13:45:39.297",3,"The database engine has completed recovery steps",
+"Apr 4, 2020 @ 13:45:39.147",3,"The database engine is replaying log file C:\Winnt\system32\wins\j50.log",
+"Apr 4, 2020 @ 13:45:39.127",9,"Windows Application error event",
+"Apr 4, 2020 @ 13:45:39.085",9,"Windows Application error event",
+"Apr 4, 2020 @ 13:45:39.045",9,"Windows Application error event",
+"Apr 4, 2020 @ 13:45:38.999",3,"Windows Logon Success",
+"Apr 4, 2020 @ 13:45:38.945",3,"Windows Logon Success",
+"Apr 4, 2020 @ 13:45:38.836",3,"The database engine is initiating recovery steps",
+"Apr 4, 2020 @ 13:45:38.751",3,"The database engine is starting a new instance",
+"Apr 4, 2020 @ 13:45:35.465",5,"SessionEnv was unavailable to handle a notification event",
+"Apr 4, 2020 @ 13:45:34.713",3,"Windows Workstation Logon Success",
+"Apr 4, 2020 @ 13:45:34.700",3,"Windows Workstation Logon Success",
+"Apr 4, 2020 @ 13:45:34.593",3,"Windows Logon Success",
+"Apr 4, 2020 @ 13:45:34.436",7,"SessionEnv was unavailable to handle a critical notification event",
+"Apr 4, 2020 @ 13:45:32.280",3,"Ossec agent started.","ossec: Agent started: 'windows-10->any'."
+"Apr 4, 2020 @ 13:44:52.877",5,"SessionEnv was unavailable to handle a notification event",
+"Apr 4, 2020 @ 13:44:52.720",5,"WSearch was unavailable to handle a notification event",
+"Apr 4, 2020 @ 13:43:51.842",3,"Windows Logon Success",
+"Apr 4, 2020 @ 13:43:47.587",3,"Service startup type was changed",

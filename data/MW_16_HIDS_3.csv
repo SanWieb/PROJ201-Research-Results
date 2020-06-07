@@ -1,0 +1,104 @@
+timestamp,"rule.level","rule.description","data.win.system.message","full_log","data.win.eventdata.commandLine"
+"May 22, 2020 @ 18:10:22.596",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer' checksum changed.
+Old md5sum was: '497a8c7081c737f07c267a30b1538ff9'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: '58d9cdbd07af978efc5e91b8e7a66696280d3b1e'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+",
+"May 22, 2020 @ 18:10:22.578",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility' checksum changed.
+Old md5sum was: '44a185f2e5e0fa09edbcbe3e598fe4da'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: 'f7a3cf6aa04ebaeee3c4525064299cb2136e4f06'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+",
+"May 22, 2020 @ 18:08:20.358",7,"Integrity checksum changed.",,"File 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run' checksum changed.
+Old md5sum was: '6491bfbb48f449e8ef2da21bf4925908'
+New md5sum is : '1ae3d45e84e2dee7bf279de1d9e7f413'
+Old sha1sum was: 'a659aa851c1408487eefa829ad359673b7fb1288'
+New sha1sum is : '76a0027224f9d4db6c051bd06678d613cdb05856'
+",
+"May 22, 2020 @ 18:07:09.728",7,"Integrity checksum changed.",,"File 'HKEY_LOCAL_MACHINE\Security\Policy\PolAdtEv' checksum changed.
+Old md5sum was: '9d15aff4d26f802c3c4d3d74a00d8d4d'
+New md5sum is : 'b40de87500ee3eed90c2ce3ce8c7946f'
+Old sha1sum was: '11f3afa3902d0fadfcc52e4c051995f536c7d4e2'
+New sha1sum is : '2f6e6dd0efd148b1c11d33c91e9cea4a97a84792'
+",
+"May 22, 2020 @ 18:06:14.882",15,"ATT&CK T1204: Maze Ransomware","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:19:22.077
+ProcessGuid: {df9fc3d3-d15a-5ec7-0000-0010e7fc1800}
+ProcessId: 6932
+Image: C:\Windows\SysWOW64\wbem\WMIC.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: WMI Commandline Utility
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: wmic.exe
+CommandLine: ""C:\Windows\System32\wbem\WMIC.exe"" SHADOWCOPY DELETE
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-0020df010300}
+LogonId: 0x301DF
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=F86F3CA37E51F7A6BD352C3A0471ED1E,SHA256=A6ACB58967159648C84D67B06DC6511A9A831386742B4F1F96B0A19AFC8B8037,IMPHASH=C5BFFECCAB78B6F4FD77B28F6F297D84
+ParentProcessGuid: {df9fc3d3-d152-5ec7-0000-0010dcc91700}
+ParentProcessId: 7132
+ParentImage: C:\Users\JOHNWI~1\AppData\Local\Temp\svcawa.exe
+ParentCommandLine: ""C:\Users\JOHNWI~1\AppData\Local\Temp\svcawa.exe"" ""runas""""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:22.099292900Z"",""eventRecordID"":""958"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:19:22.077\r\nProcessGuid: {df9fc3d3-d15a-5ec7-0000-0010e7fc1800}\r\nProcessId: 6932\r\nImage: C:\\Windows\\SysWOW64\\wbem\\WMIC.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: WMI Commandline Utility\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: wmic.exe\r\nCommandLine: \""C:\\Windows\\System32\\wbem\\WMIC.exe\"" SHADOWCOPY DELETE\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-0020df010300}\r\nLogonId: 0x301DF\r\nTerminalSessionId: 1\r\nIntegrityLevel: High\r\nHashes: MD5=F86F3CA37E51F7A6BD352C3A0471ED1E,SHA256=A6ACB58967159648C84D67B06DC6511A9A831386742B4F1F96B0A19AFC8B8037,IMPHASH=C5BFFECCAB78B6F4FD77B28F6F297D84\r\nParentProcessGuid: {df9fc3d3-d152-5ec7-0000-0010dcc91700}\r\nParentProcessId: 7132\r\nParentImage: C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\svcawa.exe\r\nParentCommandLine: \""C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\svcawa.exe\"" \""runas\""\""""},""eventdata"":{""utcTime"":""2020-05-22 13:19:22.077"",""processGuid"":""{df9fc3d3-d15a-5ec7-0000-0010e7fc1800}"",""processId"":""6932"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\wbem\\\\WMIC.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""WMI Commandline Utility"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""wmic.exe"",""commandLine"":""\\\""C:\\\\Windows\\\\System32\\\\wbem\\\\WMIC.exe\\\"" SHADOWCOPY DELETE"",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-0020df010300}"",""logonId"":""0x301df"",""terminalSessionId"":""1"",""integrityLevel"":""High"",""hashes"":""MD5=F86F3CA37E51F7A6BD352C3A0471ED1E,SHA256=A6ACB58967159648C84D67B06DC6511A9A831386742B4F1F96B0A19AFC8B8037,IMPHASH=C5BFFECCAB78B6F4FD77B28F6F297D84"",""parentProcessGuid"":""{df9fc3d3-d152-5ec7-0000-0010dcc91700}"",""parentProcessId"":""7132"",""parentImage"":""C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\svcawa.exe"",""parentCommandLine"":""\\\""C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\svcawa.exe\\\"" \\\""runas\\\""""}}}","\""C:\\Windows\\System32\\wbem\\WMIC.exe\"" SHADOWCOPY DELETE"
+"May 22, 2020 @ 18:06:14.295",14,"ATT&CK T1060: New RUN Key Pointing to Suspicious Folder","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-22 13:19:19.887
+ProcessGuid: {df9fc3d3-d152-5ec7-0000-0010dcc91700}
+ProcessId: 7132
+Image: C:\Users\JOHNWI~1\AppData\Local\Temp\svcawa.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Run\76F2C2FB-2630A877
+Details: C:\Users\JOHNWI~1\AppData\Local\Temp\svcawa.exe""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:19.894655700Z"",""eventRecordID"":""955"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-22 13:19:19.887\r\nProcessGuid: {df9fc3d3-d152-5ec7-0000-0010dcc91700}\r\nProcessId: 7132\r\nImage: C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\svcawa.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\76F2C2FB-2630A877\r\nDetails: C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\svcawa.exe\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-22 13:19:19.887"",""processGuid"":""{df9fc3d3-d152-5ec7-0000-0010dcc91700}"",""processId"":""7132"",""image"":""C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\svcawa.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\76F2C2FB-2630A877"",""details"":""C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\svcawa.exe""}}}",
+"May 22, 2020 @ 18:06:02.162",14,"ATT&CK T1060: New RUN Key Pointing to Suspicious Folder","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-22 13:19:09.038
+ProcessGuid: {df9fc3d3-d147-5ec7-0000-00100b611500}
+ProcessId: 3980
+Image: C:\Users\JOHNWI~1\AppData\Local\Temp\svcawa.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Run\76F2C2FB-2630A877
+Details: C:\Users\JOHNWI~1\AppData\Local\Temp\svcawa.exe""","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:19:09.046721100Z"",""eventRecordID"":""940"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-22 13:19:09.038\r\nProcessGuid: {df9fc3d3-d147-5ec7-0000-00100b611500}\r\nProcessId: 3980\r\nImage: C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\svcawa.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\76F2C2FB-2630A877\r\nDetails: C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\svcawa.exe\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-22 13:19:09.038"",""processGuid"":""{df9fc3d3-d147-5ec7-0000-00100b611500}"",""processId"":""3980"",""image"":""C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\svcawa.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\76F2C2FB-2630A877"",""details"":""C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\svcawa.exe""}}}",
+"May 22, 2020 @ 18:05:52.647",8,"Windows Audit Policy changed","""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		Handle Manipulation
+	Subcategory GUID:	{0cce9223-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added""",,
+"May 22, 2020 @ 18:05:52.584",8,"Windows Audit Policy changed","""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		File System
+	Subcategory GUID:	{0cce921d-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added""",,
+"May 22, 2020 @ 18:05:43.475",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '32d67903586d935a6926ee021a657f19'
+New md5sum is : '496e80acc19637c8daf8c286b6ea10f0'
+Old sha1sum was: '1ad1aa9999e1eafd661aa0303b51307310f5088f'
+New sha1sum is : '88ef9e17f6f18f6242bf8a46b383b017d42012b9'
+",
+"May 22, 2020 @ 18:05:43.460",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '8999bd4a5ea0eeed0dd920d7e30ffee2'
+New md5sum is : '89598d32459256342f73e9b832b618dc'
+Old sha1sum was: 'a08f01e683a5864c95f899a000531cacef39c721'
+New sha1sum is : '68aacf23a86d664018607a7fc5d1379269af8643'
+",

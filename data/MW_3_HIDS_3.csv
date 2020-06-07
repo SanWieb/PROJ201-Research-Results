@@ -1,0 +1,21 @@
+timestamp,"rule.level","rule.description","data.win.system.message","full_log","data.win.eventdata.commandLine"
+"May 22, 2020 @ 16:34:41.021",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '496e80acc19637c8daf8c286b6ea10f0'
+New md5sum is : 'a18eb7d2d71c498e6c68f4d4ae0641c7'
+Old sha1sum was: '88ef9e17f6f18f6242bf8a46b383b017d42012b9'
+New sha1sum is : '4458c74e5e5b43abcaa686c52ebb00d5149c3406'
+",
+"May 22, 2020 @ 16:34:41.006",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '89598d32459256342f73e9b832b618dc'
+New md5sum is : '2dff0dec78c8ef123f08b1e2d23e5734'
+Old sha1sum was: '68aacf23a86d664018607a7fc5d1379269af8643'
+New sha1sum is : 'd900f31683f204db3e8408c6a0391eed28337ae9'
+",
+"May 22, 2020 @ 16:33:13.411",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,,
+"May 22, 2020 @ 16:33:04.030",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",,
+"May 22, 2020 @ 16:28:47.269",7,"Integrity checksum changed.",,"File 'HKEY_LOCAL_MACHINE\Security\Policy\PolAdtEv' checksum changed.
+Old md5sum was: '9d15aff4d26f802c3c4d3d74a00d8d4d'
+New md5sum is : 'b40de87500ee3eed90c2ce3ce8c7946f'
+Old sha1sum was: '11f3afa3902d0fadfcc52e4c051995f536c7d4e2'
+New sha1sum is : '2f6e6dd0efd148b1c11d33c91e9cea4a97a84792'
+",

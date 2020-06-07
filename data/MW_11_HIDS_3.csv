@@ -1,0 +1,49 @@
+timestamp,"rule.level","rule.description","data.win.system.message","data.win.eventdata.commandLine","data.win.eventdata.targetObject","full_log","data.win.eventdata.details"
+"May 28, 2020 @ 13:22:12.959",10,"Multiple Windows error events","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\NETWORK SERVICE; ClientProcessId = 5600; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : SELECT Manufacturer, Product FROM Win32_BaseBoard; ResultCode = 0x80041032; PossibleCause = Unknown""",,,,
+"May 28, 2020 @ 13:21:49.944",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '27300ec6be2cfda4d500eefcbc4b10bb'
+New md5sum is : '493b3b79baa4e287a340e5208a74d0bf'
+Old sha1sum was: '685578e969396191bfb7c8bee92758a0267d52d6'
+New sha1sum is : 'a1a3c1396dd3e1aab1a289c3e05d7742f33dd7a3'
+",
+"May 28, 2020 @ 13:21:49.929",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '7b36002bf72275589ffef5f6fc1a89c6'
+New md5sum is : '31795626566594565f825d3dd21c4a1b'
+Old sha1sum was: 'a2d59c332c46bedea96282e398f570f4032d8d5b'
+New sha1sum is : '37c1e2f897e63b8f8da74b8417d2353b2fb9c0b3'
+",
+"May 28, 2020 @ 13:20:24.537",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,,,,
+"May 28, 2020 @ 13:20:15.707",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",,,,
+"May 28, 2020 @ 13:16:08.252",10,"ATT&CK T1060: Autorun Keys Modification","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-28 12:50:22.647
+ProcessGuid: {df9fc3d3-b38e-5ecf-0000-001084d02200}
+ProcessId: 5724
+Image: C:\Windows\SysWOW64\reg.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Run\RESTART_STICKY_NOTESS
+Details: C:\Users\JOHNWI~1\AppData\Local\Temp\StikyNote.exe""",,"HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\RESTART_STICKY_NOTESS","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:50:22.648944600Z"",""eventRecordID"":""2033"",""processID"":""2260"",""threadID"":""3256"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-28 12:50:22.647\r\nProcessGuid: {df9fc3d3-b38e-5ecf-0000-001084d02200}\r\nProcessId: 5724\r\nImage: C:\\Windows\\SysWOW64\\reg.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\RESTART_STICKY_NOTESS\r\nDetails: C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\StikyNote.exe\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-28 12:50:22.647"",""processGuid"":""{df9fc3d3-b38e-5ecf-0000-001084d02200}"",""processId"":""5724"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\reg.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\\\\RESTART_STICKY_NOTESS"",""details"":""C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\StikyNote.exe""}}}","C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\StikyNote.exe"
+"May 28, 2020 @ 13:16:08.220",10,"ATT&CK T1060: Direct Autorun Keys Modification","""Process Create:
+RuleName: 
+UtcTime: 2020-05-28 12:50:22.635
+ProcessGuid: {df9fc3d3-b38e-5ecf-0000-001084d02200}
+ProcessId: 5724
+Image: C:\Windows\SysWOW64\reg.exe
+FileVersion: 10.0.18362.476 (WinBuild.160101.0800)
+Description: Registry Console Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: reg.exe
+CommandLine: REG  ADD HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v RESTART_STICKY_NOTESS /f /t  REG_SZ /d ""C:\Users\JOHNWI~1\AppData\Local\Temp\StikyNote.exe""
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-b279-5ecf-0000-0020fd750300}
+LogonId: 0x375FD
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=A01B3DFF957379E7632891A7992319CE,SHA256=45EFF48450C110B8A6D2A4C0FE31323423851298F6DADF32D73DF91DF7ECB797,IMPHASH=869B9FF91668F96EF68FBE0DB3602587
+ParentProcessGuid: {df9fc3d3-b38e-5ecf-0000-0010e3ca2200}
+ParentProcessId: 4776
+ParentImage: C:\Windows\SysWOW64\cmd.exe
+ParentCommandLine: ""C:\Windows\System32\cmd.exe"" /c REG ADD HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v RESTART_STICKY_NOTESS /f /t  REG_SZ /d ""C:\Users\JOHNWI~1\AppData\Local\Temp\StikyNote.exe""""","REG  ADD HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run /v RESTART_STICKY_NOTESS /f /t  REG_SZ /d \""C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\StikyNote.exe\""",,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:50:22.639126700Z"",""eventRecordID"":""2032"",""processID"":""2260"",""threadID"":""3256"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-28 12:50:22.635\r\nProcessGuid: {df9fc3d3-b38e-5ecf-0000-001084d02200}\r\nProcessId: 5724\r\nImage: C:\\Windows\\SysWOW64\\reg.exe\r\nFileVersion: 10.0.18362.476 (WinBuild.160101.0800)\r\nDescription: Registry Console Tool\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: reg.exe\r\nCommandLine: REG  ADD HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run /v RESTART_STICKY_NOTESS /f /t  REG_SZ /d \""C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\StikyNote.exe\""\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-b279-5ecf-0000-0020fd750300}\r\nLogonId: 0x375FD\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=A01B3DFF957379E7632891A7992319CE,SHA256=45EFF48450C110B8A6D2A4C0FE31323423851298F6DADF32D73DF91DF7ECB797,IMPHASH=869B9FF91668F96EF68FBE0DB3602587\r\nParentProcessGuid: {df9fc3d3-b38e-5ecf-0000-0010e3ca2200}\r\nParentProcessId: 4776\r\nParentImage: C:\\Windows\\SysWOW64\\cmd.exe\r\nParentCommandLine: \""C:\\Windows\\System32\\cmd.exe\"" /c REG ADD HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run /v RESTART_STICKY_NOTESS /f /t  REG_SZ /d \""C:\\Users\\JOHNWI~1\\AppData\\Local\\Temp\\StikyNote.exe\""\""""},""eventdata"":{""utcTime"":""2020-05-28 12:50:22.635"",""processGuid"":""{df9fc3d3-b38e-5ecf-0000-001084d02200}"",""processId"":""5724"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\reg.exe"",""fileVersion"":""10.0.18362.476 (WinBuild.160101.0800)"",""description"":""Registry Console Tool"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""reg.exe"",""commandLine"":""REG  ADD HKCU\\\\SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run /v RESTART_STICKY_NOTESS /f /t  REG_SZ /d \\\""C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\StikyNote.exe\\\"""",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-b279-5ecf-0000-0020fd750300}"",""logonId"":""0x375fd"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=A01B3DFF957379E7632891A7992319CE,SHA256=45EFF48450C110B8A6D2A4C0FE31323423851298F6DADF32D73DF91DF7ECB797,IMPHASH=869B9FF91668F96EF68FBE0DB3602587"",""parentProcessGuid"":""{df9fc3d3-b38e-5ecf-0000-0010e3ca2200}"",""parentProcessId"":""4776"",""parentImage"":""C:\\\\Windows\\\\SysWOW64\\\\cmd.exe"",""parentCommandLine"":""\\\""C:\\\\Windows\\\\System32\\\\cmd.exe\\\"" /c REG ADD HKCU\\\\SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run /v RESTART_STICKY_NOTESS /f /t  REG_SZ /d \\\""C:\\\\Users\\\\JOHNWI~1\\\\AppData\\\\Local\\\\Temp\\\\StikyNote.exe\\\""""}}}",
+"May 28, 2020 @ 13:15:58.499",10,"Multiple Windows error events","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = DESKTOP-HUE026H\John Williams; ClientProcessId = 7104; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : SELECT * FROM Win32_PhysicalMemory WHERE Tag='Physical Memory 0'; ResultCode = 0x80041032; PossibleCause = Unknown""",,,,

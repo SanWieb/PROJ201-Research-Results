@@ -1,0 +1,134 @@
+timestamp,"rule.level","rule.description","data.win.system.message","data.win.eventdata.commandLine","data.win.eventdata.targetObject","full_log","data.win.eventdata.details"
+"May 26, 2020 @ 16:22:13.549",14,"ATT&CK: Suspicious Program Location with Network Connections","""Network connection detected:
+RuleName: Usermode
+UtcTime: 2020-05-26 16:22:08.212
+ProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}
+ProcessId: 3772
+Image: C:\Users\Public\Documents\wininit32.exe
+User: DESKTOP-HUE026H\John Williams
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 172.16.2.2
+SourceHostname: DESKTOP-HUE026H.localdomain
+SourcePort: 49733
+SourcePortName: 
+DestinationIsIpv6: false
+DestinationIp: 91.240.87.131
+DestinationHostname: remindarb.fvds.ru
+DestinationPort: 80
+DestinationPortName: http""",,,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""3"",""version"":""5"",""level"":""4"",""task"":""3"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-26T16:22:09.493057500Z"",""eventRecordID"":""1641"",""processID"":""2080"",""threadID"":""1180"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Network connection detected:\r\nRuleName: Usermode\r\nUtcTime: 2020-05-26 16:22:08.212\r\nProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}\r\nProcessId: 3772\r\nImage: C:\\Users\\Public\\Documents\\wininit32.exe\r\nUser: DESKTOP-HUE026H\\John Williams\r\nProtocol: tcp\r\nInitiated: true\r\nSourceIsIpv6: false\r\nSourceIp: 172.16.2.2\r\nSourceHostname: DESKTOP-HUE026H.localdomain\r\nSourcePort: 49733\r\nSourcePortName: \r\nDestinationIsIpv6: false\r\nDestinationIp: 91.240.87.131\r\nDestinationHostname: remindarb.fvds.ru\r\nDestinationPort: 80\r\nDestinationPortName: http\""""},""eventdata"":{""ruleName"":""Usermode"",""utcTime"":""2020-05-26 16:22:08.212"",""processGuid"":""{df9fc3d3-41ca-5ecd-0000-001001f90300}"",""processId"":""3772"",""image"":""C:\\\\Users\\\\Public\\\\Documents\\\\wininit32.exe"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""protocol"":""tcp"",""initiated"":""true"",""sourceIsIpv6"":""false"",""sourceIp"":""172.16.2.2"",""sourceHostname"":""DESKTOP-HUE026H.localdomain"",""sourcePort"":""49733"",""destinationIsIpv6"":""false"",""destinationIp"":""91.240.87.131"",""destinationHostname"":""remindarb.fvds.ru"",""destinationPort"":""80"",""destinationPortName"":""http""}}}",
+"May 26, 2020 @ 16:22:03.549",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '3e52d3c90dc2ce2a10b60303bfa665d8'
+New md5sum is : '822a2f102de1e8d2a0e370ffe3de779d'
+Old sha1sum was: '6e5b745544851872c6f1e39e9d91a6195e1ecf30'
+New sha1sum is : '35f1effa6a998ff6100516208e2c27c97e4ae9f8'
+",
+"May 26, 2020 @ 16:22:03.533",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '724cdf662876b7f16830bfbeb2ac9b3a'
+New md5sum is : '9a9fee6d5a36d0bdb2b1909600157f05'
+Old sha1sum was: 'eb3a1f0df599d4e06740b3159f04bf6b12fbffc7'
+New sha1sum is : 'b32d7a1dfdd857d79c6f2b5d7103a6b11e3e46b5'
+",
+"May 26, 2020 @ 16:21:51.970",14,"ATT&CK: Suspicious Program Location with Network Connections","""Network connection detected:
+RuleName: Usermode
+UtcTime: 2020-05-26 16:21:47.389
+ProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}
+ProcessId: 3772
+Image: C:\Users\Public\Documents\wininit32.exe
+User: DESKTOP-HUE026H\John Williams
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 172.16.2.2
+SourceHostname: DESKTOP-HUE026H.localdomain
+SourcePort: 49728
+SourcePortName: 
+DestinationIsIpv6: false
+DestinationIp: 91.240.87.131
+DestinationHostname: remindarb.fvds.ru
+DestinationPort: 80
+DestinationPortName: http""",,,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""3"",""version"":""5"",""level"":""4"",""task"":""3"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-26T16:21:48.506365300Z"",""eventRecordID"":""1632"",""processID"":""2080"",""threadID"":""1180"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Network connection detected:\r\nRuleName: Usermode\r\nUtcTime: 2020-05-26 16:21:47.389\r\nProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}\r\nProcessId: 3772\r\nImage: C:\\Users\\Public\\Documents\\wininit32.exe\r\nUser: DESKTOP-HUE026H\\John Williams\r\nProtocol: tcp\r\nInitiated: true\r\nSourceIsIpv6: false\r\nSourceIp: 172.16.2.2\r\nSourceHostname: DESKTOP-HUE026H.localdomain\r\nSourcePort: 49728\r\nSourcePortName: \r\nDestinationIsIpv6: false\r\nDestinationIp: 91.240.87.131\r\nDestinationHostname: remindarb.fvds.ru\r\nDestinationPort: 80\r\nDestinationPortName: http\""""},""eventdata"":{""ruleName"":""Usermode"",""utcTime"":""2020-05-26 16:21:47.389"",""processGuid"":""{df9fc3d3-41ca-5ecd-0000-001001f90300}"",""processId"":""3772"",""image"":""C:\\\\Users\\\\Public\\\\Documents\\\\wininit32.exe"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""protocol"":""tcp"",""initiated"":""true"",""sourceIsIpv6"":""false"",""sourceIp"":""172.16.2.2"",""sourceHostname"":""DESKTOP-HUE026H.localdomain"",""sourcePort"":""49728"",""destinationIsIpv6"":""false"",""destinationIp"":""91.240.87.131"",""destinationHostname"":""remindarb.fvds.ru"",""destinationPort"":""80"",""destinationPortName"":""http""}}}",
+"May 26, 2020 @ 16:21:43.752",14,"ATT&CK: Suspicious Program Location with Network Connections","""Network connection detected:
+RuleName: Usermode
+UtcTime: 2020-05-26 16:21:40.112
+ProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}
+ProcessId: 3772
+Image: C:\Users\Public\Documents\wininit32.exe
+User: DESKTOP-HUE026H\John Williams
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 172.16.2.2
+SourceHostname: DESKTOP-HUE026H.localdomain
+SourcePort: 49718
+SourcePortName: 
+DestinationIsIpv6: false
+DestinationIp: 216.239.36.21
+DestinationHostname: 
+DestinationPort: 80
+DestinationPortName: http""",,,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""3"",""version"":""5"",""level"":""4"",""task"":""3"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-26T16:21:41.224969400Z"",""eventRecordID"":""1627"",""processID"":""2080"",""threadID"":""1180"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Network connection detected:\r\nRuleName: Usermode\r\nUtcTime: 2020-05-26 16:21:40.112\r\nProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}\r\nProcessId: 3772\r\nImage: C:\\Users\\Public\\Documents\\wininit32.exe\r\nUser: DESKTOP-HUE026H\\John Williams\r\nProtocol: tcp\r\nInitiated: true\r\nSourceIsIpv6: false\r\nSourceIp: 172.16.2.2\r\nSourceHostname: DESKTOP-HUE026H.localdomain\r\nSourcePort: 49718\r\nSourcePortName: \r\nDestinationIsIpv6: false\r\nDestinationIp: 216.239.36.21\r\nDestinationHostname: \r\nDestinationPort: 80\r\nDestinationPortName: http\""""},""eventdata"":{""ruleName"":""Usermode"",""utcTime"":""2020-05-26 16:21:40.112"",""processGuid"":""{df9fc3d3-41ca-5ecd-0000-001001f90300}"",""processId"":""3772"",""image"":""C:\\\\Users\\\\Public\\\\Documents\\\\wininit32.exe"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""protocol"":""tcp"",""initiated"":""true"",""sourceIsIpv6"":""false"",""sourceIp"":""172.16.2.2"",""sourceHostname"":""DESKTOP-HUE026H.localdomain"",""sourcePort"":""49718"",""destinationIsIpv6"":""false"",""destinationIp"":""216.239.36.21"",""destinationPort"":""80"",""destinationPortName"":""http""}}}",
+"May 26, 2020 @ 16:21:41.455",14,"ATT&CK: Suspicious Program Location with Network Connections","""Network connection detected:
+RuleName: Usermode
+UtcTime: 2020-05-26 16:21:37.737
+ProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}
+ProcessId: 3772
+Image: C:\Users\Public\Documents\wininit32.exe
+User: DESKTOP-HUE026H\John Williams
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 172.16.2.2
+SourceHostname: DESKTOP-HUE026H.localdomain
+SourcePort: 49717
+SourcePortName: 
+DestinationIsIpv6: false
+DestinationIp: 91.240.87.131
+DestinationHostname: remindarb.fvds.ru
+DestinationPort: 80
+DestinationPortName: http""",,,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""3"",""version"":""5"",""level"":""4"",""task"":""3"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-26T16:21:38.880873000Z"",""eventRecordID"":""1625"",""processID"":""2080"",""threadID"":""1180"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Network connection detected:\r\nRuleName: Usermode\r\nUtcTime: 2020-05-26 16:21:37.737\r\nProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}\r\nProcessId: 3772\r\nImage: C:\\Users\\Public\\Documents\\wininit32.exe\r\nUser: DESKTOP-HUE026H\\John Williams\r\nProtocol: tcp\r\nInitiated: true\r\nSourceIsIpv6: false\r\nSourceIp: 172.16.2.2\r\nSourceHostname: DESKTOP-HUE026H.localdomain\r\nSourcePort: 49717\r\nSourcePortName: \r\nDestinationIsIpv6: false\r\nDestinationIp: 91.240.87.131\r\nDestinationHostname: remindarb.fvds.ru\r\nDestinationPort: 80\r\nDestinationPortName: http\""""},""eventdata"":{""ruleName"":""Usermode"",""utcTime"":""2020-05-26 16:21:37.737"",""processGuid"":""{df9fc3d3-41ca-5ecd-0000-001001f90300}"",""processId"":""3772"",""image"":""C:\\\\Users\\\\Public\\\\Documents\\\\wininit32.exe"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""protocol"":""tcp"",""initiated"":""true"",""sourceIsIpv6"":""false"",""sourceIp"":""172.16.2.2"",""sourceHostname"":""DESKTOP-HUE026H.localdomain"",""sourcePort"":""49717"",""destinationIsIpv6"":""false"",""destinationIp"":""91.240.87.131"",""destinationHostname"":""remindarb.fvds.ru"",""destinationPort"":""80"",""destinationPortName"":""http""}}}",
+"May 26, 2020 @ 16:21:37.798",14,"ATT&CK: Suspicious Program Location with Network Connections","""Network connection detected:
+RuleName: Usermode
+UtcTime: 2020-05-26 16:21:33.759
+ProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}
+ProcessId: 3772
+Image: C:\Users\Public\Documents\wininit32.exe
+User: DESKTOP-HUE026H\John Williams
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 172.16.2.2
+SourceHostname: DESKTOP-HUE026H.localdomain
+SourcePort: 49715
+SourcePortName: 
+DestinationIsIpv6: false
+DestinationIp: 91.240.87.131
+DestinationHostname: 
+DestinationPort: 80
+DestinationPortName: http""",,,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""3"",""version"":""5"",""level"":""4"",""task"":""3"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-26T16:21:34.974537900Z"",""eventRecordID"":""1623"",""processID"":""2080"",""threadID"":""1180"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Network connection detected:\r\nRuleName: Usermode\r\nUtcTime: 2020-05-26 16:21:33.759\r\nProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}\r\nProcessId: 3772\r\nImage: C:\\Users\\Public\\Documents\\wininit32.exe\r\nUser: DESKTOP-HUE026H\\John Williams\r\nProtocol: tcp\r\nInitiated: true\r\nSourceIsIpv6: false\r\nSourceIp: 172.16.2.2\r\nSourceHostname: DESKTOP-HUE026H.localdomain\r\nSourcePort: 49715\r\nSourcePortName: \r\nDestinationIsIpv6: false\r\nDestinationIp: 91.240.87.131\r\nDestinationHostname: \r\nDestinationPort: 80\r\nDestinationPortName: http\""""},""eventdata"":{""ruleName"":""Usermode"",""utcTime"":""2020-05-26 16:21:33.759"",""processGuid"":""{df9fc3d3-41ca-5ecd-0000-001001f90300}"",""processId"":""3772"",""image"":""C:\\\\Users\\\\Public\\\\Documents\\\\wininit32.exe"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""protocol"":""tcp"",""initiated"":""true"",""sourceIsIpv6"":""false"",""sourceIp"":""172.16.2.2"",""sourceHostname"":""DESKTOP-HUE026H.localdomain"",""sourcePort"":""49715"",""destinationIsIpv6"":""false"",""destinationIp"":""91.240.87.131"",""destinationPort"":""80"",""destinationPortName"":""http""}}}",
+"May 26, 2020 @ 16:20:40.147",14,"ATT&CK T1036: Execution in Non-Executable Folder","""Process Create:
+RuleName: 
+UtcTime: 2020-05-26 16:20:26.960
+ProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}
+ProcessId: 3772
+Image: C:\Users\Public\Documents\wininit32.exe
+FileVersion: ?
+Description: ?
+Product: ?
+Company: ?
+OriginalFileName: ?
+CommandLine: C:\ProgramData\Documents\wininit32.exe
+CurrentDirectory: C:\ProgramData\Documents\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-41c7-5ecd-0000-00202b340300}
+LogonId: 0x3342B
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: MD5=B32FD85A86BB626F3BA68CCDAAA3FABD,SHA256=E9C29C057C95F3F03785C4CF0FE89D379EF72A382D5500DC769975A5D2E7C799,IMPHASH=00000000000000000000000000000000
+ParentProcessGuid: {df9fc3d3-41bf-5ecd-0000-0010404d0100}
+ParentProcessId: 1168
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p""","C:\\ProgramData\\Documents\\wininit32.exe",,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-26T16:20:30.395407600Z"",""eventRecordID"":""1552"",""processID"":""2080"",""threadID"":""3568"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-26 16:20:26.960\r\nProcessGuid: {df9fc3d3-41ca-5ecd-0000-001001f90300}\r\nProcessId: 3772\r\nImage: C:\\Users\\Public\\Documents\\wininit32.exe\r\nFileVersion: ?\r\nDescription: ?\r\nProduct: ?\r\nCompany: ?\r\nOriginalFileName: ?\r\nCommandLine: C:\\ProgramData\\Documents\\wininit32.exe\r\nCurrentDirectory: C:\\ProgramData\\Documents\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-41c7-5ecd-0000-00202b340300}\r\nLogonId: 0x3342B\r\nTerminalSessionId: 1\r\nIntegrityLevel: High\r\nHashes: MD5=B32FD85A86BB626F3BA68CCDAAA3FABD,SHA256=E9C29C057C95F3F03785C4CF0FE89D379EF72A382D5500DC769975A5D2E7C799,IMPHASH=00000000000000000000000000000000\r\nParentProcessGuid: {df9fc3d3-41bf-5ecd-0000-0010404d0100}\r\nParentProcessId: 1168\r\nParentImage: C:\\Windows\\System32\\svchost.exe\r\nParentCommandLine: C:\\Windows\\system32\\svchost.exe -k netsvcs -p\""""},""eventdata"":{""utcTime"":""2020-05-26 16:20:26.960"",""processGuid"":""{df9fc3d3-41ca-5ecd-0000-001001f90300}"",""processId"":""3772"",""image"":""C:\\\\Users\\\\Public\\\\Documents\\\\wininit32.exe"",""fileVersion"":""?"",""description"":""?"",""product"":""?"",""company"":""?"",""originalFileName"":""?"",""commandLine"":""C:\\\\ProgramData\\\\Documents\\\\wininit32.exe"",""currentDirectory"":""C:\\\\ProgramData\\\\Documents\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-41c7-5ecd-0000-00202b340300}"",""logonId"":""0x3342b"",""terminalSessionId"":""1"",""integrityLevel"":""High"",""hashes"":""MD5=B32FD85A86BB626F3BA68CCDAAA3FABD,SHA256=E9C29C057C95F3F03785C4CF0FE89D379EF72A382D5500DC769975A5D2E7C799,IMPHASH=00000000000000000000000000000000"",""parentProcessGuid"":""{df9fc3d3-41bf-5ecd-0000-0010404d0100}"",""parentProcessId"":""1168"",""parentImage"":""C:\\\\Windows\\\\System32\\\\svchost.exe"",""parentCommandLine"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k netsvcs -p""}}}",
+"May 26, 2020 @ 16:20:36.108",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,,,,
+"May 26, 2020 @ 16:20:25.053",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",,,,
+"May 26, 2020 @ 16:15:25.339",10,"Multiple Windows error events","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = DESKTOP-HUE026H\John Williams; ClientProcessId = 4272; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : SELECT * FROM Win32_PhysicalMemory WHERE Tag='Physical Memory 0'; ResultCode = 0x80041032; PossibleCause = Unknown""",,,,

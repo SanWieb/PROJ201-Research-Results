@@ -1,0 +1,6 @@
+"@timestamp",message,"log.file.path"
+"Apr 4, 2020 @ 14:49:15.594","04/04/2020-14:49:14.333152  [**] [1:2022918:2] ET INFO DYNAMIC_DNS Query to *.duckdns. Domain [**] [Classification: Misc activity] [Priority: 3] {UDP} 172.16.2.2:55333 -> 172.16.2.1:53","/var/log/suricata/fast.log"
+"Apr 4, 2020 @ 14:49:08.590","04/04/2020-14:48:59.973229  [**] [1:2022918:2] ET INFO DYNAMIC_DNS Query to *.duckdns. Domain [**] [Classification: Misc activity] [Priority: 3] {UDP} 172.16.2.2:58191 -> 172.16.2.1:53","/var/log/suricata/fast.log"
+"Apr 4, 2020 @ 14:48:03.584","04/04/2020-14:47:58.048129  [**] [1:2022918:2] ET INFO DYNAMIC_DNS Query to *.duckdns. Domain [**] [Classification: Misc activity] [Priority: 3] {UDP} 172.16.2.2:63783 -> 172.16.2.1:53","/var/log/suricata/fast.log"
+"Apr 4, 2020 @ 14:48:03.584","04/04/2020-14:47:59.050078  [**] [1:2022918:2] ET INFO DYNAMIC_DNS Query to *.duckdns. Domain [**] [Classification: Misc activity] [Priority: 3] {UDP} 172.16.2.2:63783 -> 172.16.2.1:53","/var/log/suricata/fast.log"
+"Apr 4, 2020 @ 14:48:03.583","04/04/2020-14:47:57.258514  [**] [1:2022918:2] ET INFO DYNAMIC_DNS Query to *.duckdns. Domain [**] [Classification: Misc activity] [Priority: 3] {UDP} 172.16.2.2:63783 -> 172.16.2.1:53","/var/log/suricata/fast.log"

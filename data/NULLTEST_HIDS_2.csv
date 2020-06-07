@@ -1,0 +1,1949 @@
+timestamp,"rule.level","rule.description","full_log","data.win.system.message"
+"Apr 24, 2020 @ 10:32:12.630",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits' checksum changed.
+Old md5sum was: '2d06df654a5682deb631986d5e100e06'
+New md5sum is : '56964b8b919146ca6cc9ba7178dd83a5'
+Old sha1sum was: 'fad4ff695b75db7b46758e17f337de0152aa22a4'
+New sha1sum is : '2df5a62e483eea805585c37dca6c9f1db2862114'
+",
+"Apr 24, 2020 @ 10:32:12.614",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits\RunTime' checksum changed.
+Old md5sum was: '0507a05dac0cb01533bea9c7856dd320'
+New md5sum is : 'bab496d513226eb473b16a89f761c50b'
+Old sha1sum was: 'be87be8572a241e55153e65f30b0e97ba6d756d2'
+New sha1sum is : 'cb245448d7f93975cecec7d7b19de4fc8a559508'
+",
+"Apr 24, 2020 @ 10:32:07.179",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\TrustedInstaller' checksum changed.
+Old md5sum was: '06f5c6f330af834dd08ce904d9ae7cc8'
+New md5sum is : 'f5ea91602eb594fc2b4973f59a513fcb'
+Old sha1sum was: '0cf4c4c19a1201e41b9deba273320298f4f97b50'
+New sha1sum is : '7d45a8c18f8a7d6091a33c6ba0252b375312ca0c'
+",
+"Apr 24, 2020 @ 10:31:58.848",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\FirewallRules' checksum changed.
+Old md5sum was: '5689c2dd6ed61a04cc389b6099c0aea5'
+New md5sum is : '635e192cad83fcc0e1b59bc4458960b4'
+Old sha1sum was: '64932df77c40a56e97edb3553ce359b3aaff132e'
+New sha1sum is : 'e0e382309ad45d83861d26b3d86c0fab6345eb7b'
+",
+"Apr 24, 2020 @ 10:31:58.802",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Epoch' checksum changed.
+Old md5sum was: '5b91e535422785d7409df5362ceec530'
+New md5sum is : '0447d0d52ee5a830c05fbee07043f258'
+Old sha1sum was: '4e27ba555e6d427aef066e320154eafec1fd64e2'
+New sha1sum is : 'c52421ca8edc9b41a95e22c437b67f0f199f288a'
+",
+"Apr 24, 2020 @ 10:31:44.644",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\NcbService\NCBKapiNlmCache\4' was added.
+",
+"Apr 24, 2020 @ 10:31:35.863",3,"Software Protection service scheduled successfully",,"""Successfully scheduled Software Protection service for re-start at 2020-04-25T10:25:31Z. Reason: RulesEngine."""
+"Apr 24, 2020 @ 10:31:32.598",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\GoogleChromeElevationService' checksum changed.
+Old md5sum was: '8689e28cb67cdeb16cd0f213c561238e'
+New md5sum is : '7623ffed143b7459169ba5677dbcbf32'
+Old sha1sum was: '9a0d97c845587be7605acb61023bb439126934df'
+New sha1sum is : '0a808618d3ad142d9f619d043ca088fdcfc9a841'
+",
+"Apr 24, 2020 @ 10:31:29.426",5,"The VSS service is shutting down due to idle timeout",,"""The VSS service is shutting down due to idle timeout. """
+"Apr 24, 2020 @ 10:31:19.430",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Application\Chrome' checksum changed.
+Old md5sum was: '5af3a18aae7113a12564a454973b2929'
+New md5sum is : '22ece9a19429dc28f03e236b27d22f81'
+Old sha1sum was: '0a00a2e519a32df06bc9533712e616c7a04e7c55'
+New sha1sum is : 'd43b78e147f35d6834e93dded1d3c6395c512b09'
+",
+"Apr 24, 2020 @ 10:31:08.213",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '164ddf65a0229b0a5673d9643fd360a5'
+New md5sum is : '9f0f9f207f2d810a4ae3c4b3cbab8c7c'
+Old sha1sum was: 'abc03ba9189e8ab0e57d2f28ac2a9479d27eb1de'
+New sha1sum is : '888bf3834cb974e6c6f05e415c259a853bc588a5'
+",
+"Apr 24, 2020 @ 10:30:32.951",3,"Software Protection service scheduled successfully",,"""Successfully scheduled Software Protection service for re-start at 2020-04-25T10:25:31Z. Reason: RulesEngine."""
+"Apr 24, 2020 @ 10:30:26.085",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:30:08.543",5,"Windows System error event",,"""The server {0134A8B2-3407-4B45-AD25-E9F7C92A80BC} did not register with DCOM within the required timeout."""
+"Apr 24, 2020 @ 10:30:00.579",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\Security\Policy\PolAdtEv' checksum changed.
+Old md5sum was: '9d15aff4d26f802c3c4d3d74a00d8d4d'
+New md5sum is : 'b40de87500ee3eed90c2ce3ce8c7946f'
+Old sha1sum was: '11f3afa3902d0fadfcc52e4c051995f536c7d4e2'
+New sha1sum is : '2f6e6dd0efd148b1c11d33c91e9cea4a97a84792'
+",
+"Apr 24, 2020 @ 10:29:36.027",3,"Software Protection service scheduled successfully",,"""Successfully scheduled Software Protection service for re-start at 2020-04-25T10:25:34Z. Reason: RulesEngine."""
+"Apr 24, 2020 @ 10:29:34.213",5,"SCA summary: Benchmark for Windows audit: Score less than 80% (68)",,
+"Apr 24, 2020 @ 10:29:31.088",5,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from failed to 'not applicable'",,
+"Apr 24, 2020 @ 10:29:04.455",3,"Service startup type was changed",,"""The start type of the Windows Modules Installer service was changed from auto start to demand start."""
+"Apr 24, 2020 @ 10:28:43.391",8,"Windows Audit Policy changed",,"""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		Handle Manipulation
+	Subcategory GUID:	{0cce9223-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added"""
+"Apr 24, 2020 @ 10:28:43.375",8,"Windows Audit Policy changed",,"""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		File System
+	Subcategory GUID:	{0cce921d-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added"""
+"Apr 24, 2020 @ 10:28:33.781",5,"File added to the system.","File '[x64] HKEY_USERS\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\RunOnce' was added.
+",
+"Apr 24, 2020 @ 10:28:33.752",5,"File added to the system.","File 'HKEY_USERS\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\RunOnce' was added.
+",
+"Apr 24, 2020 @ 10:28:33.475",7,"Integrity checksum changed.","File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}' checksum changed.
+Old md5sum was: '271f59daf9ca28fbeb0bd234897e1662'
+New md5sum is : '1af7f0914012f801bdabc07119bd84db'
+Old sha1sum was: 'e8d6ecabf76ed97cd87dc8593f64cd69ec8ec7a2'
+New sha1sum is : '98d0a499a8ec59bdfd79d0750a971a939fa5e3a2'
+",
+"Apr 24, 2020 @ 10:28:32.194",7,"Integrity checksum changed.","File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '47f9a8fc035cc80b23dfd8be4d23cda6'
+New md5sum is : '1e9409baa8b68f8d5dfa081e75151003'
+Old sha1sum was: '592c18db00c7cbd34e9537e069e1bf1ae084bc9d'
+New sha1sum is : '25555a4f57a7b2144caabaf450eb56fe7119a8c0'
+",
+"Apr 24, 2020 @ 10:28:32.180",7,"Integrity checksum changed.","File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '480a7b1436febced63b663e198db057e'
+New md5sum is : '4c17291dcd0de9eb46f1bf8312d3f109'
+Old sha1sum was: 'a366c53c7d877bd13ac0386830dbad1b52127af9'
+New sha1sum is : 'a02aa7cd463261dc68ec18a39291b1918d32122d'
+",
+"Apr 24, 2020 @ 10:28:30.925",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:28:28.128",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WpnUserService_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:28:28.112",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WpnUserService_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:28:26.425",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WinSock2\Parameters' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '39324a091e8e394cfa0881ee3414520b'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : 'fa56f0ef6e21e4f64af4ae07bada3b859656ac2b'
+",
+"Apr 24, 2020 @ 10:28:26.410",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '3ab42836b91eda6d7a737f85db75cc0f'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : '3e85e472ca462ac01899caabb6d29f1f7cf46732'
+",
+"Apr 24, 2020 @ 10:28:20.927",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits' checksum changed.
+Old md5sum was: 'bbd3c2d027909fd8ca60e5fb29be1c11'
+New md5sum is : '2d06df654a5682deb631986d5e100e06'
+Old sha1sum was: '840961701b92e0a0bb75a3c992b2e764bb835d51'
+New sha1sum is : 'fad4ff695b75db7b46758e17f337de0152aa22a4'
+",
+"Apr 24, 2020 @ 10:28:20.914",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits\RunTime' checksum changed.
+Old md5sum was: '4256845286e0a414097e9c63c150cb5d'
+New md5sum is : '0507a05dac0cb01533bea9c7856dd320'
+Old sha1sum was: '684a425e096a2850d4c8dc9679a024c65fd89a91'
+New sha1sum is : 'be87be8572a241e55153e65f30b0e97ba6d756d2'
+",
+"Apr 24, 2020 @ 10:28:20.322",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\VSS\Diag\VolSnap' checksum changed.
+Old md5sum was: '7b25497674cc671619a3e52c5a6b72e8'
+New md5sum is : 'c361117616a05d4278b52bebd6da3141'
+Old sha1sum was: 'c42697f1b7d2dcbd8290e433e4dc2ca12090701a'
+New sha1sum is : 'ec1bd80ed1806a52ea2bf63712d2625626a71bc5'
+",
+"Apr 24, 2020 @ 10:28:19.928",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:28:19.819",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:28:18.100",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Vid\Parameters\Wdf' checksum changed.
+Old md5sum was: 'acae9dc748745942263a86d7eb614be0'
+New md5sum is : '544514e57047c2570309981465630650'
+Old sha1sum was: '426e630d1ce4b54eb126567e177155a4f7a507fa'
+New sha1sum is : '806ec5bc628010b8292a8f9a147a3c4e5f55b8d7'
+",
+"Apr 24, 2020 @ 10:28:15.943",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\vdrvroot\Parameters\Wdf' checksum changed.
+Old md5sum was: '73ff3da5b491b534e4f1fca73d797712'
+New md5sum is : '6c9fa8f349691cfc6474afbfb85a26d0'
+Old sha1sum was: '4f491ce1ca6fff4e44240d89175bfd01ac0bfaf4'
+New sha1sum is : 'cf2a4ead8cc286234f64909716907d8e036d500a'
+",
+"Apr 24, 2020 @ 10:28:15.724",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\UserDataSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:28:15.708",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\UserDataSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:28:15.068",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\USBXHCI\Parameters\Wdf' checksum changed.
+Old md5sum was: 'd73c739d94aff99e2de6c480608f2631'
+New md5sum is : '8ac497b048ccef73c4ecb361aa3ffac8'
+Old sha1sum was: 'e68a929ae8dc2dda3351cb8777f4c6a4351c08c7'
+New sha1sum is : 'a57ddc3084097c99fcffcfb1e624035b13112910'
+",
+"Apr 24, 2020 @ 10:28:14.912",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\USBHUB3\Parameters\Wdf' checksum changed.
+Old md5sum was: '057b39f9a279a74ae6e39c10634a6eab'
+New md5sum is : '963ffd284ab17477c4d656c4f2614c4f'
+Old sha1sum was: 'd9be4838d8b27777b7d1f01677d6ae2e41541245'
+New sha1sum is : 'c0ea9cb87fbded9044c0d4731c687543eb23962a'
+",
+"Apr 24, 2020 @ 10:28:14.436",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\UnistoreSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:28:14.398",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\UnistoreSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:28:14.193",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\umbus\Parameters\Wdf' checksum changed.
+Old md5sum was: 'acae9dc748745942263a86d7eb614be0'
+New md5sum is : '544514e57047c2570309981465630650'
+Old sha1sum was: '426e630d1ce4b54eb126567e177155a4f7a507fa'
+New sha1sum is : '806ec5bc628010b8292a8f9a147a3c4e5f55b8d7'
+",
+"Apr 24, 2020 @ 10:28:13.164",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\TrustedInstaller' checksum changed.
+Old md5sum was: 'f5ea91602eb594fc2b4973f59a513fcb'
+New md5sum is : '06f5c6f330af834dd08ce904d9ae7cc8'
+Old sha1sum was: '7d45a8c18f8a7d6091a33c6ba0252b375312ca0c'
+New sha1sum is : '0cf4c4c19a1201e41b9deba273320298f4f97b50'
+",
+"Apr 24, 2020 @ 10:28:11.663",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{10cb9356-9dd8-4d03-959f-611e879a11a6}' checksum changed.
+Old md5sum was: 'ae5aeacd0ec096e337ca3ae6a707a5ef'
+New md5sum is : '330657157ba5cc04171b1c1a81722e90'
+Old sha1sum was: 'cc73062438c2d276ae920c586c61e8046d7af96f'
+New sha1sum is : 'acb2fba9bf89d2a3d54e7e057478f4c44fa08b81'
+",
+"Apr 24, 2020 @ 10:28:07.789",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\srvnet\Parameters' checksum changed.
+Old md5sum was: '3d3a643354245020081ae89e531e5f43'
+New md5sum is : 'b7992042185fc6ec85e366e31893c993'
+Old sha1sum was: '388ea0001ce3a9c23720ba87edb0e1b1510b7b4e'
+New sha1sum is : '7da8cd2c012f8b55d1d5ce23f9ccdf45379c55ad'
+",
+"Apr 24, 2020 @ 10:28:06.915",5,"Windows System error event",,"""The server {0134A8B2-3407-4B45-AD25-E9F7C92A80BC} did not register with DCOM within the required timeout."""
+"Apr 24, 2020 @ 10:28:06.226",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:28:03.912026900Z"",""eventRecordID"":""921"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:28:03.899\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\GoogleChromeElevationService\\ImagePath\r\nDetails: \""C:\\Program Files (x86)\\Google\\Chrome\\Application\\81.0.4044.122\\elevation_service.exe\""\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:28:03.899"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\GoogleChromeElevationService\\\\ImagePath"",""details"":""\\\""C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\81.0.4044.122\\\\elevation_service.exe\\\""""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:28:03.899
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\GoogleChromeElevationService\ImagePath
+Details: ""C:\Program Files (x86)\Google\Chrome\Application\81.0.4044.122\elevation_service.exe"""""
+"Apr 24, 2020 @ 10:28:06.211",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:28:03.911809700Z"",""eventRecordID"":""920"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:28:03.899\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\GoogleChromeElevationService\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:28:03.899"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\GoogleChromeElevationService\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:28:03.899
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\GoogleChromeElevationService\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:28:05.189",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Epoch2' checksum changed.
+Old md5sum was: '5de0ef21cee3c7b87f2fab30b8b06e2e'
+New md5sum is : 'dc9f9e3fba782230828c1350ebdd6327'
+Old sha1sum was: '95450da791d27d0a0e456663988211c24b30dbec'
+New sha1sum is : 'df82c4e7b328c25ab2a829fbb36079904d347a00'
+",
+"Apr 24, 2020 @ 10:28:05.184",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Epoch' checksum changed.
+Old md5sum was: 'f93cf0221c7bffcbf0606d9f193a943e'
+New md5sum is : '5b91e535422785d7409df5362ceec530'
+Old sha1sum was: '098e4d9f53900d4e8394afe508e54240c78b74ad'
+New sha1sum is : '4e27ba555e6d427aef066e320154eafec1fd64e2'
+",
+"Apr 24, 2020 @ 10:28:02.587",3,"Software Protection service scheduled successfully",,"""Successfully scheduled Software Protection service for re-start at 2020-04-25T10:25:00Z. Reason: RulesEngine."""
+"Apr 24, 2020 @ 10:28:00.635",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\rdyboost\Diagnostics' checksum changed.
+Old md5sum was: 'b94f00fb649e58278413ddb218687776'
+New md5sum is : 'fa742e572a0ab3ad838cdc36f548a2e7'
+Old sha1sum was: '4e632334dcf3fb5f87a71c66694dd9a1eb5fdbc7'
+New sha1sum is : '4bd92b98f3142283ddbfa0b8875cc0e446f8a651'
+",
+"Apr 24, 2020 @ 10:27:58.479",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\PrintWorkflowUserSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:58.465",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\PrintWorkflowUserSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:57.979",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\PimIndexMaintenanceSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:57.964",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\PimIndexMaintenanceSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:53.996",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\OneSyncSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:53.980",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\OneSyncSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:53.417",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\NlaSvc\Parameters\Cache' checksum changed.
+Old md5sum was: '774e15e7baf44381d722db864ab890d7'
+New md5sum is : '50e564d651df4ed3711c530cb99d635a'
+Old sha1sum was: '469daffaef7546bd68eba730d238e5592de9f468'
+New sha1sum is : '9f85b67a6c52e8312f838e2577ad0927a069eeda'
+",
+"Apr 24, 2020 @ 10:27:51.372",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\NdisVirtualBus\Parameters\Wdf' checksum changed.
+Old md5sum was: '5727fcd23252b0e1550791766fd7e652'
+New md5sum is : '994c45f15282cc5a92f237967d96fef5'
+Old sha1sum was: '1a0a4badb9ef02d3f518064090d622844165b266'
+New sha1sum is : '88530f962585446daf77f46e080d8b08c8e98a2c'
+",
+"Apr 24, 2020 @ 10:27:49.809",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\msisadrv\Parameters\Wdf' checksum changed.
+Old md5sum was: '71d14a2d2a756124273e36b0738f8bba'
+New md5sum is : '4eb2a07540b08107a0625ee3e4611bbc'
+Old sha1sum was: 'c605e5d23f62dcaf8235115a11a8363912e96ea2'
+New sha1sum is : '343b58bbd290264a88f73a3bbfdb8c0877c5bb8e'
+",
+"Apr 24, 2020 @ 10:27:48.622",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\monitor\Parameters\Wdf' checksum changed.
+Old md5sum was: 'b4bce65b22aa4a519547960a719662c4'
+New md5sum is : 'fcd2bde063d08e3e493bd9b171932f62'
+Old sha1sum was: '3dac9d974e4d5d554b03c5e46ca8acc22b4826b6'
+New sha1sum is : '0154114214c1947389b713ef77c27205b797facc'
+",
+"Apr 24, 2020 @ 10:27:48.502",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\MessagingService_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:48.496",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\MessagingService_3ea3f\TriggerInfo\0' was added.
+",
+"Apr 24, 2020 @ 10:27:48.468",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\MessagingService_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:44.455",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanmanServer\Parameters' checksum changed.
+Old md5sum was: 'df3256a25e140f891367ef4f45e45db2'
+New md5sum is : 'a836bd80394300540414e863397687ad'
+Old sha1sum was: 'e2d4eee52f1f6550a2d64d496dfa6aa49e9a8351'
+New sha1sum is : '10c4d918d67affeb805f43db3431644b1b028a63'
+",
+"Apr 24, 2020 @ 10:27:43.081",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\intelppm\Parameters\Wdf' checksum changed.
+Old md5sum was: '5727fcd23252b0e1550791766fd7e652'
+New md5sum is : '735c3ab6e8ca71e23614002bbb028249'
+Old sha1sum was: '1a0a4badb9ef02d3f518064090d622844165b266'
+New sha1sum is : 'd5a88f2cb188c5047330cafcb78ced9235190617'
+",
+"Apr 24, 2020 @ 10:27:40.408",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\HDAudBus\Parameters\Wdf' checksum changed.
+Old md5sum was: '1f47b7195d8fed9969326bd01db47d06'
+New md5sum is : '27f0b0536743e3de8fcd99c86a2544f2'
+Old sha1sum was: 'ee63ae916c97b341f744e3bde4a840cc48ac014b'
+New sha1sum is : '735e4f181b67d19525042b6d7dd870ffedcd3c0c'
+",
+"Apr 24, 2020 @ 10:27:39.767",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\gencounter\Parameters\Wdf' checksum changed.
+Old md5sum was: '5727fcd23252b0e1550791766fd7e652'
+New md5sum is : 'e72eae0fec329e0227c0acc6aad332c2'
+Old sha1sum was: '1a0a4badb9ef02d3f518064090d622844165b266'
+New sha1sum is : '2b49b1970c5bb2cfdd9508be50951510ea0093de'
+",
+"Apr 24, 2020 @ 10:27:38.656",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\FDResPub\ServiceData' checksum changed.
+Old md5sum was: '8babdce3ab05d3473a80df927d06237f'
+New md5sum is : 'ae9643074ec7a4ef81bb63a482e527c9'
+Old sha1sum was: 'e353e522c03a6a1e27f132fba0a42bb0a83e4bf3'
+New sha1sum is : 'bb90e1460f2a74046f7b573529a69b9faa6b3a52'
+",
+"Apr 24, 2020 @ 10:27:34.144",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:27:29.269",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\State' checksum changed.
+Old md5sum was: '8ef26438ac25bee10003522daa8b4a2f'
+New md5sum is : '7fc797b070d280459f0f0868feba447f'
+Old sha1sum was: 'b211ed5eee8285bb054c42335a4a0a9b2c9385b0'
+New sha1sum is : '9d42eab457bdc2cad562af5e5592589017817080'
+",
+"Apr 24, 2020 @ 10:27:23.115",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Dnscache\Parameters\Probe\{a957488a-bcc3-4136-8332-2c86058caa77}' checksum changed.
+Old md5sum was: '0ec8c5bab58c4b05da4b48fa2c3bf9b5'
+New md5sum is : '06c8ea1070e2b835ca012b5cda7256cf'
+Old sha1sum was: '453d1c5c9c77e01007afa63ba0bb33db3da2ef96'
+New sha1sum is : '565d2cad6cc817059329e58613803ea2e1c50563'
+",
+"Apr 24, 2020 @ 10:27:21.651",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DevicesFlowUserSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:21.634",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DevicesFlowUserSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:21.559",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DevicePickerUserSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:21.538",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DevicePickerUserSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:21.257",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DeviceAssociationBrokerSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:21.242",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DeviceAssociationBrokerSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:20.632",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CredentialEnrollmentManagerUserSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:20.601",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CredentialEnrollmentManagerUserSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:20.481",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\ConsentUxUserSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:20.462",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\ConsentUxUserSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:20.320",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CompositeBus\Parameters\Wdf' checksum changed.
+Old md5sum was: 'acae9dc748745942263a86d7eb614be0'
+New md5sum is : '544514e57047c2570309981465630650'
+Old sha1sum was: '426e630d1ce4b54eb126567e177155a4f7a507fa'
+New sha1sum is : '806ec5bc628010b8292a8f9a147a3c4e5f55b8d7'
+",
+"Apr 24, 2020 @ 10:27:19.397",3,"Service startup type was changed",,"""The start type of the Windows Modules Installer service was changed from demand start to auto start."""
+"Apr 24, 2020 @ 10:27:18.913",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CDPUserSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:18.898",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CDPUserSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:18.742",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\cbdhsvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:18.727",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\cbdhsvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:18.664",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CaptureService_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:18.636",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\CaptureService_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:16.430",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:16.414",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_3ea3f\TriggerInfo\4' was added.
+",
+"Apr 24, 2020 @ 10:27:16.398",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_3ea3f\TriggerInfo\3' was added.
+",
+"Apr 24, 2020 @ 10:27:16.383",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_3ea3f\TriggerInfo\2' was added.
+",
+"Apr 24, 2020 @ 10:27:16.369",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_3ea3f\TriggerInfo\1' was added.
+",
+"Apr 24, 2020 @ 10:27:16.352",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_3ea3f\TriggerInfo\0' was added.
+",
+"Apr 24, 2020 @ 10:27:16.336",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BluetoothUserService_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:15.211",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BcastDVRUserService_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:15.196",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BcastDVRUserService_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:27:14.964",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-90-0-1' checksum changed.
+Old md5sum was: 'c6ea3bd2e15bcf416c8f2d61c71010e3'
+New md5sum is : 'e0fb41b6c9ef5abaa572c1ef6afa603d'
+Old sha1sum was: '354a2b1d73f9ad4870cd65daf2b8156d72521032'
+New sha1sum is : '0c93b761e97e5159ee7fbe552b27ab84daa6889c'
+",
+"Apr 24, 2020 @ 10:27:14.947",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '1c4e04d793df8bd371434698d7441beb'
+New md5sum is : '164ddf65a0229b0a5673d9643fd360a5'
+Old sha1sum was: '445eb561728c2ed4b3dc1e1f8173bdf8acae870c'
+New sha1sum is : 'abc03ba9189e8ab0e57d2f28ac2a9479d27eb1de'
+",
+"Apr 24, 2020 @ 10:27:14.915",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-18' checksum changed.
+Old md5sum was: '8776cf6928f2de374d1a329d7b0948c3'
+New md5sum is : '9b2eb62ca4c74330ffa1448b22e6dfac'
+Old sha1sum was: '520ae6cd4e088c14c27c500ba09b18024715ec29'
+New sha1sum is : '9ae0bb56b661cb86cac596f8cf95cde5c871458b'
+",
+"Apr 24, 2020 @ 10:27:12.369",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\AarSvc_3ea3f' was added.
+",
+"Apr 24, 2020 @ 10:27:12.354",5,"File added to the system.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\AarSvc_3ea3f\Security' was added.
+",
+"Apr 24, 2020 @ 10:26:55.914",3,"Software Protection service scheduled successfully",,"""Successfully scheduled Software Protection service for re-start at 2020-04-25T10:24:54Z. Reason: RulesEngine."""
+"Apr 24, 2020 @ 10:26:45.680",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:26:30.849",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:26:07.225",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\Security\Policy\PolAdtEv' checksum changed.
+Old md5sum was: 'b40de87500ee3eed90c2ce3ce8c7946f'
+New md5sum is : '9d15aff4d26f802c3c4d3d74a00d8d4d'
+Old sha1sum was: '2f6e6dd0efd148b1c11d33c91e9cea4a97a84792'
+New sha1sum is : '11f3afa3902d0fadfcc52e4c051995f536c7d4e2'
+",
+"Apr 24, 2020 @ 10:25:55.519",5,"License Activation (slui.exe) failed",,"""License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=TimerEvent"""
+"Apr 24, 2020 @ 10:25:55.485",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:25:55.422",5,"License Activation (slui.exe) failed",,"""License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=NetworkAvailable"""
+"Apr 24, 2020 @ 10:25:52.548",5,"License Activation (slui.exe) failed",,"""License Activation (slui.exe) failed with the following error code:
+hr=0x803F7001
+Command-line arguments:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=UserLogon;SessionId=1"""
+"Apr 24, 2020 @ 10:25:52.283",3,"Windows User Logoff",,"""An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-438079597-2123118846-2669748851-1001
+	Account Name:		John Williams
+	Account Domain:		DESKTOP-HUE026H
+	Logon ID:		0x864E9
+
+Logon Type:			2
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer."""
+"Apr 24, 2020 @ 10:25:52.253",3,"Windows User Logoff",,"""An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-438079597-2123118846-2669748851-1001
+	Account Name:		John Williams
+	Account Domain:		DESKTOP-HUE026H
+	Logon ID:		0x86508
+
+Logon Type:			2
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer."""
+"Apr 24, 2020 @ 10:25:52.213",3,"Windows Workstation Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		No
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-438079597-2123118846-2669748851-1001
+	Account Name:		John Williams
+	Account Domain:		DESKTOP-HUE026H
+	Logon ID:		0x86508
+	Linked Logon ID:		0x864E9
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x154
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	DESKTOP-HUE026H
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:25:52.189",3,"Windows Workstation Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-438079597-2123118846-2669748851-1001
+	Account Name:		John Williams
+	Account Domain:		DESKTOP-HUE026H
+	Logon ID:		0x864E9
+	Linked Logon ID:		0x86508
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x154
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	DESKTOP-HUE026H
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:25:47.284",5,"SCA summary: Benchmark for Windows audit: Score less than 80% (66)",,
+"Apr 24, 2020 @ 10:25:44.264",3,"The Windows Search Service started",,"""The Windows Search Service started.
+"""
+"Apr 24, 2020 @ 10:25:44.181",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:25:44.149",3,"The database engine attached a database",,"""SearchIndexer (4468,D,50) Windows: The database engine attached a database (1, C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb). (Time=0 seconds) 
+ 
+Saved Cache: 0 0 
+Additional Data: lgposAttach = 00000013:00DB:0268,
+dbv = 1568.20.0 
+ 
+Internal Timing Sequence: 
+[1] 0.000008 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[2] 0.080503 -0.080241 (1) WT +J(0) +M(C:0K, Fs:25, WS:36K # 0K, PF:32K # 0K, P:32K)
+[3] 0.096983 -0.066686 (5) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:42, WS:124K # 0K, PF:148K # 0K, P:148K)
+[4] 0.000100 +J(0)
+[5] -
+[6] -
+[7] -
+[8] 0.016881 -0.000653 (2) CM +J(CM:2, PgRf:2, Rd:14/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:52, WS:208K # 0K, PF:660K # 0K, P:660K)
+[9] 0.086385 -0.000192 (5) CM -0.085901 (1) WT +J(CM:5, PgRf:23, Rd:0/5, Dy:0/0, Lg:0/0) +M(C:0K, Fs:67, WS:268K # 0K, PF:256K # 132K, P:256K)
+[10] 0.000319 -0.000195 (1) CM +J(CM:1, PgRf:40, Rd:0/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:11, WS:44K # 8K, PF:96K # 96K, P:96K)
+[11] 0.000017 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 16K, PF:0K # 0K, P:0K)
+[12] 0.000052 +J(CM:0, PgRf:42, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:3, WS:12K # 12K, PF:0K # 0K, P:0K)
+[13] 0.000001 +J(0)
+[14] 0.000001 +J(0)
+[15] 0.000008 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)."""
+"Apr 24, 2020 @ 10:25:44.058",3,"The database engine is starting a new instance",,"""SearchIndexer (4468,P,98) Windows: The database engine (10.00.18363.0000) is starting a new instance (0)."""
+"Apr 24, 2020 @ 10:25:42.236",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,
+"Apr 24, 2020 @ 10:25:40.879",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.473847400Z"",""eventRecordID"":""545"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:35.414\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\TabletInputService\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:35.414"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\TabletInputService\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:35.414
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\TabletInputService\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:40.712",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.021631700Z"",""eventRecordID"":""539"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\WpnUserService_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\WpnUserService_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k UnistackSvcGroup""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\WpnUserService_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k UnistackSvcGroup"""
+"Apr 24, 2020 @ 10:25:40.686",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.021301500Z"",""eventRecordID"":""538"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\WpnUserService_3ea3f\\Start\r\nDetails: DWORD (0x00000002)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\WpnUserService_3ea3f\\\\Start"",""details"":""DWORD (0x00000002)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\WpnUserService_3ea3f\Start
+Details: DWORD (0x00000002)"""
+"Apr 24, 2020 @ 10:25:40.642",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.019949100Z"",""eventRecordID"":""537"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\UserDataSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\UserDataSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k UnistackSvcGroup""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\UserDataSvc_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k UnistackSvcGroup"""
+"Apr 24, 2020 @ 10:25:40.637",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.019560900Z"",""eventRecordID"":""536"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\UserDataSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\UserDataSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\UserDataSvc_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:40.583",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.017993100Z"",""eventRecordID"":""535"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\UnistoreSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\System32\\svchost.exe -k UnistackSvcGroup\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\UnistoreSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\System32\\\\svchost.exe -k UnistackSvcGroup""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\UnistoreSvc_3ea3f\ImagePath
+Details: C:\Windows\System32\svchost.exe -k UnistackSvcGroup"""
+"Apr 24, 2020 @ 10:25:40.565",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.017212000Z"",""eventRecordID"":""534"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\UnistoreSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\UnistoreSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\UnistoreSvc_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:40.540",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.013087000Z"",""eventRecordID"":""533"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\PrintWorkflowUserSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k PrintWorkflow\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\PrintWorkflowUserSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k PrintWorkflow""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\PrintWorkflowUserSvc_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k PrintWorkflow"""
+"Apr 24, 2020 @ 10:25:40.506",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.012466500Z"",""eventRecordID"":""532"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\PrintWorkflowUserSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\PrintWorkflowUserSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\PrintWorkflowUserSvc_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:40.409",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.011150200Z"",""eventRecordID"":""531"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\PimIndexMaintenanceSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\PimIndexMaintenanceSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k UnistackSvcGroup""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\PimIndexMaintenanceSvc_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k UnistackSvcGroup"""
+"Apr 24, 2020 @ 10:25:40.398",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.010762700Z"",""eventRecordID"":""530"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\PimIndexMaintenanceSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\PimIndexMaintenanceSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\PimIndexMaintenanceSvc_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:40.383",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.009467900Z"",""eventRecordID"":""529"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\OneSyncSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\OneSyncSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k UnistackSvcGroup""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\OneSyncSvc_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k UnistackSvcGroup"""
+"Apr 24, 2020 @ 10:25:40.343",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.008533700Z"",""eventRecordID"":""528"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\OneSyncSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000002)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\OneSyncSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000002)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\OneSyncSvc_3ea3f\Start
+Details: DWORD (0x00000002)"""
+"Apr 24, 2020 @ 10:25:40.329",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.005449600Z"",""eventRecordID"":""527"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\MessagingService_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\MessagingService_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k UnistackSvcGroup""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\MessagingService_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k UnistackSvcGroup"""
+"Apr 24, 2020 @ 10:25:40.316",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.005239800Z"",""eventRecordID"":""526"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\MessagingService_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\MessagingService_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\MessagingService_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:40.298",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.004210500Z"",""eventRecordID"":""525"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\DevicesFlowUserSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k DevicesFlow\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\DevicesFlowUserSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k DevicesFlow""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\DevicesFlowUserSvc_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k DevicesFlow"""
+"Apr 24, 2020 @ 10:25:40.287",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.003632200Z"",""eventRecordID"":""524"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.962\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\DevicesFlowUserSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.962"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\DevicesFlowUserSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.962
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\DevicesFlowUserSvc_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:40.255",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.001338600Z"",""eventRecordID"":""523"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\DevicePickerUserSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k DevicesFlow\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\DevicePickerUserSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k DevicesFlow""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\DevicePickerUserSvc_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k DevicesFlow"""
+"Apr 24, 2020 @ 10:25:40.244",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:35.000982500Z"",""eventRecordID"":""522"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\DevicePickerUserSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\DevicePickerUserSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\DevicePickerUserSvc_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:40.218",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.999775800Z"",""eventRecordID"":""521"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\DeviceAssociationBrokerSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k DevicesFlow -p\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\DeviceAssociationBrokerSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k DevicesFlow -p""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\DeviceAssociationBrokerSvc_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k DevicesFlow -p"""
+"Apr 24, 2020 @ 10:25:40.202",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.999409800Z"",""eventRecordID"":""520"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\DeviceAssociationBrokerSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\DeviceAssociationBrokerSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\DeviceAssociationBrokerSvc_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:40.199",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.997619500Z"",""eventRecordID"":""519"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\CredentialEnrollmentManagerUserSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\CredentialEnrollmentManager.exe\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\CredentialEnrollmentManagerUserSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\CredentialEnrollmentManager.exe""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\CredentialEnrollmentManagerUserSvc_3ea3f\ImagePath
+Details: C:\Windows\system32\CredentialEnrollmentManager.exe"""
+"Apr 24, 2020 @ 10:25:40.140",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.997386000Z"",""eventRecordID"":""518"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\CredentialEnrollmentManagerUserSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\CredentialEnrollmentManagerUserSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\CredentialEnrollmentManagerUserSvc_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:40.124",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.996413100Z"",""eventRecordID"":""517"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\ConsentUxUserSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k DevicesFlow\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\ConsentUxUserSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k DevicesFlow""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\ConsentUxUserSvc_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k DevicesFlow"""
+"Apr 24, 2020 @ 10:25:40.111",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.996198400Z"",""eventRecordID"":""516"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\ConsentUxUserSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\ConsentUxUserSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\ConsentUxUserSvc_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:40.096",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.995363200Z"",""eventRecordID"":""515"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\CDPUserSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\CDPUserSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k UnistackSvcGroup""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\CDPUserSvc_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k UnistackSvcGroup"""
+"Apr 24, 2020 @ 10:25:40.078",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.994898200Z"",""eventRecordID"":""514"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\CDPUserSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000002)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\CDPUserSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000002)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\CDPUserSvc_3ea3f\Start
+Details: DWORD (0x00000002)"""
+"Apr 24, 2020 @ 10:25:40.052",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.991991400Z"",""eventRecordID"":""513"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\cbdhsvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k ClipboardSvcGroup -p\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\cbdhsvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k ClipboardSvcGroup -p""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\cbdhsvc_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p"""
+"Apr 24, 2020 @ 10:25:40.038",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.991359400Z"",""eventRecordID"":""512"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\cbdhsvc_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\cbdhsvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\cbdhsvc_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:39.992",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.989431900Z"",""eventRecordID"":""511"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\CaptureService_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k LocalService -p\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\CaptureService_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k LocalService -p""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\CaptureService_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k LocalService -p"""
+"Apr 24, 2020 @ 10:25:39.972",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.988868400Z"",""eventRecordID"":""510"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.946\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\CaptureService_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.946"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\CaptureService_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.946
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\CaptureService_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:39.942",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.949547400Z"",""eventRecordID"":""509"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.930\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\BluetoothUserService_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k BthAppGroup -p\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.930"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\BluetoothUserService_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k BthAppGroup -p""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.930
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\BluetoothUserService_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k BthAppGroup -p"""
+"Apr 24, 2020 @ 10:25:39.915",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.949183100Z"",""eventRecordID"":""508"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.930\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\BluetoothUserService_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.930"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\BluetoothUserService_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.930
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\BluetoothUserService_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:39.848",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.947818600Z"",""eventRecordID"":""507"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.930\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\BcastDVRUserService_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k BcastDVRUserService\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.930"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\BcastDVRUserService_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k BcastDVRUserService""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.930
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\BcastDVRUserService_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k BcastDVRUserService"""
+"Apr 24, 2020 @ 10:25:39.739",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.947480600Z"",""eventRecordID"":""506"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.930\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\BcastDVRUserService_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.930"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\BcastDVRUserService_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.930
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\BcastDVRUserService_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:39.722",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.946158400Z"",""eventRecordID"":""505"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.930\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\AarSvc_3ea3f\\ImagePath\r\nDetails: C:\\Windows\\system32\\svchost.exe -k AarSvcGroup -p\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.930"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\AarSvc_3ea3f\\\\ImagePath"",""details"":""C:\\\\Windows\\\\system32\\\\svchost.exe -k AarSvcGroup -p""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.930
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\AarSvc_3ea3f\ImagePath
+Details: C:\Windows\system32\svchost.exe -k AarSvcGroup -p"""
+"Apr 24, 2020 @ 10:25:39.585",9,"ATT&CK T1058:Registry edit for new service","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-04-24T10:25:34.945947200Z"",""eventRecordID"":""504"",""processID"":""2148"",""threadID"":""2680"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1031,T1050\r\nEventType: SetValue\r\nUtcTime: 2020-04-24 10:25:34.930\r\nProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}\r\nProcessId: 584\r\nImage: C:\\Windows\\system32\\services.exe\r\nTargetObject: HKLM\\System\\CurrentControlSet\\Services\\AarSvc_3ea3f\\Start\r\nDetails: DWORD (0x00000003)\""""},""eventdata"":{""ruleName"":""T1031,T1050"",""eventType"":""SetValue"",""utcTime"":""2020-04-24 10:25:34.930"",""processGuid"":""{df9fc3d3-be95-5ea2-0000-001031a80000}"",""processId"":""584"",""image"":""C:\\\\Windows\\\\system32\\\\services.exe"",""targetObject"":""HKLM\\\\System\\\\CurrentControlSet\\\\Services\\\\AarSvc_3ea3f\\\\Start"",""details"":""DWORD (0x00000003)""}}}","""Registry value set:
+RuleName: T1031,T1050
+EventType: SetValue
+UtcTime: 2020-04-24 10:25:34.930
+ProcessGuid: {df9fc3d3-be95-5ea2-0000-001031a80000}
+ProcessId: 584
+Image: C:\Windows\system32\services.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\AarSvc_3ea3f\Start
+Details: DWORD (0x00000003)"""
+"Apr 24, 2020 @ 10:25:37.880",5,"SessionEnv was unavailable to handle a notification event",,"""The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event."""
+"Apr 24, 2020 @ 10:25:36.078",3,"Windows Workstation Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		No
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-438079597-2123118846-2669748851-1001
+	Account Name:		John Williams
+	Account Domain:		DESKTOP-HUE026H
+	Logon ID:		0x36DE6
+	Linked Logon ID:		0x36DB7
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x154
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	DESKTOP-HUE026H
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:25:35.863",3,"Windows Workstation Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-438079597-2123118846-2669748851-1001
+	Account Name:		John Williams
+	Account Domain:		DESKTOP-HUE026H
+	Logon ID:		0x36DB7
+	Linked Logon ID:		0x36DE6
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x154
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	DESKTOP-HUE026H
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:25:34.110",7,"SessionEnv was unavailable to handle a critical notification event",,"""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event."""
+"Apr 24, 2020 @ 10:25:33.625",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x248
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:25:31.685",3,"Ossec agent started.","ossec: Agent started: 'windows-10->any'.",
+"Apr 24, 2020 @ 10:25:05.443",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WinSock2\Parameters' checksum changed.
+Old md5sum was: '39324a091e8e394cfa0881ee3414520b'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: 'fa56f0ef6e21e4f64af4ae07bada3b859656ac2b'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+",
+"Apr 24, 2020 @ 10:25:05.428",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9' checksum changed.
+Old md5sum was: '3ab42836b91eda6d7a737f85db75cc0f'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: '3e85e472ca462ac01899caabb6d29f1f7cf46732'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+",
+"Apr 24, 2020 @ 10:25:02.060",5,"SessionEnv was unavailable to handle a notification event",,"""The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event."""
+"Apr 24, 2020 @ 10:25:01.950",5,"WSearch was unavailable to handle a notification event",,"""The winlogon notification subscriber <WSearch> was unavailable to handle a notification event."""
+"Apr 24, 2020 @ 10:24:49.661",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x24c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:24:23.587",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x24c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:24:08.428",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x24c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:24:05.276",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x24c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:23:47.724",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x24c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 10:23:47.354",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '46cb3bdf23ef43d6ce23972203d529f7'
+New md5sum is : '1c4e04d793df8bd371434698d7441beb'
+Old sha1sum was: '267432bd00d7bec5d1d2a096cd54f7c3993d8873'
+New sha1sum is : '445eb561728c2ed4b3dc1e1f8173bdf8acae870c'
+",

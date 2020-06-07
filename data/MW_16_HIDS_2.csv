@@ -1,0 +1,325 @@
+timestamp,"rule.level","rule.description","full_log","data.win.system.message"
+"Apr 24, 2020 @ 14:30:18.236",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x24c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 14:30:17.951",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x24c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 14:30:02.393",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x24c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 14:29:59.266",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BITS' checksum changed.
+Old md5sum was: '6a4fdf3a9f7dc36fc03599f720d484d3'
+New md5sum is : '775174ea9bf25c40ba381ca284d7511d'
+Old sha1sum was: '9f469b80d1166a11ab0299760c6cb444ef555670'
+New sha1sum is : 'eab80f5279cedff3dd227a62f8828aa899a27475'
+",
+"Apr 24, 2020 @ 14:29:58.173",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '19bbf8dd71bfa5e2686e8f7a3a0c5ece'
+New md5sum is : '02604b42c1e590131ad4f40243ac694b'
+Old sha1sum was: 'ef9ff919614c4fcf38602f898935e4208334a11a'
+New sha1sum is : '724609c5f9284f27c9cfdf841fb8717d1997fe89'
+",
+"Apr 24, 2020 @ 14:29:58.126",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-18' checksum changed.
+Old md5sum was: 'ed31517f0fcd59fa85673f922c7ec847'
+New md5sum is : '8776cf6928f2de374d1a329d7b0948c3'
+Old sha1sum was: '8e81e810d1d5de5f44b40f278164e875506e3f8c'
+New sha1sum is : '520ae6cd4e088c14c27c500ba09b18024715ec29'
+",
+"Apr 24, 2020 @ 14:24:23.579",5,"SessionEnv was unavailable to handle a notification event",,"""The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event."""
+"Apr 24, 2020 @ 14:24:23.549",5,"WSearch was unavailable to handle a notification event",,"""The winlogon notification subscriber <WSearch> was unavailable to handle a notification event."""
+"Apr 24, 2020 @ 14:23:24.085",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits' checksum changed.
+Old md5sum was: '061d54aa40bae3e7a2f3b77ac146174d'
+New md5sum is : '6aa0b509739fb19b5c1aa45c92c254b4'
+Old sha1sum was: 'f2ef7500df6b5fad5b6bc115b10a8a5c1c536bc7'
+New sha1sum is : '76702d1ce5ed7ccc2f42da73a5e17382d356cf7d'
+",
+"Apr 24, 2020 @ 14:23:24.078",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits\RunTime' checksum changed.
+Old md5sum was: '4968ffe18e4fa8338000379b041f5f64'
+New md5sum is : '9f4ba3c0f3cbcc2a7d50248db63158e2'
+Old sha1sum was: 'b02420011da0733a46a9b58282e44f2e7727cde0'
+New sha1sum is : 'b5fb4c1b7bb449e167b3422dc978466a999823a4'
+",
+"Apr 24, 2020 @ 14:22:25.169",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '7dac5cccd517440bbb43bbe2d5c7d13e'
+New md5sum is : '19bbf8dd71bfa5e2686e8f7a3a0c5ece'
+Old sha1sum was: '72aefb561ab27c0c761a2dd0fc41f9e6b6c997fa'
+New sha1sum is : 'ef9ff919614c4fcf38602f898935e4208334a11a'
+",
+"Apr 24, 2020 @ 14:21:52.481",5,"The VSS service is shutting down due to idle timeout",,"""The VSS service is shutting down due to idle timeout. """
+"Apr 24, 2020 @ 14:20:00.011",7,"Integrity checksum changed.","File '[x64] HKEY_USERS\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Run' checksum changed.
+Old md5sum was: 'eec716ae7b147d80b2bff4d347692f12'
+New md5sum is : 'b92c7d9f88a9158e5c71ec66ce922962'
+Old sha1sum was: '9e2076f20312cd8b816e3b8fe2747d55e17ac1a2'
+New sha1sum is : '1a166cd1c6e9493122d34453abf15a7562755cd6'
+",
+"Apr 24, 2020 @ 14:19:59.997",7,"Integrity checksum changed.","File 'HKEY_USERS\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Run' checksum changed.
+Old md5sum was: 'eec716ae7b147d80b2bff4d347692f12'
+New md5sum is : 'b92c7d9f88a9158e5c71ec66ce922962'
+Old sha1sum was: '9e2076f20312cd8b816e3b8fe2747d55e17ac1a2'
+New sha1sum is : '1a166cd1c6e9493122d34453abf15a7562755cd6'
+",
+"Apr 24, 2020 @ 14:19:54.902",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run' checksum changed.
+Old md5sum was: '6491bfbb48f449e8ef2da21bf4925908'
+New md5sum is : 'a539c0e8e4591e4d2459734ef9aefeee'
+Old sha1sum was: 'a659aa851c1408487eefa829ad359673b7fb1288'
+New sha1sum is : '144fc561ab42d9ebac6c82647f7f6a6e130166b0'
+",
+"Apr 24, 2020 @ 14:19:46.484",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits' checksum changed.
+Old md5sum was: 'bbd3c2d027909fd8ca60e5fb29be1c11'
+New md5sum is : '061d54aa40bae3e7a2f3b77ac146174d'
+Old sha1sum was: '840961701b92e0a0bb75a3c992b2e764bb835d51'
+New sha1sum is : 'f2ef7500df6b5fad5b6bc115b10a8a5c1c536bc7'
+",
+"Apr 24, 2020 @ 14:19:46.395",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits\RunTime' checksum changed.
+Old md5sum was: '4256845286e0a414097e9c63c150cb5d'
+New md5sum is : '4968ffe18e4fa8338000379b041f5f64'
+Old sha1sum was: '684a425e096a2850d4c8dc9679a024c65fd89a91'
+New sha1sum is : 'b02420011da0733a46a9b58282e44f2e7727cde0'
+",
+"Apr 24, 2020 @ 14:18:53.373",3,"Windows Logon Success",,"""An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3E7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x24c
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."""
+"Apr 24, 2020 @ 14:18:45.984",5,"Windows System error event",,"""The time service has detected that the system time needs to be  changed by 1476119 seconds. The time service will not change the system time by more than 54000 seconds. Verify that your time and time zone are correct, and that the time source time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->51.105.208.173:123) is working properly."""
+"Apr 24, 2020 @ 14:18:45.671",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\BITS' checksum changed.
+Old md5sum was: '775174ea9bf25c40ba381ca284d7511d'
+New md5sum is : '6a4fdf3a9f7dc36fc03599f720d484d3'
+Old sha1sum was: 'eab80f5279cedff3dd227a62f8828aa899a27475'
+New sha1sum is : '9f469b80d1166a11ab0299760c6cb444ef555670'
+",
+"Apr 24, 2020 @ 14:18:44.514",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: 'c2187a169c3e384befba255a66ba663b'
+New md5sum is : '7dac5cccd517440bbb43bbe2d5c7d13e'
+Old sha1sum was: '55f8bf19c86868d25f922c70184c225fb00e4cc2'
+New sha1sum is : '72aefb561ab27c0c761a2dd0fc41f9e6b6c997fa'
+",
+"Apr 24, 2020 @ 14:18:44.498",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-18' checksum changed.
+Old md5sum was: '8776cf6928f2de374d1a329d7b0948c3'
+New md5sum is : 'ed31517f0fcd59fa85673f922c7ec847'
+Old sha1sum was: '520ae6cd4e088c14c27c500ba09b18024715ec29'
+New sha1sum is : '8e81e810d1d5de5f44b40f278164e875506e3f8c'
+",

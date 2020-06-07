@@ -1,0 +1,47 @@
+timestamp,"rule.level","rule.description","full_log"
+"Apr 4, 2020 @ 16:50:23.505",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: 'c07851f8f2e30eb65757347b948170ba'
+New md5sum is : '8da4aa4428657760c7c7976ad92a7c66'
+Old sha1sum was: '8b3f116aaee6cbd1dd5d8bf234c4f02b0a5c3e60'
+New sha1sum is : 'a69b3915170274813d5794c482763769bd34d6ac'
+"
+"Apr 4, 2020 @ 16:51:26.577",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Epoch' checksum changed.
+Old md5sum was: '0b017ce491fd1b22003082d2585a1327'
+New md5sum is : '951ed48ea2b16a4b11a3e3fc66e0c792'
+Old sha1sum was: 'aba803556e14ebf646bb03cbc539cb30b783ee41'
+New sha1sum is : '91243c9a9bc671b7729496f2396ac68cf2ac6a62'
+"
+"Apr 4, 2020 @ 16:51:40.152",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits\RunTime' checksum changed.
+Old md5sum was: '619d435b1dac461a9b0cfd3b48ee8f37'
+New md5sum is : '3bed6b4b8101da842bb6afe04a8271c2'
+Old sha1sum was: '95d0826303f42e23fada9a211bd9ea71de2d5c51'
+New sha1sum is : '6bcfa900864cb27898f9c3bf26b53fb3b0eb9d2c'
+"
+"Apr 4, 2020 @ 16:51:40.171",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\SecureTimeLimits' checksum changed.
+Old md5sum was: 'f65ebed619edcfc8fafe21f958215b53'
+New md5sum is : '1b931f57450117014d30c4469221616c'
+Old sha1sum was: '493297f96d762981a98fbe5f8c5b5782c30b65aa'
+New sha1sum is : '065e9af055a9593fc198b9a9efaa6585d80b6af7'
+"
+"Apr 4, 2020 @ 16:51:49.904",7,"Integrity checksum changed.","File 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run' checksum changed.
+Old md5sum was: '6491bfbb48f449e8ef2da21bf4925908'
+New md5sum is : '3fa199e01e6129043164b2e1c37f5861'
+Old sha1sum was: 'a659aa851c1408487eefa829ad359673b7fb1288'
+New sha1sum is : 'b4cfc18b446798b6de9db92885752e3473072b1c'
+"
+"Apr 4, 2020 @ 16:51:56.139",7,"Integrity checksum changed.","File 'HKEY_USERS\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Run' checksum changed.
+Old md5sum was: 'eec716ae7b147d80b2bff4d347692f12'
+New md5sum is : 'ebb35ca0e73314be0a05fef718b695c8'
+Old sha1sum was: '9e2076f20312cd8b816e3b8fe2747d55e17ac1a2'
+New sha1sum is : 'ba33045457fb2c2633c385785c496d0686356209'
+"
+"Apr 4, 2020 @ 16:51:56.184",7,"Integrity checksum changed.","File '[x64] HKEY_USERS\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Run' checksum changed.
+Old md5sum was: 'eec716ae7b147d80b2bff4d347692f12'
+New md5sum is : 'ebb35ca0e73314be0a05fef718b695c8'
+Old sha1sum was: '9e2076f20312cd8b816e3b8fe2747d55e17ac1a2'
+New sha1sum is : 'ba33045457fb2c2633c385785c496d0686356209'
+"
+"Apr 4, 2020 @ 16:49:36.770",3,"Service startup type was changed",
+"Apr 4, 2020 @ 16:49:40.569",3,"Windows Logon Success",
+"Apr 4, 2020 @ 16:50:39.101",3,"Windows Logon Success",
+"Apr 4, 2020 @ 16:50:45.523",3,"Software Protection service scheduled successfully",

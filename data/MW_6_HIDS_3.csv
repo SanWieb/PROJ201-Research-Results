@@ -1,0 +1,161 @@
+timestamp,"rule.level","rule.description","data.win.system.message","data.win.eventdata.commandLine","data.win.eventdata.targetObject","full_log","data.win.eventdata.details"
+"May 28, 2020 @ 12:17:27.949",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}' checksum changed.
+Old md5sum was: '7b0e21ee99623454e8d06871f064ed98'
+New md5sum is : '7fa7290c3b0e7b2d8ed5a092299db356'
+Old sha1sum was: 'f63735bbc2e72216030f4e994b7c9785856a9170'
+New sha1sum is : '27735fff26a4f9093576dfbd77d06599094d3497'
+",
+"May 28, 2020 @ 12:17:26.854",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: 'ca03a699ef4a8d5fc7dbf35d64e054e0'
+New md5sum is : '451281856a95784f3f631c6ed2dfd3d2'
+Old sha1sum was: '1b71ef2e669844e9269d00eb70279efaa6016d12'
+New sha1sum is : 'ce278144ea52b95bdfabfb8c3a68a61d709530c4'
+",
+"May 28, 2020 @ 12:17:26.839",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '724cdf662876b7f16830bfbeb2ac9b3a'
+New md5sum is : '8e9147c00e3845c0b79118bcdba05339'
+Old sha1sum was: 'eb3a1f0df599d4e06740b3159f04bf6b12fbffc7'
+New sha1sum is : '27fd277750d88f31b0a0405777373541ddaeabdf'
+",
+"May 28, 2020 @ 12:17:24.558",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '497a8c7081c737f07c267a30b1538ff9'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : '58d9cdbd07af978efc5e91b8e7a66696280d3b1e'
+",
+"May 28, 2020 @ 12:17:20.230",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_USE_WINDOWEDSELECTCONTROL' checksum changed.
+Old md5sum was: '370914f65a755a1cbfcf0c873b11feaa'
+New md5sum is : '1c729912f87f9abbd1574176fc5996f7'
+Old sha1sum was: 'ea4c2f8e1a1dc5de73a98dbadb5abff9297c9a4b'
+New sha1sum is : '1d2094dc263dc3db258f4421536e179cfbd9cfb0'
+",
+"May 28, 2020 @ 12:17:11.241",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '44a185f2e5e0fa09edbcbe3e598fe4da'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : 'f7a3cf6aa04ebaeee3c4525064299cb2136e4f06'
+",
+"May 28, 2020 @ 12:17:01.136",10,"ATT&CK T1060: Autorun Keys Modification","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-28 12:16:53.927
+ProcessGuid: {df9fc3d3-aba5-5ecf-0000-00100a6f0b00}
+ProcessId: 6556
+Image: C:\Users\John Williams\AppData\Local\Microsoft\OneDrive\Update\OneDriveSetup.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\RunOnce\Uninstall 20.052.0311.0011
+Details: C:\Windows\system32\cmd.exe /q /c rmdir /s /q ""C:\Users\John Williams\AppData\Local\Microsoft\OneDrive\20.052.0311.0011""""",,"HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\Uninstall 20.052.0311.0011","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:16:53.946652100Z"",""eventRecordID"":""2157"",""processID"":""2180"",""threadID"":""3120"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-28 12:16:53.927\r\nProcessGuid: {df9fc3d3-aba5-5ecf-0000-00100a6f0b00}\r\nProcessId: 6556\r\nImage: C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\Update\\OneDriveSetup.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\Uninstall 20.052.0311.0011\r\nDetails: C:\\Windows\\system32\\cmd.exe /q /c rmdir /s /q \""C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\20.052.0311.0011\""\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-28 12:16:53.927"",""processGuid"":""{df9fc3d3-aba5-5ecf-0000-00100a6f0b00}"",""processId"":""6556"",""image"":""C:\\\\Users\\\\John Williams\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\Update\\\\OneDriveSetup.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\RunOnce\\\\Uninstall 20.052.0311.0011"",""details"":""C:\\\\Windows\\\\system32\\\\cmd.exe /q /c rmdir /s /q \\\""C:\\\\Users\\\\John Williams\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\20.052.0311.0011\\\""""}}}","C:\\Windows\\system32\\cmd.exe /q /c rmdir /s /q \""C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\20.052.0311.0011\"""
+"May 28, 2020 @ 12:17:01.133",10,"ATT&CK T1060: Autorun Keys Modification","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-28 12:16:53.927
+ProcessGuid: {df9fc3d3-aba5-5ecf-0000-00100a6f0b00}
+ProcessId: 6556
+Image: C:\Users\John Williams\AppData\Local\Microsoft\OneDrive\Update\OneDriveSetup.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\RunOnce\Uninstall 20.052.0311.0011
+Details: C:\Windows\system32\cmd.exe /q /c rmdir /s /q ""C:\Users\John Williams\AppData\Local\Microsoft\OneDrive\20.052.0311.0011""""",,"HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\Uninstall 20.052.0311.0011","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:16:53.946388900Z"",""eventRecordID"":""2156"",""processID"":""2180"",""threadID"":""3120"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-28 12:16:53.927\r\nProcessGuid: {df9fc3d3-aba5-5ecf-0000-00100a6f0b00}\r\nProcessId: 6556\r\nImage: C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\Update\\OneDriveSetup.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\Uninstall 20.052.0311.0011\r\nDetails: C:\\Windows\\system32\\cmd.exe /q /c rmdir /s /q \""C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\20.052.0311.0011\""\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-28 12:16:53.927"",""processGuid"":""{df9fc3d3-aba5-5ecf-0000-00100a6f0b00}"",""processId"":""6556"",""image"":""C:\\\\Users\\\\John Williams\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\Update\\\\OneDriveSetup.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\RunOnce\\\\Uninstall 20.052.0311.0011"",""details"":""C:\\\\Windows\\\\system32\\\\cmd.exe /q /c rmdir /s /q \\\""C:\\\\Users\\\\John Williams\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\20.052.0311.0011\\\""""}}}","C:\\Windows\\system32\\cmd.exe /q /c rmdir /s /q \""C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\20.052.0311.0011\"""
+"May 28, 2020 @ 12:17:01.082",10,"ATT&CK T1060: Autorun Keys Modification","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-28 12:16:53.911
+ProcessGuid: {df9fc3d3-aba5-5ecf-0000-00100a6f0b00}
+ProcessId: 6556
+Image: C:\Users\John Williams\AppData\Local\Microsoft\OneDrive\Update\OneDriveSetup.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\RunOnce\Uninstall 20.052.0311.0011\amd64
+Details: C:\Windows\system32\cmd.exe /q /c rmdir /s /q ""C:\Users\John Williams\AppData\Local\Microsoft\OneDrive\20.052.0311.0011\amd64""""",,"HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\Uninstall 20.052.0311.0011\\amd64","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:16:53.946142400Z"",""eventRecordID"":""2155"",""processID"":""2180"",""threadID"":""3120"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-28 12:16:53.911\r\nProcessGuid: {df9fc3d3-aba5-5ecf-0000-00100a6f0b00}\r\nProcessId: 6556\r\nImage: C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\Update\\OneDriveSetup.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\Uninstall 20.052.0311.0011\\amd64\r\nDetails: C:\\Windows\\system32\\cmd.exe /q /c rmdir /s /q \""C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\20.052.0311.0011\\amd64\""\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-28 12:16:53.911"",""processGuid"":""{df9fc3d3-aba5-5ecf-0000-00100a6f0b00}"",""processId"":""6556"",""image"":""C:\\\\Users\\\\John Williams\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\Update\\\\OneDriveSetup.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\RunOnce\\\\Uninstall 20.052.0311.0011\\\\amd64"",""details"":""C:\\\\Windows\\\\system32\\\\cmd.exe /q /c rmdir /s /q \\\""C:\\\\Users\\\\John Williams\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\20.052.0311.0011\\\\amd64\\\""""}}}","C:\\Windows\\system32\\cmd.exe /q /c rmdir /s /q \""C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\20.052.0311.0011\\amd64\"""
+"May 28, 2020 @ 12:16:56.968",10,"ATT&CK T1060: Autorun Keys Modification","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-28 12:16:50.287
+ProcessGuid: {df9fc3d3-aba5-5ecf-0000-00100a6f0b00}
+ProcessId: 6556
+Image: C:\Users\John Williams\AppData\Local\Microsoft\OneDrive\Update\OneDriveSetup.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\RunOnce\Delete Cached Standalone Update Binary
+Details: C:\Windows\system32\cmd.exe /q /c del /q ""C:\Users\John Williams\AppData\Local\Microsoft\OneDrive\StandaloneUpdater\OneDriveSetup.exe""""",,"HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\Delete Cached Standalone Update Binary","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:16:50.303252000Z"",""eventRecordID"":""2113"",""processID"":""2180"",""threadID"":""3120"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-28 12:16:50.287\r\nProcessGuid: {df9fc3d3-aba5-5ecf-0000-00100a6f0b00}\r\nProcessId: 6556\r\nImage: C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\Update\\OneDriveSetup.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\Delete Cached Standalone Update Binary\r\nDetails: C:\\Windows\\system32\\cmd.exe /q /c del /q \""C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\StandaloneUpdater\\OneDriveSetup.exe\""\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-28 12:16:50.287"",""processGuid"":""{df9fc3d3-aba5-5ecf-0000-00100a6f0b00}"",""processId"":""6556"",""image"":""C:\\\\Users\\\\John Williams\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\Update\\\\OneDriveSetup.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\RunOnce\\\\Delete Cached Standalone Update Binary"",""details"":""C:\\\\Windows\\\\system32\\\\cmd.exe /q /c del /q \\\""C:\\\\Users\\\\John Williams\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\StandaloneUpdater\\\\OneDriveSetup.exe\\\""""}}}","C:\\Windows\\system32\\cmd.exe /q /c del /q \""C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\StandaloneUpdater\\OneDriveSetup.exe\"""
+"May 28, 2020 @ 12:16:56.951",10,"ATT&CK T1060: Autorun Keys Modification","""Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2020-05-28 12:16:50.287
+ProcessGuid: {df9fc3d3-aba5-5ecf-0000-00100a6f0b00}
+ProcessId: 6556
+Image: C:\Users\John Williams\AppData\Local\Microsoft\OneDrive\Update\OneDriveSetup.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\RunOnce\Delete Cached Update Binary
+Details: C:\Windows\system32\cmd.exe /q /c del /q ""C:\Users\John Williams\AppData\Local\Microsoft\OneDrive\Update\OneDriveSetup.exe""""",,"HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\Delete Cached Update Binary","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:16:50.300789600Z"",""eventRecordID"":""2112"",""processID"":""2180"",""threadID"":""3120"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1060,RunKey\r\nEventType: SetValue\r\nUtcTime: 2020-05-28 12:16:50.287\r\nProcessGuid: {df9fc3d3-aba5-5ecf-0000-00100a6f0b00}\r\nProcessId: 6556\r\nImage: C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\Update\\OneDriveSetup.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\Delete Cached Update Binary\r\nDetails: C:\\Windows\\system32\\cmd.exe /q /c del /q \""C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\Update\\OneDriveSetup.exe\""\""""},""eventdata"":{""ruleName"":""T1060,RunKey"",""eventType"":""SetValue"",""utcTime"":""2020-05-28 12:16:50.287"",""processGuid"":""{df9fc3d3-aba5-5ecf-0000-00100a6f0b00}"",""processId"":""6556"",""image"":""C:\\\\Users\\\\John Williams\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\Update\\\\OneDriveSetup.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\RunOnce\\\\Delete Cached Update Binary"",""details"":""C:\\\\Windows\\\\system32\\\\cmd.exe /q /c del /q \\\""C:\\\\Users\\\\John Williams\\\\AppData\\\\Local\\\\Microsoft\\\\OneDrive\\\\Update\\\\OneDriveSetup.exe\\\""""}}}","C:\\Windows\\system32\\cmd.exe /q /c del /q \""C:\\Users\\John Williams\\AppData\\Local\\Microsoft\\OneDrive\\Update\\OneDriveSetup.exe\"""
+"May 28, 2020 @ 12:16:17.528",10,"ATT&CK T1060: Autorun Keys Modification","""Registry value set:
+RuleName: T1112,ChangeStartupFolderPath
+EventType: SetValue
+UtcTime: 2020-05-28 12:16:13.505
+ProcessGuid: {df9fc3d3-ab8d-5ecf-0000-00107d210a00}
+ProcessId: 6176
+Image: C:\Windows\SysWOW64\REG.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders\Startup
+Details: C:\ProgramData\f64a428dfd""",,"HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\\Startup","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:16:13.526455400Z"",""eventRecordID"":""1919"",""processID"":""2180"",""threadID"":""3120"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1112,ChangeStartupFolderPath\r\nEventType: SetValue\r\nUtcTime: 2020-05-28 12:16:13.505\r\nProcessGuid: {df9fc3d3-ab8d-5ecf-0000-00107d210a00}\r\nProcessId: 6176\r\nImage: C:\\Windows\\SysWOW64\\REG.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\\Startup\r\nDetails: C:\\ProgramData\\f64a428dfd\""""},""eventdata"":{""ruleName"":""T1112,ChangeStartupFolderPath"",""eventType"":""SetValue"",""utcTime"":""2020-05-28 12:16:13.505"",""processGuid"":""{df9fc3d3-ab8d-5ecf-0000-00107d210a00}"",""processId"":""6176"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\REG.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Explorer\\\\User Shell Folders\\\\Startup"",""details"":""C:\\\\ProgramData\\\\f64a428dfd""}}}","C:\\ProgramData\\f64a428dfd"
+"May 28, 2020 @ 12:16:17.487",10,"ATT&CK T1060: Direct Autorun Keys Modification","""Process Create:
+RuleName: 
+UtcTime: 2020-05-28 12:16:13.152
+ProcessGuid: {df9fc3d3-ab8d-5ecf-0000-00107d210a00}
+ProcessId: 6176
+Image: C:\Windows\SysWOW64\reg.exe
+FileVersion: 10.0.18362.476 (WinBuild.160101.0800)
+Description: Registry Console Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: reg.exe
+CommandLine: REG ADD ""HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders"" /f /v Startup /t REG_SZ /d C:\ProgramData\f64a428dfd
+CurrentDirectory: C:\Windows\system32\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-ab70-5ecf-0000-00209bfb0300}
+LogonId: 0x3FB9B
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=A01B3DFF957379E7632891A7992319CE,SHA256=45EFF48450C110B8A6D2A4C0FE31323423851298F6DADF32D73DF91DF7ECB797,IMPHASH=869B9FF91668F96EF68FBE0DB3602587
+ParentProcessGuid: {df9fc3d3-ab8d-5ecf-0000-0010581d0a00}
+ParentProcessId: 6148
+ParentImage: C:\ProgramData\f64a428dfd\cmualrc.exe
+ParentCommandLine: ""C:\ProgramData\f64a428dfd\cmualrc.exe"" ""","REG ADD \""HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\"" /f /v Startup /t REG_SZ /d C:\\ProgramData\\f64a428dfd",,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-28T12:16:13.166409500Z"",""eventRecordID"":""1918"",""processID"":""2180"",""threadID"":""3120"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-28 12:16:13.152\r\nProcessGuid: {df9fc3d3-ab8d-5ecf-0000-00107d210a00}\r\nProcessId: 6176\r\nImage: C:\\Windows\\SysWOW64\\reg.exe\r\nFileVersion: 10.0.18362.476 (WinBuild.160101.0800)\r\nDescription: Registry Console Tool\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: reg.exe\r\nCommandLine: REG ADD \""HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\"" /f /v Startup /t REG_SZ /d C:\\ProgramData\\f64a428dfd\r\nCurrentDirectory: C:\\Windows\\system32\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-ab70-5ecf-0000-00209bfb0300}\r\nLogonId: 0x3FB9B\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=A01B3DFF957379E7632891A7992319CE,SHA256=45EFF48450C110B8A6D2A4C0FE31323423851298F6DADF32D73DF91DF7ECB797,IMPHASH=869B9FF91668F96EF68FBE0DB3602587\r\nParentProcessGuid: {df9fc3d3-ab8d-5ecf-0000-0010581d0a00}\r\nParentProcessId: 6148\r\nParentImage: C:\\ProgramData\\f64a428dfd\\cmualrc.exe\r\nParentCommandLine: \""C:\\ProgramData\\f64a428dfd\\cmualrc.exe\"" \""""},""eventdata"":{""utcTime"":""2020-05-28 12:16:13.152"",""processGuid"":""{df9fc3d3-ab8d-5ecf-0000-00107d210a00}"",""processId"":""6176"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\reg.exe"",""fileVersion"":""10.0.18362.476 (WinBuild.160101.0800)"",""description"":""Registry Console Tool"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""reg.exe"",""commandLine"":""REG ADD \\\""HKCU\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Explorer\\\\User Shell Folders\\\"" /f /v Startup /t REG_SZ /d C:\\\\ProgramData\\\\f64a428dfd"",""currentDirectory"":""C:\\\\Windows\\\\system32\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-ab70-5ecf-0000-00209bfb0300}"",""logonId"":""0x3fb9b"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=A01B3DFF957379E7632891A7992319CE,SHA256=45EFF48450C110B8A6D2A4C0FE31323423851298F6DADF32D73DF91DF7ECB797,IMPHASH=869B9FF91668F96EF68FBE0DB3602587"",""parentProcessGuid"":""{df9fc3d3-ab8d-5ecf-0000-0010581d0a00}"",""parentProcessId"":""6148"",""parentImage"":""C:\\\\ProgramData\\\\f64a428dfd\\\\cmualrc.exe"",""parentCommandLine"":""\\\""C:\\\\ProgramData\\\\f64a428dfd\\\\cmualrc.exe\\\""""}}}",
+"May 28, 2020 @ 12:15:56.228",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,,,,
+"May 28, 2020 @ 12:15:46.412",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",,,,
+"May 28, 2020 @ 12:15:05.636",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer' checksum changed.
+Old md5sum was: '497a8c7081c737f07c267a30b1538ff9'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: '58d9cdbd07af978efc5e91b8e7a66696280d3b1e'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+",
+"May 28, 2020 @ 12:15:05.620",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility' checksum changed.
+Old md5sum was: '44a185f2e5e0fa09edbcbe3e598fe4da'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: 'f7a3cf6aa04ebaeee3c4525064299cb2136e4f06'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+",
+"May 28, 2020 @ 12:11:29.200",10,"Multiple Windows error events","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = NT AUTHORITY\SYSTEM; ClientProcessId = 6520; Component = Unknown; Operation = Start IWbemServices::ExecQuery - root\Microsoft\Windows\DeviceGuard : SELECT SecurityServicesConfigured FROM Win32_DeviceGuard ; ResultCode = 0x80041032; PossibleCause = Unknown""",,,,
+"May 28, 2020 @ 12:10:03.340",10,"ATT&CK T1060: Autorun Keys Modification","""Registry value set:
+RuleName: T1112,ChangeStartupFolderPath
+EventType: SetValue
+UtcTime: 2020-05-26 09:29:17.389
+ProcessGuid: {df9fc3d3-e16d-5ecc-0000-00106b592500}
+ProcessId: 1052
+Image: C:\Windows\SysWOW64\REG.exe
+TargetObject: HKU\S-1-5-21-438079597-2123118846-2669748851-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders\Startup
+Details: C:\ProgramData\f64a428dfd""",,"HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\\Startup","{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""13"",""version"":""2"",""level"":""4"",""task"":""13"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-26T09:29:17.396376800Z"",""eventRecordID"":""1487"",""processID"":""2176"",""threadID"":""3312"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Registry value set:\r\nRuleName: T1112,ChangeStartupFolderPath\r\nEventType: SetValue\r\nUtcTime: 2020-05-26 09:29:17.389\r\nProcessGuid: {df9fc3d3-e16d-5ecc-0000-00106b592500}\r\nProcessId: 1052\r\nImage: C:\\Windows\\SysWOW64\\REG.exe\r\nTargetObject: HKU\\S-1-5-21-438079597-2123118846-2669748851-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\\Startup\r\nDetails: C:\\ProgramData\\f64a428dfd\""""},""eventdata"":{""ruleName"":""T1112,ChangeStartupFolderPath"",""eventType"":""SetValue"",""utcTime"":""2020-05-26 09:29:17.389"",""processGuid"":""{df9fc3d3-e16d-5ecc-0000-00106b592500}"",""processId"":""1052"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\REG.exe"",""targetObject"":""HKU\\\\S-1-5-21-438079597-2123118846-2669748851-1001\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Explorer\\\\User Shell Folders\\\\Startup"",""details"":""C:\\\\ProgramData\\\\f64a428dfd""}}}","C:\\ProgramData\\f64a428dfd"
+"May 28, 2020 @ 12:10:03.324",10,"ATT&CK T1060: Direct Autorun Keys Modification","""Process Create:
+RuleName: 
+UtcTime: 2020-05-26 09:29:17.214
+ProcessGuid: {df9fc3d3-e16d-5ecc-0000-00106b592500}
+ProcessId: 1052
+Image: C:\Windows\SysWOW64\reg.exe
+FileVersion: 10.0.18362.476 (WinBuild.160101.0800)
+Description: Registry Console Tool
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: reg.exe
+CommandLine: REG ADD ""HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders"" /f /v Startup /t REG_SZ /d C:\ProgramData\f64a428dfd
+CurrentDirectory: C:\Users\John Williams\Downloads\
+User: DESKTOP-HUE026H\John Williams
+LogonGuid: {df9fc3d3-dfe2-5ecc-0000-0020502d0300}
+LogonId: 0x32D50
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=A01B3DFF957379E7632891A7992319CE,SHA256=45EFF48450C110B8A6D2A4C0FE31323423851298F6DADF32D73DF91DF7ECB797,IMPHASH=869B9FF91668F96EF68FBE0DB3602587
+ParentProcessGuid: {df9fc3d3-e16d-5ecc-0000-00100c572500}
+ParentProcessId: 6748
+ParentImage: C:\ProgramData\f64a428dfd\cmualrc.exe
+ParentCommandLine: c:\programdata\f64a428dfd\cmualrc.exe""","REG ADD \""HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\"" /f /v Startup /t REG_SZ /d C:\\ProgramData\\f64a428dfd",,"{""win"":{""system"":{""providerName"":""Microsoft-Windows-Sysmon"",""providerGuid"":""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}"",""eventID"":""1"",""version"":""5"",""level"":""4"",""task"":""1"",""opcode"":""0"",""keywords"":""0x8000000000000000"",""systemTime"":""2020-05-26T09:29:17.216880400Z"",""eventRecordID"":""1486"",""processID"":""2176"",""threadID"":""3312"",""channel"":""Microsoft-Windows-Sysmon/Operational"",""computer"":""DESKTOP-HUE026H"",""severityValue"":""INFORMATION"",""message"":""\""Process Create:\r\nRuleName: \r\nUtcTime: 2020-05-26 09:29:17.214\r\nProcessGuid: {df9fc3d3-e16d-5ecc-0000-00106b592500}\r\nProcessId: 1052\r\nImage: C:\\Windows\\SysWOW64\\reg.exe\r\nFileVersion: 10.0.18362.476 (WinBuild.160101.0800)\r\nDescription: Registry Console Tool\r\nProduct: Microsoft® Windows® Operating System\r\nCompany: Microsoft Corporation\r\nOriginalFileName: reg.exe\r\nCommandLine: REG ADD \""HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\"" /f /v Startup /t REG_SZ /d C:\\ProgramData\\f64a428dfd\r\nCurrentDirectory: C:\\Users\\John Williams\\Downloads\\\r\nUser: DESKTOP-HUE026H\\John Williams\r\nLogonGuid: {df9fc3d3-dfe2-5ecc-0000-0020502d0300}\r\nLogonId: 0x32D50\r\nTerminalSessionId: 1\r\nIntegrityLevel: Medium\r\nHashes: MD5=A01B3DFF957379E7632891A7992319CE,SHA256=45EFF48450C110B8A6D2A4C0FE31323423851298F6DADF32D73DF91DF7ECB797,IMPHASH=869B9FF91668F96EF68FBE0DB3602587\r\nParentProcessGuid: {df9fc3d3-e16d-5ecc-0000-00100c572500}\r\nParentProcessId: 6748\r\nParentImage: C:\\ProgramData\\f64a428dfd\\cmualrc.exe\r\nParentCommandLine: c:\\programdata\\f64a428dfd\\cmualrc.exe\""""},""eventdata"":{""utcTime"":""2020-05-26 09:29:17.214"",""processGuid"":""{df9fc3d3-e16d-5ecc-0000-00106b592500}"",""processId"":""1052"",""image"":""C:\\\\Windows\\\\SysWOW64\\\\reg.exe"",""fileVersion"":""10.0.18362.476 (WinBuild.160101.0800)"",""description"":""Registry Console Tool"",""product"":""Microsoft® Windows® Operating System"",""company"":""Microsoft Corporation"",""originalFileName"":""reg.exe"",""commandLine"":""REG ADD \\\""HKCU\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Explorer\\\\User Shell Folders\\\"" /f /v Startup /t REG_SZ /d C:\\\\ProgramData\\\\f64a428dfd"",""currentDirectory"":""C:\\\\Users\\\\John Williams\\\\Downloads\\\\"",""user"":""DESKTOP-HUE026H\\\\John Williams"",""logonGuid"":""{df9fc3d3-dfe2-5ecc-0000-0020502d0300}"",""logonId"":""0x32d50"",""terminalSessionId"":""1"",""integrityLevel"":""Medium"",""hashes"":""MD5=A01B3DFF957379E7632891A7992319CE,SHA256=45EFF48450C110B8A6D2A4C0FE31323423851298F6DADF32D73DF91DF7ECB797,IMPHASH=869B9FF91668F96EF68FBE0DB3602587"",""parentProcessGuid"":""{df9fc3d3-e16d-5ecc-0000-00100c572500}"",""parentProcessId"":""6748"",""parentImage"":""C:\\\\ProgramData\\\\f64a428dfd\\\\cmualrc.exe"",""parentCommandLine"":""c:\\\\programdata\\\\f64a428dfd\\\\cmualrc.exe""}}}",

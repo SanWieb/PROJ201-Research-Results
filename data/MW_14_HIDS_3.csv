@@ -1,0 +1,89 @@
+timestamp,"rule.level","rule.description","data.win.system.message","full_log","data.win.eventdata.commandLine"
+"May 22, 2020 @ 16:48:50.993",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_USE_WINDOWEDSELECTCONTROL' checksum changed.
+Old md5sum was: '1c729912f87f9abbd1574176fc5996f7'
+New md5sum is : '370914f65a755a1cbfcf0c873b11feaa'
+Old sha1sum was: '1d2094dc263dc3db258f4421536e179cfbd9cfb0'
+New sha1sum is : 'ea4c2f8e1a1dc5de73a98dbadb5abff9297c9a4b'
+",
+"May 22, 2020 @ 16:46:25.178",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '496e80acc19637c8daf8c286b6ea10f0'
+New md5sum is : '7a6925496501f6eab705d5c7ab038696'
+Old sha1sum was: '88ef9e17f6f18f6242bf8a46b383b017d42012b9'
+New sha1sum is : '8bdc84c00ad75f8b65e6fa6eb585f0d689061628'
+",
+"May 22, 2020 @ 16:46:25.148",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '89598d32459256342f73e9b832b618dc'
+New md5sum is : '15a74f51d7a0d4e1ac30c4b6d7d50bc1'
+Old sha1sum was: '68aacf23a86d664018607a7fc5d1379269af8643'
+New sha1sum is : '896016bfa429eaf3f1b7ca668d65033c1814feee'
+",
+"May 22, 2020 @ 16:45:47.974",7,"Integrity checksum changed.",,"File 'HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '497a8c7081c737f07c267a30b1538ff9'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : '58d9cdbd07af978efc5e91b8e7a66696280d3b1e'
+",
+"May 22, 2020 @ 16:45:40.177",7,"Integrity checksum changed.",,"File 'HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Capabilities' checksum changed.
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : 'b80f2e9655feff9c2a5629f979488e11'
+Old sha1sum was: 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+New sha1sum is : 'b0d2d800da5377e859b10323361ef497b61aa1e0'
+",
+"May 22, 2020 @ 16:44:56.391",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,,
+"May 22, 2020 @ 16:44:46.583",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",,
+"May 22, 2020 @ 16:44:11.285",7,"Integrity checksum changed.",,"File 'HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer' checksum changed.
+Old md5sum was: '497a8c7081c737f07c267a30b1538ff9'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: '58d9cdbd07af978efc5e91b8e7a66696280d3b1e'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+",
+"May 22, 2020 @ 16:44:11.270",7,"Integrity checksum changed.",,"File 'HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Capabilities' checksum changed.
+Old md5sum was: 'b80f2e9655feff9c2a5629f979488e11'
+New md5sum is : 'd41d8cd98f00b204e9800998ecf8427e'
+Old sha1sum was: 'b0d2d800da5377e859b10323361ef497b61aa1e0'
+New sha1sum is : 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+",
+"May 22, 2020 @ 16:41:19.765",7,"Integrity checksum changed.",,"File 'HKEY_LOCAL_MACHINE\Security\Policy\PolAdtEv' checksum changed.
+Old md5sum was: '9d15aff4d26f802c3c4d3d74a00d8d4d'
+New md5sum is : 'b40de87500ee3eed90c2ce3ce8c7946f'
+Old sha1sum was: '11f3afa3902d0fadfcc52e4c051995f536c7d4e2'
+New sha1sum is : '2f6e6dd0efd148b1c11d33c91e9cea4a97a84792'
+",
+"May 22, 2020 @ 16:40:01.818",8,"Windows Audit Policy changed","""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		Handle Manipulation
+	Subcategory GUID:	{0cce9223-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added""",,
+"May 22, 2020 @ 16:40:01.771",8,"Windows Audit Policy changed","""System audit policy was changed.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-HUE026H$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Audit Policy Change:
+	Category:		Object Access
+	Subcategory:		File System
+	Subcategory GUID:	{0cce921d-69ae-11d9-bed3-505054503030}
+	Changes:		Success Added""",,
+"May 22, 2020 @ 16:39:52.210",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: 'a18eb7d2d71c498e6c68f4d4ae0641c7'
+New md5sum is : '496e80acc19637c8daf8c286b6ea10f0'
+Old sha1sum was: '4458c74e5e5b43abcaa686c52ebb00d5149c3406'
+New sha1sum is : '88ef9e17f6f18f6242bf8a46b383b017d42012b9'
+",
+"May 22, 2020 @ 16:39:52.194",7,"Integrity checksum changed.",,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '2dff0dec78c8ef123f08b1e2d23e5734'
+New md5sum is : '89598d32459256342f73e9b832b618dc'
+Old sha1sum was: 'd900f31683f204db3e8408c6a0391eed28337ae9'
+New sha1sum is : '68aacf23a86d664018607a7fc5d1379269af8643'
+",

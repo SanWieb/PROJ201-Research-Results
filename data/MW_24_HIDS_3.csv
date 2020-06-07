@@ -1,0 +1,28 @@
+timestamp,"rule.level","rule.description","data.win.system.message","data.win.eventdata.commandLine","data.win.eventdata.targetObject","full_log","data.win.eventdata.details"
+"May 29, 2020 @ 13:13:51.370",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}' checksum changed.
+Old md5sum was: '7fa7290c3b0e7b2d8ed5a092299db356'
+New md5sum is : '7b0e21ee99623454e8d06871f064ed98'
+Old sha1sum was: '27735fff26a4f9093576dfbd77d06599094d3497'
+New sha1sum is : 'f63735bbc2e72216030f4e994b7c9785856a9170'
+",
+"May 29, 2020 @ 13:11:24.587",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}' checksum changed.
+Old md5sum was: '7b0e21ee99623454e8d06871f064ed98'
+New md5sum is : '7fa7290c3b0e7b2d8ed5a092299db356'
+Old sha1sum was: 'f63735bbc2e72216030f4e994b7c9785856a9170'
+New sha1sum is : '27735fff26a4f9093576dfbd77d06599094d3497'
+",
+"May 29, 2020 @ 13:11:23.463",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon' checksum changed.
+Old md5sum was: '2cf3ce4970fb25f9237c226b8de91a23'
+New md5sum is : 'f6ca07d87221fc6857f68c29d1d4417a'
+Old sha1sum was: '8f5edce88e798c3b3085f743cc79f804540ea6ae'
+New sha1sum is : '6cb461f02b7157b4c53566f2f9182bf18d0fc230'
+",
+"May 29, 2020 @ 13:11:23.429",7,"Integrity checksum changed.",,,,"File '[x64] HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\VolatileUserMgrKey\1\S-1-5-21-438079597-2123118846-2669748851-1001' checksum changed.
+Old md5sum was: '758365bbcd458b2a523c7ab4132c04af'
+New md5sum is : 'f8206196eadb30fd99582bb7dd32d415'
+Old sha1sum was: '691b9f4c6de22a25538af85b815563825e93ed4f'
+New sha1sum is : '60905a2da095cef03af60ac4320a83eebfc04a12'
+",
+"May 29, 2020 @ 13:09:55.800",9,"Benchmark for Windows audit: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)' is set to 'Disabled': Status changed from 'not applicable' to failed",,,,,
+"May 29, 2020 @ 13:09:45.788",7,"SessionEnv was unavailable to handle a critical notification event","""The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.""",,,,
+"May 29, 2020 @ 13:06:06.572",10,"Multiple Windows error events","""Id = {00000000-0000-0000-0000-000000000000}; ClientMachine = DESKTOP-HUE026H; User = DESKTOP-HUE026H\John Williams; ClientProcessId = 6448; Component = Unknown; Operation = Start IWbemServices::ExecQuery - ROOT\CIMV2 : SELECT SerialNumber FROM Win32_Bios; ResultCode = 0x80041032; PossibleCause = Unknown""",,,,
