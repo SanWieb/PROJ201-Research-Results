@@ -1,0 +1,139 @@
+= PROJ201 - Research Results
+
+This repository contains the results of a research project carried out during an internship.
+
+Click http://sanwieb.github.io/PROJ201-Research-Results[here] to view the user-friendly (HTML version) research document with all the results,
+the PDF-version is available https://github.com/SanWieb/PROJ201-Research-Results/raw/master/PROJ201_Results.pdf[here]
+
+The https://github.com/SanWieb/PROJ201-Research-Results/tree/master/data[/data] folder contains all raw exports of the alerts generated at each malware sample test (.csv files)
+
+
+== Research Description
+The aim of the research was to advise small and medium-sized enterprises if network detection (NIDS) sufficient is to detect malware infection in a enterprise network or that End-Point detection (HIDS) is necessary.
+
+A malware lab has been set up for the research, the manual of this lab can be found https://sanwieb.github.io/PROJ201-MalwareLab-Manual/[here].
+The malware samples hat has been executed are carefully selected and represent a range of malware types, the complete overview of
+tested samples can be found https://github.com/SanWieb/PROJ201-Research-Results/blob/master/Malware_Samples_Overview.csv[here].
+
+For the NIDS is selected:
+
+* https://www.snort.org/[Snort]
+* https://suricata-ids.org/[Suricata]
+
+For the HIDS is selected:
+
+* https://wazuh.com/[Wazuh], from batch 3 with implemented https://github.com/Neo23x0/sigma/[Sigma] rules
+
+== Research Summary
+
+First we tested 11 malware samples 3 times, each time with different Wazuh configurations. The first batch it
+was Wazuh with default options an no extra added detection features. The second batch we added several Sysmon rules
+from an existing GitHub Sysmon OSSEC repository, this did not result in better results deu the many syntax errors.
+
+So that is why decided to convert the Sigma ruleset to the Wazuh syntax by myself. We wrote a script to largely automate
+the process, https://github.com/SanWieb/sigWah/[sigWah]: a Sigma to Wazuh / OSSEC converter.
+
+Underneath the results of batch 1 (bare Wazuh) comparing to batch 3 (Wazuh with SigWah generated rules):
+
+.First batch comparing to the third batch
+[cols="h,1,1,1", options="footer", frame="topbot"]
+|===
+|Category: |Total Executed| Wazuh 1.0 Detected |Wazuh 3.0 Detected
+
+|Backdoor       |3 |0 |2
+|Spyware        |3 |0 |1
+|Ransomware     |3 |0 |2
+|Cryptominer    |1 |0 |1
+|Adware         |1 |0 |0
+|Rootkit        |1 |0 |0
+|Total:         |12 |0 |6
+|===
+
+After Wazuh Detection rate had clearly improved, the other malware samples were tested to. The final results, comparing
+the NIDS (Snort and Suricata) with the HIDS (Wazuh with Sigma rules).
+
+.Comparing the HIDS to the NIDS results
+[cols="h,1,1,1,1,1", options="footer", frame="topbot"]
+|===
+|Category: |Total Executed|Both Detected |Only NIDS |Only HIDS |Not Detected
+
+|Backdoor       |8 |1 |1 |4 |2
+|Spyware        |6 |2 |2 |0 |2
+|Ransomware     |5 |1 |0 |3 |1
+|Cryptominer    |5 |3 |1 |0 |1
+|Adware         |5 |0 |3 |1 |1
+|Rootkit        |2 |0 |0 |1 |1
+|Total:     |31 |7 |7 |9 | 8
+|===
+
+.Comparing the HIDS to the NIDS results in percentage
+[cols="h,1,1,1,1", options="footer", frame="topbot"]
+|===
+|Category:|Both Detected|Only NIDS|Only HIDS|Not Detected
+
+|Backdoor
+|13%
+|13%
+|50%
+|25%
+
+|Spyware
+|33%
+|33%
+|0%
+|33%
+
+|Ransomware
+|20%
+|0%
+|60%
+|20%
+
+|Cryptominer
+|60%
+|20%
+|0%
+|20%
+
+|Adware
+|0%
+|60%
+|20%
+|20%
+
+|Rootkit
+|0%
+|0%
+|50%
+|50%
+
+|Total:
+|23%
+|23%
+|29%
+|26%
+
+|===
+
+So what if an organisation had implemented only a HIDS, only a NIDS or both?
+
+[frame="topbot"]
+|===
+|Methods implemented:|Detection Rate
+
+|Only a HIDS
+|52%
+
+|Only a NIDS
+|45%
+
+|Both methods
+|74%
+|===
+
+=== Further research
+The malware samples are carefully selected and represent a range of malware types, still 31 malware samples are too few
+to draw conclusions. But the first results still confirm that only a NIDS is not enough anymore to detect the most kind of malware.
+
+It would be interesting to research in a next project not only malware samples but also intruders behaviour.
+
