@@ -1,5 +1,6 @@
-= Malware Lab Results
+= PROJ201 - Research Results
 S.J. Wiebing
+:toc: macro
 // :toc: left
 :toclevels: 4
 :toc-title: Table of Contents
