@@ -1,6 +1,5 @@
 = Malware Lab Results
 S.J. Wiebing
-:toc: macro
 // :toc: left
 :toclevels: 4
 :toc-title: Table of Contents
@@ -41,9 +40,9 @@ Author: Sander Wiebing
 
 First we tested 11 malware samples 3 times, each time with different Wazuh configurations. The first batch it
 was Wazuh with default options an no extra added detection features. The second batch we added several Sysmon rules
-from an existing GitHub Sysmon OSSEC repository, this did not result in better results deu the many syntax errors.
+from an existing GitHub Sysmon OSSEC repository, this did not result in better results due the many syntax errors.
 
-So that is why decided to convert the Sigma ruleset to the Wazuh syntax by myself. We wrote a script to largely automate
+So that is why we decided to convert the Sigma ruleset to the Wazuh syntax. We wrote a script to largely automate
 the process, https://github.com/SanWieb/sigWah/[sigWah]: a Sigma to Wazuh / OSSEC converter.
 
 Underneath the results of batch 1 (bare Wazuh) comparing to batch 3 (Wazuh with SigWah generated rules):
@@ -127,7 +126,7 @@ the NIDS (Snort and Suricata) with the HIDS (Wazuh with Sigma rules).
 
 |===
 
-So what if an organisation had implemented only a HIDS, only a NIDS or both?
+So what if an organization had implemented only a HIDS, only a NIDS or both?
 
 [frame="topbot"]
 |===
@@ -177,7 +176,7 @@ executed malware. That is why we will run a test without executing Malware.
 
 ==== Results
 ===== Wazuh
-.MW_1 Wazuh Null tst
+.MW_1 Wazuh Null test
 [cols="h,1*"]
 |===
 |Highest alert level | 7
@@ -294,7 +293,7 @@ New sha1sum is : 'bf360e08c45c4932bb574c7e442b62cc38e9bd46'
 |===
 
 30 seconds after the execution of the malware sample a alert was send with
-Priority 1 indicating a Cryptocurrency Miner Checkin. Both Snort and Suricata
+Priority 1 indicating a Cryptocurrency Miner Check-in. Both Snort and Suricata
 sent 10 alerts in 3 minutes, after the reboot there were no new alerts.
 
 Snort Alert:
@@ -395,7 +394,6 @@ https://app.any.run/tasks/4e68bc17-4887-40da-82ab-4fb42dcf9e46[app.any.run]
 |Malware detected |Yes  |Yes
 |===
 
-[description]
 
 Snort Alert:
 ----
@@ -2887,6 +2885,7 @@ Suricata Alert:
 |===
 
 NOTE: All files were encrypted in 2 min, really fast!
+
 ===== Results
 ====== Wazuh
 .MW_23 Wazuh results

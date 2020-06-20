@@ -28,9 +28,9 @@ For the HIDS is selected:
 
 First we tested 11 malware samples 3 times, each time with different Wazuh configurations. The first batch it
 was Wazuh with default options an no extra added detection features. The second batch we added several Sysmon rules
-from an existing GitHub Sysmon OSSEC repository, this did not result in better results deu the many syntax errors.
+from an existing GitHub Sysmon OSSEC repository, this did not result in better results due the many syntax errors.
 
-So that is why decided to convert the Sigma ruleset to the Wazuh syntax by myself. We wrote a script to largely automate
+So that is why we decided to convert the Sigma ruleset to the Wazuh syntax. We wrote a script to largely automate
 the process, https://github.com/SanWieb/sigWah/[sigWah]: a Sigma to Wazuh / OSSEC converter.
 
 Underneath the results of batch 1 (bare Wazuh) comparing to batch 3 (Wazuh with SigWah generated rules):

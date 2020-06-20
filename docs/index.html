@@ -733,53 +733,53 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#_id_23_ransomware_ransom_gandcrab">7.1.10. ID_23 Ransomware (Ransom.GandCrab)</a>
-<ul class="sectlevel5">
-<li><a href="#_snort_suricata_22">Snort &amp; Suricata</a></li>
-</ul>
-</li>
-<li><a href="#_id_24_cryptominer_miner_xmrig">7.1.11. ID_24 Cryptominer (Miner.XMRig)</a>
 <ul class="sectlevel4">
 <li><a href="#_results_48">Results</a></li>
 </ul>
 </li>
-<li><a href="#_id_25_cryptominer_miner_lemon_duck">7.1.12. ID_25 Cryptominer (Miner.lemon_duck)</a>
+<li><a href="#_id_24_cryptominer_miner_xmrig">7.1.11. ID_24 Cryptominer (Miner.XMRig)</a>
 <ul class="sectlevel4">
 <li><a href="#_results_49">Results</a></li>
 </ul>
 </li>
-<li><a href="#_id_26_cryptominer_trojan_glupteba_qwertyminer">7.1.13. ID_26 Cryptominer (Trojan.Glupteba.Qwertyminer)</a>
+<li><a href="#_id_25_cryptominer_miner_lemon_duck">7.1.12. ID_25 Cryptominer (Miner.lemon_duck)</a>
 <ul class="sectlevel4">
 <li><a href="#_results_50">Results</a></li>
 </ul>
 </li>
-<li><a href="#_id_27_cryptominer_miner_tofsee">7.1.14. ID_27 Cryptominer (Miner.Tofsee)</a>
+<li><a href="#_id_26_cryptominer_trojan_glupteba_qwertyminer">7.1.13. ID_26 Cryptominer (Trojan.Glupteba.Qwertyminer)</a>
 <ul class="sectlevel4">
 <li><a href="#_results_51">Results</a></li>
 </ul>
 </li>
-<li><a href="#_id_28_rootkit_rootkit_lamberts">7.1.15. ID_28 Rootkit (Rootkit.Lamberts)</a>
+<li><a href="#_id_27_cryptominer_miner_tofsee">7.1.14. ID_27 Cryptominer (Miner.Tofsee)</a>
 <ul class="sectlevel4">
 <li><a href="#_results_52">Results</a></li>
 </ul>
 </li>
-<li><a href="#_id_29_adware_adware_mindspark">7.1.16. ID_29 Adware (Adware.Mindspark)</a>
+<li><a href="#_id_28_rootkit_rootkit_lamberts">7.1.15. ID_28 Rootkit (Rootkit.Lamberts)</a>
 <ul class="sectlevel4">
 <li><a href="#_results_53">Results</a></li>
 </ul>
 </li>
-<li><a href="#_id_30_adware_adware_sogou">7.1.17. ID_30 Adware (Adware.Sogou)</a>
+<li><a href="#_id_29_adware_adware_mindspark">7.1.16. ID_29 Adware (Adware.Mindspark)</a>
 <ul class="sectlevel4">
 <li><a href="#_results_54">Results</a></li>
 </ul>
 </li>
-<li><a href="#_id_31_adware_adware_fusioncore">7.1.18. ID_31 Adware (Adware.FusionCore)</a>
+<li><a href="#_id_30_adware_adware_sogou">7.1.17. ID_30 Adware (Adware.Sogou)</a>
 <ul class="sectlevel4">
 <li><a href="#_results_55">Results</a></li>
 </ul>
 </li>
-<li><a href="#_id_32_adware_adware_unruy">7.1.19. ID_32 Adware (Adware.Unruy)</a>
+<li><a href="#_id_31_adware_adware_fusioncore">7.1.18. ID_31 Adware (Adware.FusionCore)</a>
 <ul class="sectlevel4">
 <li><a href="#_results_56">Results</a></li>
+</ul>
+</li>
+<li><a href="#_id_32_adware_adware_unruy">7.1.19. ID_32 Adware (Adware.Unruy)</a>
+<ul class="sectlevel4">
+<li><a href="#_results_57">Results</a></li>
 </ul>
 </li>
 </ul>
@@ -849,10 +849,10 @@ The <a href="https://github.com/SanWieb/PROJ201-Research-Results/tree/master/dat
 <div class="paragraph">
 <p>First we tested 11 malware samples 3 times, each time with different Wazuh configurations. The first batch it
 was Wazuh with default options an no extra added detection features. The second batch we added several Sysmon rules
-from an existing GitHub Sysmon OSSEC repository, this did not result in better results deu the many syntax errors.</p>
+from an existing GitHub Sysmon OSSEC repository, this did not result in better results due the many syntax errors.</p>
 </div>
 <div class="paragraph">
-<p>So that is why decided to convert the Sigma ruleset to the Wazuh syntax by myself. We wrote a script to largely automate
+<p>So that is why we decided to convert the Sigma ruleset to the Wazuh syntax. We wrote a script to largely automate
 the process, <a href="https://github.com/SanWieb/sigWah/">sigWah</a>: a Sigma to Wazuh / OSSEC converter.</p>
 </div>
 <div class="paragraph">
@@ -1078,7 +1078,7 @@ the NIDS (Snort and Suricata) with the HIDS (Wazuh with Sigma rules).</p>
 </tfoot>
 </table>
 <div class="paragraph">
-<p>So what if an organisation had implemented only a HIDS, only a NIDS or both?</p>
+<p>So what if an organization had implemented only a HIDS, only a NIDS or both?</p>
 </div>
 <table class="tableblock frame-topbot grid-all stretch">
 <colgroup>
@@ -1391,7 +1391,7 @@ executed malware. That is why we will run a test without executing Malware.</p>
 <div class="sect4">
 <h5 id="_wazuh">Wazuh</h5>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 4. MW_1 Wazuh Null tst</caption>
+<caption class="title">Table 4. MW_1 Wazuh Null test</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -1664,7 +1664,7 @@ New sha1sum is : 'bf360e08c45c4932bb574c7e442b62cc38e9bd46'</pre>
 </table>
 <div class="paragraph">
 <p>30 seconds after the execution of the malware sample a alert was send with
-Priority 1 indicating a Cryptocurrency Miner Checkin. Both Snort and Suricata
+Priority 1 indicating a Cryptocurrency Miner Check-in. Both Snort and Suricata
 sent 10 alerts in 3 minutes, after the reboot there were no new alerts.</p>
 </div>
 <div class="paragraph">
@@ -7734,14 +7734,16 @@ ParentCommandLine: C:\Users\JOHNWI~1\AppData\Local\Temp\IXP000.TMP\HPXmmgLUSavYu
 </td>
 <td class="content">
 All files were encrypted in 2 min, really fast!
-===== Results
-====== Wazuh
-.MW_23 Wazuh results
 </td>
 </tr>
 </table>
 </div>
+<div class="sect4">
+<h5 id="_results_48">Results</h5>
+<div class="sect5">
+<h6 id="_wazuh_47">Wazuh</h6>
 <table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 120. MW_23 Wazuh results</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -7776,10 +7778,11 @@ ParentImage: C:\Users\John Williams\AppData\Local\Temp\gft.exe
 ParentCommandLine: "C:\Users\John Williams\AppData\Local\Temp\gft.exe" "</pre>
 </div>
 </div>
+</div>
 <div class="sect5">
 <h6 id="_snort_suricata_22">Snort &amp; Suricata</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 120. MW_23 NIDS results</caption>
+<caption class="title">Table 121. MW_23 NIDS results</caption>
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -7842,10 +7845,11 @@ GandCrab Ransomware.</p>
 </div>
 </div>
 </div>
+</div>
 <div class="sect3">
 <h4 id="_id_24_cryptominer_miner_xmrig">7.1.11. ID_24 Cryptominer (Miner.XMRig)</h4>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 121. MW_ properties</caption>
+<caption class="title">Table 122. MW_ properties</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -7902,11 +7906,11 @@ We double checked in the EventViewer if the malware did some actions, it did
 </table>
 </div>
 <div class="sect4">
-<h5 id="_results_48">Results</h5>
+<h5 id="_results_49">Results</h5>
 <div class="sect5">
-<h6 id="_wazuh_47">Wazuh</h6>
+<h6 id="_wazuh_48">Wazuh</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 122. MW_24 Wazuh results</caption>
+<caption class="title">Table 123. MW_24 Wazuh results</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -7933,7 +7937,7 @@ We double checked in the EventViewer if the malware did some actions, it did
 <div class="sect5">
 <h6 id="_snort_suricata_23">Snort &amp; Suricata</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 123. MW_24 NIDS results</caption>
+<caption class="title">Table 124. MW_24 NIDS results</caption>
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -7989,7 +7993,7 @@ We double checked in the EventViewer if the malware did some actions, it did
 <div class="sect3">
 <h4 id="_id_25_cryptominer_miner_lemon_duck">7.1.12. ID_25 Cryptominer (Miner.lemon_duck)</h4>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 124. MW_25 properties</caption>
+<caption class="title">Table 125. MW_25 properties</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -8034,11 +8038,11 @@ We double checked in the EventViewer if the malware did some actions, it did
 </tbody>
 </table>
 <div class="sect4">
-<h5 id="_results_49">Results</h5>
+<h5 id="_results_50">Results</h5>
 <div class="sect5">
-<h6 id="_wazuh_48">Wazuh</h6>
+<h6 id="_wazuh_49">Wazuh</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 125. MW_25 Wazuh results</caption>
+<caption class="title">Table 126. MW_25 Wazuh results</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -8135,7 +8139,7 @@ CommandLine: "C:\Windows\system32\sc.exe" Config SuperProServer Start= Disabled<
 <div class="sect5">
 <h6 id="_snort_suricata_24">Snort &amp; Suricata</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 126. MW_25 NIDS results</caption>
+<caption class="title">Table 127. MW_25 NIDS results</caption>
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -8243,7 +8247,7 @@ Remarkably, Snort generated 2 more alerts (Level 1 and 3) indicating a Windows T
 <div class="sect3">
 <h4 id="_id_26_cryptominer_trojan_glupteba_qwertyminer">7.1.13. ID_26 Cryptominer (Trojan.Glupteba.Qwertyminer)</h4>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 127. MW_26 properties</caption>
+<caption class="title">Table 128. MW_26 properties</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -8288,11 +8292,11 @@ Remarkably, Snort generated 2 more alerts (Level 1 and 3) indicating a Windows T
 </tbody>
 </table>
 <div class="sect4">
-<h5 id="_results_50">Results</h5>
+<h5 id="_results_51">Results</h5>
 <div class="sect5">
-<h6 id="_wazuh_49">Wazuh</h6>
+<h6 id="_wazuh_50">Wazuh</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 128. MW_26 Wazuh results</caption>
+<caption class="title">Table 129. MW_26 Wazuh results</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -8319,7 +8323,7 @@ Remarkably, Snort generated 2 more alerts (Level 1 and 3) indicating a Windows T
 <div class="sect5">
 <h6 id="_snort_suricata_25">Snort &amp; Suricata</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 129. MW_26 NIDS results</caption>
+<caption class="title">Table 130. MW_26 NIDS results</caption>
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -8465,7 +8469,7 @@ Remarkably, Snort generated 2 more alerts (Level 1 and 3) indicating a Windows T
 <div class="sect3">
 <h4 id="_id_27_cryptominer_miner_tofsee">7.1.14. ID_27 Cryptominer (Miner.Tofsee)</h4>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 130. MW_27 properties</caption>
+<caption class="title">Table 131. MW_27 properties</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -8510,11 +8514,11 @@ Remarkably, Snort generated 2 more alerts (Level 1 and 3) indicating a Windows T
 </tbody>
 </table>
 <div class="sect4">
-<h5 id="_results_51">Results</h5>
+<h5 id="_results_52">Results</h5>
 <div class="sect5">
-<h6 id="_wazuh_50">Wazuh</h6>
+<h6 id="_wazuh_51">Wazuh</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 131. MW_27 Wazuh results</caption>
+<caption class="title">Table 132. MW_27 Wazuh results</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -8580,7 +8584,7 @@ ParentCommandLine: "C:\Users\John Williams\ccdojkiq.exe" "</pre>
 <div class="sect5">
 <h6 id="_snort_suricata_26">Snort &amp; Suricata</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 132. MW_27 NIDS results</caption>
+<caption class="title">Table 133. MW_27 NIDS results</caption>
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -8663,7 +8667,7 @@ ParentCommandLine: "C:\Users\John Williams\ccdojkiq.exe" "</pre>
 <div class="sect3">
 <h4 id="_id_28_rootkit_rootkit_lamberts">7.1.15. ID_28 Rootkit (Rootkit.Lamberts)</h4>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 133. MW_28 properties</caption>
+<caption class="title">Table 134. MW_28 properties</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -8708,11 +8712,11 @@ ParentCommandLine: "C:\Users\John Williams\ccdojkiq.exe" "</pre>
 </tbody>
 </table>
 <div class="sect4">
-<h5 id="_results_52">Results</h5>
+<h5 id="_results_53">Results</h5>
 <div class="sect5">
-<h6 id="_wazuh_51">Wazuh</h6>
+<h6 id="_wazuh_52">Wazuh</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 134. MW_28 Wazuh results</caption>
+<caption class="title">Table 135. MW_28 Wazuh results</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -8761,7 +8765,7 @@ ParentCommandLine: "C:\Users\John Williams\Downloads\Program28.exe" "</pre>
 <div class="sect5">
 <h6 id="_snort_suricata_27">Snort &amp; Suricata</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 135. MW_28 NIDS results</caption>
+<caption class="title">Table 136. MW_28 NIDS results</caption>
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -8801,7 +8805,7 @@ ParentCommandLine: "C:\Users\John Williams\Downloads\Program28.exe" "</pre>
 <div class="sect3">
 <h4 id="_id_29_adware_adware_mindspark">7.1.16. ID_29 Adware (Adware.Mindspark)</h4>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 136. MW_29 properties</caption>
+<caption class="title">Table 137. MW_29 properties</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -8846,11 +8850,11 @@ ParentCommandLine: "C:\Users\John Williams\Downloads\Program28.exe" "</pre>
 </tbody>
 </table>
 <div class="sect4">
-<h5 id="_results_53">Results</h5>
+<h5 id="_results_54">Results</h5>
 <div class="sect5">
-<h6 id="_wazuh_52">Wazuh</h6>
+<h6 id="_wazuh_53">Wazuh</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 137. MW_29 Wazuh results</caption>
+<caption class="title">Table 138. MW_29 Wazuh results</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -8892,7 +8896,7 @@ This can be used to make it detectable in the future.
 <div class="sect5">
 <h6 id="_snort_suricata_28">Snort &amp; Suricata</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 138. MW_ NIDS results</caption>
+<caption class="title">Table 139. MW_ NIDS results</caption>
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -8932,7 +8936,7 @@ This can be used to make it detectable in the future.
 <div class="sect3">
 <h4 id="_id_30_adware_adware_sogou">7.1.17. ID_30 Adware (Adware.Sogou)</h4>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 139. MW_ properties</caption>
+<caption class="title">Table 140. MW_ properties</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -8977,11 +8981,11 @@ This can be used to make it detectable in the future.
 </tbody>
 </table>
 <div class="sect4">
-<h5 id="_results_54">Results</h5>
+<h5 id="_results_55">Results</h5>
 <div class="sect5">
-<h6 id="_wazuh_53">Wazuh</h6>
+<h6 id="_wazuh_54">Wazuh</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 140. MW_30 Wazuh results</caption>
+<caption class="title">Table 141. MW_30 Wazuh results</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -9020,7 +9024,7 @@ Details: C:\Program Files (x86)\SogouSoftware\SogouSoftware.exe /AutoRun"</pre>
 <div class="sect5">
 <h6 id="_snort_suricata_29">Snort &amp; Suricata</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 141. MW_30 NIDS results</caption>
+<caption class="title">Table 142. MW_30 NIDS results</caption>
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -9101,7 +9105,7 @@ Details: C:\Program Files (x86)\SogouSoftware\SogouSoftware.exe /AutoRun"</pre>
 <div class="sect3">
 <h4 id="_id_31_adware_adware_fusioncore">7.1.18. ID_31 Adware (Adware.FusionCore)</h4>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 142. MW_31 properties</caption>
+<caption class="title">Table 143. MW_31 properties</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -9146,11 +9150,11 @@ Details: C:\Program Files (x86)\SogouSoftware\SogouSoftware.exe /AutoRun"</pre>
 </tbody>
 </table>
 <div class="sect4">
-<h5 id="_results_55">Results</h5>
+<h5 id="_results_56">Results</h5>
 <div class="sect5">
-<h6 id="_wazuh_54">Wazuh</h6>
+<h6 id="_wazuh_55">Wazuh</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 143. MW_31 Wazuh results</caption>
+<caption class="title">Table 144. MW_31 Wazuh results</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -9240,7 +9244,7 @@ Details: C:\ChangZhi\LDPlayer\ldnews.exe"</pre>
 <div class="sect5">
 <h6 id="_snort_suricata_30">Snort &amp; Suricata</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 144. MW_31 NIDS results</caption>
+<caption class="title">Table 145. MW_31 NIDS results</caption>
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -9280,7 +9284,7 @@ Details: C:\ChangZhi\LDPlayer\ldnews.exe"</pre>
 <div class="sect3">
 <h4 id="_id_32_adware_adware_unruy">7.1.19. ID_32 Adware (Adware.Unruy)</h4>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 145. MW_32 properties</caption>
+<caption class="title">Table 146. MW_32 properties</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -9325,11 +9329,11 @@ Details: C:\ChangZhi\LDPlayer\ldnews.exe"</pre>
 </tbody>
 </table>
 <div class="sect4">
-<h5 id="_results_56">Results</h5>
+<h5 id="_results_57">Results</h5>
 <div class="sect5">
-<h6 id="_wazuh_55">Wazuh</h6>
+<h6 id="_wazuh_56">Wazuh</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 146. MW_32 Wazuh results</caption>
+<caption class="title">Table 147. MW_32 Wazuh results</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -9356,7 +9360,7 @@ Details: C:\ChangZhi\LDPlayer\ldnews.exe"</pre>
 <div class="sect5">
 <h6 id="_snort_suricata_31">Snort &amp; Suricata</h6>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 147. MW_32 NIDS results</caption>
+<caption class="title">Table 148. MW_32 NIDS results</caption>
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -9425,7 +9429,7 @@ Details: C:\ChangZhi\LDPlayer\ldnews.exe"</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-06-07 15:18:04 +0200
+Last updated 2020-06-20 21:10:34 +0200
 </div>
 </div>
 </body>
